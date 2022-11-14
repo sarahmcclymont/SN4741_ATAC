@@ -1,0 +1,51 @@
+---
+title: "Analysing E15.5 MB and FB DA neuron ATAC"
+author: "Sarah McClymont"
+date: "November 11, 2022"
+output: pdf_document
+---
+
+# Intro 
+
+Previously generated ATAC-seq data from E15.5 mouse dopaminergic neurons from the midbrain and forebrain (McClymont et al 2018). For this paper, we want to perform a comparison with the SN4741 data to see how well the cell line matches primary data. To do so, we want to make sure the original data is processed in the same way as the SN4741 for a fair comparison - reanalyse in parallel.
+
+# File location
+
+```{r, eval = F}
+
+pwd
+# /data/amccall2/work/SAM/updated_analysis/MB_FB_analysis
+
+```
+
+# Pre-alignment QC
+
+Use FastQC to check library quality. Summarize FastQC reports with MultiQC and check the generated HTML for sequencing quality issues.
+
+```{r, eval = F}
+
+# batch script: fastqc_MBFB.sh
+
+#!/bin/bash
+#SBATCH --job-name=fastqc
+#SBATCH --time=8:00:00
+#SBATCH -N 1
+#SBATCH -n 10
+
+module load fastqc 
+
+## fastqc v0.11.9
+fastqc -t 10 *.fastq.gz
+
+# Generate report with MultiQC
+## pip3 install --user multiqc #v1.13
+multiqc .
+
+# Clean up files
+mkdir FastQC
+mv *fastqc* FastQC
+
+exit 0
+
+```
+

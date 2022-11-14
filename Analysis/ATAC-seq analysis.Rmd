@@ -1,0 +1,55 @@
+---
+title: "ATAC-seq analysis of SN4741 cells"
+author: "Sarah McClymont"
+date: "November 11, 2022"
+output: pdf_document
+---
+
+# Intro 
+
+Generated ATAC-seq in the SN4741 cell line at both the permissive and restrictive temperatures (n=4/temperature). Want to see how the chromatin differs between the two states. Also want to consider how well they recapitulate the ATAC-seq data from primary E15.5 mouse dopaminergic neurons from both the forebrain and midbrain, which are presumably the cell type this cell line should be modelling.
+
+# File location
+
+```{r, eval = F}
+
+pwd
+# /data/amccall2/work/SAM/SN4741_analysis/
+
+```
+
+# Pre-alignment QC
+
+Use FastQC to check library quality. Summarize FastQC reports with MultiQC and check the generated HTML for sequencing quality issues.
+
+```{r, eval = F}
+
+# batch script: fastqc.sh
+
+#!/bin/bash
+#SBATCH --job-name=fastqc
+#SBATCH --time=8:00:00
+#SBATCH -N 1
+#SBATCH -n 10
+
+module load fastqc 
+
+## fastqc v0.11.9
+fastqc -t 10 *.fastq.gz
+
+# Generate report with MultiQC
+## pip3 install --user multiqc #v1.13
+multiqc .
+
+# Clean up files
+mkdir FastQC
+mv *fastqc* FastQC
+
+exit 0
+
+```
+
+MultiQC report moved to Output/multiqc_report_fastqc.html
+
+**Conclusions:** Look good in general. Sample 39-4 looks off in its GC content compared to other samples. High rates of duplication in 37-1 and 37-4 but the pool was apparently unbalanced and we sequenced these two very deeply so perhaps hit saturation. Adaptor contamination for all samples is functionally zero - approx 0.25% of reads end with the beginning of an adaptor - not worth trimming and shouldn't affect mapping at all. As always, all samples have sequence composition bias at the start of reads, as per usual for ATAC. Nothing of concern here - move forward with mapping!
+

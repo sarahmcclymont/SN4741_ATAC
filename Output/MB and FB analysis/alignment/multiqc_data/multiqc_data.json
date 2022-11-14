@@ -1,0 +1,696 @@
+{
+    "report_data_sources": {
+        "Picard": {
+            "DuplicationMetrics": {
+                "FB2_ATAC_sorted": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB2_ATAC_markdup.stats",
+                "FB3_ATAC_sorted": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB3_ATAC_markdup.stats",
+                "FB1_ATAC_sorted": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB1_ATAC_markdup.stats",
+                "MB1_ATAC_sorted": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB1_ATAC_markdup.stats",
+                "MB3_ATAC_sorted": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB3_ATAC_markdup.stats",
+                "MB2_ATAC_sorted": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB2_ATAC_markdup.stats"
+            }
+        },
+        "Bowtie 2 / HiSAT2": {
+            "all_sections": {
+                "FB2.align": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB2.align.stats",
+                "MB1_ATAC.align": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB1_ATAC.align.stats",
+                "MB3.align": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB3.align.stats",
+                "FB1_ATAC.align": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB1_ATAC.align.stats",
+                "MB2_ATAC.align": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB2_ATAC.align.stats",
+                "FB3_ATAC.align": "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB3_ATAC.align.stats"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "FB2_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 376760.0,
+                "READ_PAIRS_EXAMINED": 23690012.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 2823988.0,
+                "UNPAIRED_READ_DUPLICATES": 179825.0,
+                "READ_PAIR_DUPLICATES": 3856920.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 33986.0,
+                "PERCENT_DUPLICATION": 0.165289,
+                "ESTIMATED_LIBRARY_SIZE": 65072574.0
+            },
+            "FB3_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 250707.0,
+                "READ_PAIRS_EXAMINED": 20421302.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 1901161.0,
+                "UNPAIRED_READ_DUPLICATES": 98704.0,
+                "READ_PAIR_DUPLICATES": 1616597.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 8073.0,
+                "PERCENT_DUPLICATION": 0.081081,
+                "ESTIMATED_LIBRARY_SIZE": 122630923.0
+            },
+            "FB1_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 248083.0,
+                "READ_PAIRS_EXAMINED": 16251829.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 948175.0,
+                "UNPAIRED_READ_DUPLICATES": 83038.0,
+                "READ_PAIR_DUPLICATES": 800035.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 9417.0,
+                "PERCENT_DUPLICATION": 0.05139,
+                "ESTIMATED_LIBRARY_SIZE": 161382362.0
+            },
+            "MB1_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 437931.0,
+                "READ_PAIRS_EXAMINED": 25877439.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 2736317.0,
+                "UNPAIRED_READ_DUPLICATES": 268713.0,
+                "READ_PAIR_DUPLICATES": 6206918.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 7103.0,
+                "PERCENT_DUPLICATION": 0.242994,
+                "ESTIMATED_LIBRARY_SIZE": 44954874.0
+            },
+            "MB3_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 159355.0,
+                "READ_PAIRS_EXAMINED": 19147411.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 4306765.0,
+                "UNPAIRED_READ_DUPLICATES": 79867.0,
+                "READ_PAIR_DUPLICATES": 6863940.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 19292.0,
+                "PERCENT_DUPLICATION": 0.35907,
+                "ESTIMATED_LIBRARY_SIZE": 19875259.0
+            },
+            "MB2_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 325710.0,
+                "READ_PAIRS_EXAMINED": 27315526.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 2615354.0,
+                "UNPAIRED_READ_DUPLICATES": 188702.0,
+                "READ_PAIR_DUPLICATES": 2422292.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 3777.0,
+                "PERCENT_DUPLICATION": 0.091586,
+                "ESTIMATED_LIBRARY_SIZE": 144967711.0
+            }
+        },
+        {
+            "FB2.align": {
+                "total_reads": 25290386,
+                "paired_total": 25290386,
+                "paired_aligned_none": 2359764,
+                "paired_aligned_one": 18822968,
+                "paired_aligned_multi": 4107654,
+                "paired_aligned_discord_one": 445609,
+                "paired_aligned_mate_none": 2823988,
+                "paired_aligned_mate_one": 486876,
+                "paired_aligned_mate_multi": 517446,
+                "overall_alignment_rate": 94.42,
+                "paired_aligned_mate_multi_halved": 258723.0,
+                "paired_aligned_mate_none_halved": 1411994.0,
+                "paired_aligned_mate_one_halved": 243438.0
+            },
+            "MB1_ATAC.align": {
+                "total_reads": 27464563,
+                "paired_total": 27464563,
+                "paired_aligned_none": 1763460,
+                "paired_aligned_one": 21064063,
+                "paired_aligned_multi": 4637040,
+                "paired_aligned_discord_one": 91687,
+                "paired_aligned_mate_none": 2736317,
+                "paired_aligned_mate_one": 391866,
+                "paired_aligned_mate_multi": 215363,
+                "overall_alignment_rate": 95.02,
+                "paired_aligned_mate_multi_halved": 107681.5,
+                "paired_aligned_mate_none_halved": 1368158.5,
+                "paired_aligned_mate_one_halved": 195933.0
+            },
+            "MB3.align": {
+                "total_reads": 21380471,
+                "paired_total": 21380471,
+                "paired_aligned_none": 2471728,
+                "paired_aligned_one": 13840932,
+                "paired_aligned_multi": 5067811,
+                "paired_aligned_discord_one": 126469,
+                "paired_aligned_mate_none": 4306765,
+                "paired_aligned_mate_one": 175674,
+                "paired_aligned_mate_multi": 208079,
+                "overall_alignment_rate": 89.93,
+                "paired_aligned_mate_multi_halved": 104039.5,
+                "paired_aligned_mate_none_halved": 2153382.5,
+                "paired_aligned_mate_one_halved": 87837.0
+            },
+            "FB1_ATAC.align": {
+                "total_reads": 16849958,
+                "paired_total": 16849958,
+                "paired_aligned_none": 875724,
+                "paired_aligned_one": 13054653,
+                "paired_aligned_multi": 2919581,
+                "paired_aligned_discord_one": 151909,
+                "paired_aligned_mate_none": 948175,
+                "paired_aligned_mate_one": 261819,
+                "paired_aligned_mate_multi": 237636,
+                "overall_alignment_rate": 97.19,
+                "paired_aligned_mate_multi_halved": 118818.0,
+                "paired_aligned_mate_none_halved": 474087.5,
+                "paired_aligned_mate_one_halved": 130909.5
+            },
+            "MB2_ATAC.align": {
+                "total_reads": 28786058,
+                "paired_total": 28786058,
+                "paired_aligned_none": 1635413,
+                "paired_aligned_one": 23262517,
+                "paired_aligned_multi": 3888128,
+                "paired_aligned_discord_one": 89377,
+                "paired_aligned_mate_none": 2615354,
+                "paired_aligned_mate_one": 307961,
+                "paired_aligned_mate_multi": 168757,
+                "overall_alignment_rate": 95.46,
+                "paired_aligned_mate_multi_halved": 84378.5,
+                "paired_aligned_mate_none_halved": 1307677.0,
+                "paired_aligned_mate_one_halved": 153980.5
+            },
+            "FB3_ATAC.align": {
+                "total_reads": 21497236,
+                "paired_total": 21497236,
+                "paired_aligned_none": 1303483,
+                "paired_aligned_one": 16663766,
+                "paired_aligned_multi": 3529987,
+                "paired_aligned_discord_one": 118946,
+                "paired_aligned_mate_none": 1901161,
+                "paired_aligned_mate_one": 254831,
+                "paired_aligned_mate_multi": 213082,
+                "overall_alignment_rate": 95.58,
+                "paired_aligned_mate_multi_halved": 106541.0,
+                "paired_aligned_mate_none_halved": 950580.5,
+                "paired_aligned_mate_one_halved": 127415.5
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "PERCENT_DUPLICATION": {
+                "title": "% Dups",
+                "description": "Mark Duplicates - Percent Duplication",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "OrRd",
+                "modify": 100.0,
+                "namespace": "Picard",
+                "rid": "mqc-generalstats-picard-PERCENT_DUPLICATION",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        },
+        {
+            "overall_alignment_rate": {
+                "title": "% Aligned",
+                "description": "overall alignment rate",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Bowtie 2 / HiSAT2",
+                "rid": "mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/home/ext-smcclymont/.local/bin/multiqc . --ignore ../FastQC/",
+    "report_plot_data": {
+        "picard_deduplication": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "FB1_ATAC_sorted",
+                    "FB2_ATAC_sorted",
+                    "FB3_ATAC_sorted",
+                    "MB1_ATAC_sorted",
+                    "MB2_ATAC_sorted",
+                    "MB3_ATAC_sorted"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Unique Pairs",
+                        "data": [
+                            30903588.0,
+                            39666184.0,
+                            37609410.0,
+                            39341042.0,
+                            49786468.0,
+                            24566942.0
+                        ]
+                    },
+                    {
+                        "name": "Unique Unpaired",
+                        "data": [
+                            165045.0,
+                            196935.0,
+                            152003.0,
+                            169218.0,
+                            137008.0,
+                            79488.0
+                        ]
+                    },
+                    {
+                        "name": "Duplicate Pairs Optical",
+                        "data": [
+                            18834.0,
+                            67972.0,
+                            16146.0,
+                            14206.0,
+                            7554.0,
+                            38584.0
+                        ]
+                    },
+                    {
+                        "name": "Duplicate Pairs Nonoptical",
+                        "data": [
+                            1581236.0,
+                            7645868.0,
+                            3217048.0,
+                            12399630.0,
+                            4837030.0,
+                            13689296.0
+                        ]
+                    },
+                    {
+                        "name": "Duplicate Unpaired",
+                        "data": [
+                            83038.0,
+                            179825.0,
+                            98704.0,
+                            268713.0,
+                            188702.0,
+                            79867.0
+                        ]
+                    },
+                    {
+                        "name": "Unmapped",
+                        "data": [
+                            948175.0,
+                            2823988.0,
+                            1901161.0,
+                            2736317.0,
+                            2615354.0,
+                            4306765.0
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "picard_deduplication",
+                "title": "Picard: Deduplication Stats",
+                "ylab": "# Reads",
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_c_active": false,
+                "stacking": "percent"
+            }
+        },
+        "bowtie2_pe_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "FB1_ATAC.align",
+                    "FB2.align",
+                    "FB3_ATAC.align",
+                    "MB1_ATAC.align",
+                    "MB2_ATAC.align",
+                    "MB3.align"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "PE mapped uniquely",
+                        "data": [
+                            13054653.0,
+                            18822968.0,
+                            16663766.0,
+                            21064063.0,
+                            23262517.0,
+                            13840932.0
+                        ],
+                        "color": "#20568f"
+                    },
+                    {
+                        "name": "PE mapped discordantly uniquely",
+                        "data": [
+                            151909.0,
+                            445609.0,
+                            118946.0,
+                            91687.0,
+                            89377.0,
+                            126469.0
+                        ],
+                        "color": "#5c94ca"
+                    },
+                    {
+                        "name": "PE one mate mapped uniquely",
+                        "data": [
+                            130909.5,
+                            243438.0,
+                            127415.5,
+                            195933.0,
+                            153980.5,
+                            87837.0
+                        ],
+                        "color": "#95ceff"
+                    },
+                    {
+                        "name": "PE multimapped",
+                        "data": [
+                            2919581.0,
+                            4107654.0,
+                            3529987.0,
+                            4637040.0,
+                            3888128.0,
+                            5067811.0
+                        ],
+                        "color": "#f7a35c"
+                    },
+                    {
+                        "name": "PE one mate multimapped",
+                        "data": [
+                            118818.0,
+                            258723.0,
+                            106541.0,
+                            107681.5,
+                            84378.5,
+                            104039.5
+                        ],
+                        "color": "#ffeb75"
+                    },
+                    {
+                        "name": "PE neither mate aligned",
+                        "data": [
+                            474087.5,
+                            1411994.0,
+                            950580.5,
+                            1368158.5,
+                            1307677.0,
+                            2153382.5
+                        ],
+                        "color": "#981919"
+                    }
+                ]
+            ],
+            "config": {
+                "ylab": "# Reads",
+                "cpswitch_counts_label": "Number of Reads",
+                "id": "bowtie2_pe_plot",
+                "title": "Bowtie 2: PE Alignment Scores"
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_picard_dups": {
+            "FB2_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 376760.0,
+                "READ_PAIRS_EXAMINED": 23690012.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 2823988.0,
+                "UNPAIRED_READ_DUPLICATES": 179825.0,
+                "READ_PAIR_DUPLICATES": 3856920.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 33986.0,
+                "PERCENT_DUPLICATION": 0.165289,
+                "ESTIMATED_LIBRARY_SIZE": 65072574.0,
+                "READS_IN_DUPLICATE_PAIRS": 7713840.0,
+                "READS_IN_UNIQUE_PAIRS": 39666184.0,
+                "READS_IN_UNIQUE_UNPAIRED": 196935.0,
+                "READS_IN_DUPLICATE_PAIRS_OPTICAL": 67972.0,
+                "READS_IN_DUPLICATE_PAIRS_NONOPTICAL": 7645868.0,
+                "READS_IN_DUPLICATE_UNPAIRED": 179825.0,
+                "READS_UNMAPPED": 2823988.0
+            },
+            "FB3_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 250707.0,
+                "READ_PAIRS_EXAMINED": 20421302.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 1901161.0,
+                "UNPAIRED_READ_DUPLICATES": 98704.0,
+                "READ_PAIR_DUPLICATES": 1616597.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 8073.0,
+                "PERCENT_DUPLICATION": 0.081081,
+                "ESTIMATED_LIBRARY_SIZE": 122630923.0,
+                "READS_IN_DUPLICATE_PAIRS": 3233194.0,
+                "READS_IN_UNIQUE_PAIRS": 37609410.0,
+                "READS_IN_UNIQUE_UNPAIRED": 152003.0,
+                "READS_IN_DUPLICATE_PAIRS_OPTICAL": 16146.0,
+                "READS_IN_DUPLICATE_PAIRS_NONOPTICAL": 3217048.0,
+                "READS_IN_DUPLICATE_UNPAIRED": 98704.0,
+                "READS_UNMAPPED": 1901161.0
+            },
+            "FB1_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 248083.0,
+                "READ_PAIRS_EXAMINED": 16251829.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 948175.0,
+                "UNPAIRED_READ_DUPLICATES": 83038.0,
+                "READ_PAIR_DUPLICATES": 800035.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 9417.0,
+                "PERCENT_DUPLICATION": 0.05139,
+                "ESTIMATED_LIBRARY_SIZE": 161382362.0,
+                "READS_IN_DUPLICATE_PAIRS": 1600070.0,
+                "READS_IN_UNIQUE_PAIRS": 30903588.0,
+                "READS_IN_UNIQUE_UNPAIRED": 165045.0,
+                "READS_IN_DUPLICATE_PAIRS_OPTICAL": 18834.0,
+                "READS_IN_DUPLICATE_PAIRS_NONOPTICAL": 1581236.0,
+                "READS_IN_DUPLICATE_UNPAIRED": 83038.0,
+                "READS_UNMAPPED": 948175.0
+            },
+            "MB1_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 437931.0,
+                "READ_PAIRS_EXAMINED": 25877439.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 2736317.0,
+                "UNPAIRED_READ_DUPLICATES": 268713.0,
+                "READ_PAIR_DUPLICATES": 6206918.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 7103.0,
+                "PERCENT_DUPLICATION": 0.242994,
+                "ESTIMATED_LIBRARY_SIZE": 44954874.0,
+                "READS_IN_DUPLICATE_PAIRS": 12413836.0,
+                "READS_IN_UNIQUE_PAIRS": 39341042.0,
+                "READS_IN_UNIQUE_UNPAIRED": 169218.0,
+                "READS_IN_DUPLICATE_PAIRS_OPTICAL": 14206.0,
+                "READS_IN_DUPLICATE_PAIRS_NONOPTICAL": 12399630.0,
+                "READS_IN_DUPLICATE_UNPAIRED": 268713.0,
+                "READS_UNMAPPED": 2736317.0
+            },
+            "MB3_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 159355.0,
+                "READ_PAIRS_EXAMINED": 19147411.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 4306765.0,
+                "UNPAIRED_READ_DUPLICATES": 79867.0,
+                "READ_PAIR_DUPLICATES": 6863940.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 19292.0,
+                "PERCENT_DUPLICATION": 0.35907,
+                "ESTIMATED_LIBRARY_SIZE": 19875259.0,
+                "READS_IN_DUPLICATE_PAIRS": 13727880.0,
+                "READS_IN_UNIQUE_PAIRS": 24566942.0,
+                "READS_IN_UNIQUE_UNPAIRED": 79488.0,
+                "READS_IN_DUPLICATE_PAIRS_OPTICAL": 38584.0,
+                "READS_IN_DUPLICATE_PAIRS_NONOPTICAL": 13689296.0,
+                "READS_IN_DUPLICATE_UNPAIRED": 79867.0,
+                "READS_UNMAPPED": 4306765.0
+            },
+            "MB2_ATAC_sorted": {
+                "LIBRARY": "Unknown Library",
+                "UNPAIRED_READS_EXAMINED": 325710.0,
+                "READ_PAIRS_EXAMINED": 27315526.0,
+                "SECONDARY_OR_SUPPLEMENTARY_RDS": 0.0,
+                "UNMAPPED_READS": 2615354.0,
+                "UNPAIRED_READ_DUPLICATES": 188702.0,
+                "READ_PAIR_DUPLICATES": 2422292.0,
+                "READ_PAIR_OPTICAL_DUPLICATES": 3777.0,
+                "PERCENT_DUPLICATION": 0.091586,
+                "ESTIMATED_LIBRARY_SIZE": 144967711.0,
+                "READS_IN_DUPLICATE_PAIRS": 4844584.0,
+                "READS_IN_UNIQUE_PAIRS": 49786468.0,
+                "READS_IN_UNIQUE_UNPAIRED": 137008.0,
+                "READS_IN_DUPLICATE_PAIRS_OPTICAL": 7554.0,
+                "READS_IN_DUPLICATE_PAIRS_NONOPTICAL": 4837030.0,
+                "READS_IN_DUPLICATE_UNPAIRED": 188702.0,
+                "READS_UNMAPPED": 2615354.0
+            }
+        },
+        "picard_histogram": {},
+        "picard_histogram_1": {},
+        "picard_histogram_2": {},
+        "multiqc_bowtie2": {
+            "FB2.align": {
+                "total_reads": 25290386,
+                "paired_total": 25290386,
+                "paired_aligned_none": 2359764,
+                "paired_aligned_one": 18822968,
+                "paired_aligned_multi": 4107654,
+                "paired_aligned_discord_one": 445609,
+                "paired_aligned_mate_none": 2823988,
+                "paired_aligned_mate_one": 486876,
+                "paired_aligned_mate_multi": 517446,
+                "overall_alignment_rate": 94.42,
+                "paired_aligned_mate_multi_halved": 258723.0,
+                "paired_aligned_mate_none_halved": 1411994.0,
+                "paired_aligned_mate_one_halved": 243438.0
+            },
+            "MB1_ATAC.align": {
+                "total_reads": 27464563,
+                "paired_total": 27464563,
+                "paired_aligned_none": 1763460,
+                "paired_aligned_one": 21064063,
+                "paired_aligned_multi": 4637040,
+                "paired_aligned_discord_one": 91687,
+                "paired_aligned_mate_none": 2736317,
+                "paired_aligned_mate_one": 391866,
+                "paired_aligned_mate_multi": 215363,
+                "overall_alignment_rate": 95.02,
+                "paired_aligned_mate_multi_halved": 107681.5,
+                "paired_aligned_mate_none_halved": 1368158.5,
+                "paired_aligned_mate_one_halved": 195933.0
+            },
+            "MB3.align": {
+                "total_reads": 21380471,
+                "paired_total": 21380471,
+                "paired_aligned_none": 2471728,
+                "paired_aligned_one": 13840932,
+                "paired_aligned_multi": 5067811,
+                "paired_aligned_discord_one": 126469,
+                "paired_aligned_mate_none": 4306765,
+                "paired_aligned_mate_one": 175674,
+                "paired_aligned_mate_multi": 208079,
+                "overall_alignment_rate": 89.93,
+                "paired_aligned_mate_multi_halved": 104039.5,
+                "paired_aligned_mate_none_halved": 2153382.5,
+                "paired_aligned_mate_one_halved": 87837.0
+            },
+            "FB1_ATAC.align": {
+                "total_reads": 16849958,
+                "paired_total": 16849958,
+                "paired_aligned_none": 875724,
+                "paired_aligned_one": 13054653,
+                "paired_aligned_multi": 2919581,
+                "paired_aligned_discord_one": 151909,
+                "paired_aligned_mate_none": 948175,
+                "paired_aligned_mate_one": 261819,
+                "paired_aligned_mate_multi": 237636,
+                "overall_alignment_rate": 97.19,
+                "paired_aligned_mate_multi_halved": 118818.0,
+                "paired_aligned_mate_none_halved": 474087.5,
+                "paired_aligned_mate_one_halved": 130909.5
+            },
+            "MB2_ATAC.align": {
+                "total_reads": 28786058,
+                "paired_total": 28786058,
+                "paired_aligned_none": 1635413,
+                "paired_aligned_one": 23262517,
+                "paired_aligned_multi": 3888128,
+                "paired_aligned_discord_one": 89377,
+                "paired_aligned_mate_none": 2615354,
+                "paired_aligned_mate_one": 307961,
+                "paired_aligned_mate_multi": 168757,
+                "overall_alignment_rate": 95.46,
+                "paired_aligned_mate_multi_halved": 84378.5,
+                "paired_aligned_mate_none_halved": 1307677.0,
+                "paired_aligned_mate_one_halved": 153980.5
+            },
+            "FB3_ATAC.align": {
+                "total_reads": 21497236,
+                "paired_total": 21497236,
+                "paired_aligned_none": 1303483,
+                "paired_aligned_one": 16663766,
+                "paired_aligned_multi": 3529987,
+                "paired_aligned_discord_one": 118946,
+                "paired_aligned_mate_none": 1901161,
+                "paired_aligned_mate_one": 254831,
+                "paired_aligned_mate_multi": 213082,
+                "overall_alignment_rate": 95.58,
+                "paired_aligned_mate_multi_halved": 106541.0,
+                "paired_aligned_mate_none_halved": 950580.5,
+                "paired_aligned_mate_one_halved": 127415.5
+            }
+        },
+        "multiqc_general_stats": {
+            "FB2_ATAC_sorted": {
+                "Picard_mqc-generalstats-picard-PERCENT_DUPLICATION": 0.165289
+            },
+            "FB3_ATAC_sorted": {
+                "Picard_mqc-generalstats-picard-PERCENT_DUPLICATION": 0.081081
+            },
+            "FB1_ATAC_sorted": {
+                "Picard_mqc-generalstats-picard-PERCENT_DUPLICATION": 0.05139
+            },
+            "MB1_ATAC_sorted": {
+                "Picard_mqc-generalstats-picard-PERCENT_DUPLICATION": 0.242994
+            },
+            "MB3_ATAC_sorted": {
+                "Picard_mqc-generalstats-picard-PERCENT_DUPLICATION": 0.35907
+            },
+            "MB2_ATAC_sorted": {
+                "Picard_mqc-generalstats-picard-PERCENT_DUPLICATION": 0.091586
+            },
+            "FB2.align": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 94.42
+            },
+            "MB1_ATAC.align": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 95.02
+            },
+            "MB3.align": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 89.93
+            },
+            "FB1_ATAC.align": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 97.19
+            },
+            "MB2_ATAC.align": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 95.46
+            },
+            "FB3_ATAC.align": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 95.58
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2022-11-14, 16:55 EST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/ext-smcclymont/.local/lib/python3.6/site-packages/multiqc/utils",
+    "config_short_version": "1.13",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.13"
+}

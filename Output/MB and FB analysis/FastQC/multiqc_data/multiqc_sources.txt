@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	FB2_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB2_ATAC_R2_fastqc.zip
+FastQC	all_sections	MB2_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB2_ATAC_R2_fastqc.zip
+FastQC	all_sections	FB3_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB3_ATAC_R2_fastqc.zip
+FastQC	all_sections	MB1_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB1_ATAC_R2_fastqc.zip
+FastQC	all_sections	FB1_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB1_ATAC_R2_fastqc.zip
+FastQC	all_sections	MB3_reseq_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB3_reseq_ATAC_R1_fastqc.zip
+FastQC	all_sections	MB3_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB3_ATAC_R2_fastqc.zip
+FastQC	all_sections	FB3_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB3_ATAC_R1_fastqc.zip
+FastQC	all_sections	MB1_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB1_ATAC_R1_fastqc.zip
+FastQC	all_sections	FB2_reseq_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB2_reseq_ATAC_R2_fastqc.zip
+FastQC	all_sections	MB3_reseq_ATAC_R2	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB3_reseq_ATAC_R2_fastqc.zip
+FastQC	all_sections	MB2_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB2_ATAC_R1_fastqc.zip
+FastQC	all_sections	FB2_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB2_ATAC_R1_fastqc.zip
+FastQC	all_sections	MB3_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/MB3_ATAC_R1_fastqc.zip
+FastQC	all_sections	FB2_reseq_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB2_reseq_ATAC_R1_fastqc.zip
+FastQC	all_sections	FB1_ATAC_R1	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/FastQC_MB/FB1_ATAC_R1_fastqc.zip

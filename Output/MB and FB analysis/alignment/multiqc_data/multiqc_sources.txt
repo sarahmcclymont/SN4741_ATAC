@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+Picard	DuplicationMetrics	FB2_ATAC_sorted	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB2_ATAC_markdup.stats
+Picard	DuplicationMetrics	FB3_ATAC_sorted	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB3_ATAC_markdup.stats
+Picard	DuplicationMetrics	FB1_ATAC_sorted	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB1_ATAC_markdup.stats
+Picard	DuplicationMetrics	MB1_ATAC_sorted	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB1_ATAC_markdup.stats
+Picard	DuplicationMetrics	MB3_ATAC_sorted	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB3_ATAC_markdup.stats
+Picard	DuplicationMetrics	MB2_ATAC_sorted	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB2_ATAC_markdup.stats
+Bowtie 2 / HiSAT2	all_sections	FB2.align	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB2.align.stats
+Bowtie 2 / HiSAT2	all_sections	MB1_ATAC.align	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB1_ATAC.align.stats
+Bowtie 2 / HiSAT2	all_sections	MB3.align	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB3.align.stats
+Bowtie 2 / HiSAT2	all_sections	FB1_ATAC.align	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB1_ATAC.align.stats
+Bowtie 2 / HiSAT2	all_sections	MB2_ATAC.align	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/MB2_ATAC.align.stats
+Bowtie 2 / HiSAT2	all_sections	FB3_ATAC.align	/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/FB3_ATAC.align.stats

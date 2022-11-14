@@ -49,3 +49,137 @@ exit 0
 
 ```
 
+# Align and call peaks
+
+Use Bowtie2 to align to genome.  
+UCSC mm10 indexes are the same as those used in the pcHiC. See NBB's code for source.  
+
+Deduplicate with Picard Tools. 
+Index with SAMtools. 
+Call peaks with MACS3.
+
+Summarize reports with MultiQC.   
+
+```{r, eval = F}
+
+# alignment_MB.sh
+
+#!/bin/bash
+#SBATCH --job-name=alignment
+#SBATCH --time=30:00:00
+#SBATCH -N 1
+#SBATCH -n 12
+
+# Load modules
+  module load bowtie2 #v2.4.1
+  module load samtools #v1.15.1
+  module load picard #v2.26.11
+
+# Define path to genome indices
+  genome_index=/data/amccall2/work-zfs/NBB/SN4741-pcHiC/bowtie2_index/mm10
+
+#Hard to make for loop when some samples have been sequenced twice but most just once. Exclude them from the loop by temporarily moving to a new dir; analyse separately
+
+for file in *R1.fastq.gz; do
+
+# Make life easier by making the file names simpler and into an extensionlesss variable
+  sample=${file%_R1.fastq.gz}
+
+# Write out sample name so can track progress/errors in slurm.out file
+  echo $sample
+
+# Align with Bowtie2
+  # Local alignment to softclip the ends
+  # Increase pair distance to 1000 to avoid the 500bp blip on fragment length plot
+  # Write out alignment stats (stderr) to file for multiqc summary
+  bowtie2 -p 12 --local -X 1000 -x $genome_index -1 $file -2 ${sample}_R2.fastq.gz -S ${sample}.sam 2>${sample}.align.stats
+
+# Convert to bam and sort with samtools
+  # view -bu turns into uncompressed bam for easy piping into sort
+  samtools view -bu ${sample}.sam | samtools sort -o ${sample}_sorted.bam
+
+# Deduplicate with picard tools
+  picard MarkDuplicates I=${sample}_sorted.bam O=${sample}.bam M=${sample}_markdup.stats
+
+# Index with samtools
+  samtools index ${sample}.bam
+
+# Remove intermediate files
+	rm ${sample}.sam
+	rm ${sample}_sorted.bam
+
+# Call peaks! macs3 v3.0.0a7
+	macs3 callpeak --nomodel -B -f BAMPE -t ${sample}.bam -n $sample --nolambda --gsize mm
+
+	done
+
+exit 0
+
+```
+
+## Modifying loop for the resequenced samples 
+
+```{r, eval = F}
+
+# alignment_reseq.sh
+
+#!/bin/bash
+#SBATCH --job-name=alignment
+#SBATCH --time=30:00:00
+#SBATCH -N 1
+#SBATCH -n 12
+
+# Load modules
+  module load bowtie2 #v2.4.1
+  module load samtools #v1.15.1
+  module load picard #v2.26.11
+
+# Define path to genome indices
+  genome_index=/data/amccall2/work-zfs/NBB/SN4741-pcHiC/bowtie2_index/mm10
+
+# Align individually
+  bowtie2 -p 10 --local -X 1000 -x $genome_index -1 FB2_ATAC_R1.fastq.gz,FB2_reseq_ATAC_R1.fastq.gz -2 FB2_ATAC_R2.fastq.gz,FB2_reseq_ATAC_R2.fastq.gz -S FB2_ATAC.sam 2>FB2.align.stats
+  bowtie2 -p 10 --local -X 1000 -x $genome_index -1 MB3_ATAC_R1.fastq.gz,MB3_reseq_ATAC_R1.fastq.gz -2 MB3_ATAC_R2.fastq.gz,MB3_reseq_ATAC_R2.fastq.gz -S MB3_ATAC.sam 2>MB3.align.stats
+
+# Reinitiate loop
+for file in *.sam; do
+
+# Make life easier by making the file names simpler and into an extensionlesss variable
+  sample=${file%.sam}
+
+# Write out sample name so can track progress/errors in slurm.out file
+  echo $sample
+
+# Convert to bam and sort with samtools
+  # view -bu turns into uncompressed bam for easy piping into sort
+  samtools view -bu $file | samtools sort -o ${sample}_sorted.bam
+
+# Deduplicate with picard tools
+  picard MarkDuplicates I=${sample}_sorted.bam O=${sample}.bam M=${sample}_markdup.stats
+  
+# Index with samtools
+  samtools index ${sample}.bam
+  
+# Remove intermediate files
+	rm ${sample}.sam
+	rm ${sample}_sorted.bam
+
+# Call peaks!
+	macs3 callpeak --nomodel -B -f BAMPE -t ${sample}.bam -n $sample --nolambda --gsize mm
+
+	done
+
+exit 0
+  
+```
+
+## Compile mapping statistics
+
+Move the outputs back to the same folder and compile with MultiQC
+
+```{r, eval = F}
+# Compile alignment statistics with multiqc
+	multiqc . --ignore "FastQC/" 
+```
+
+Arrange outputs into folders: alignment, bams, FastQC, fastqs, and peaks for easier navigation.

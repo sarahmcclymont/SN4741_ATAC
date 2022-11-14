@@ -1,0 +1,411 @@
+FB2_ATAC
+[bam_sort_core] merging from 18 files and 1 in-memory blocks...
+INFO	2022-11-14 14:37:53	MarkDuplicates	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    MarkDuplicates -I FB2_ATAC_sorted.bam -O FB2_ATAC.bam -M FB2_ATAC_markdup.stats
+**********
+
+
+14:37:53.770 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/data/apps/linux-centos8-cascadelake/gcc-9.3.0/picard-2.20.8-klfqbxa6ljsvq3fvld7qdbr42gk3shbt/bin/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Nov 14 14:37:53 EST 2022] MarkDuplicates INPUT=[FB2_ATAC_sorted.bam] OUTPUT=FB2_ATAC.bam METRICS_FILE=FB2_ATAC_markdup.stats    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 TAG_DUPLICATE_SET_MEMBERS=false REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag CLEAR_DT=true DUPLEX_UMI=false ADD_PG_TAG_TO_READS=true REMOVE_DUPLICATES=false ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 MAX_OPTICAL_DUPLICATE_SET_SIZE=300000 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Nov 14 14:37:53 EST 2022] Executing as ext-smcclymont@c228 on Linux 4.18.0-147.el8.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.2+9; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.20.8-SNAPSHOT
+INFO	2022-11-14 14:37:53	MarkDuplicates	Start of doWork freeMemory: 94676032; totalMemory: 100663296; maxMemory: 32178700288
+INFO	2022-11-14 14:37:53	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2022-11-14 14:37:53	MarkDuplicates	Will retain up to 116589493 data points before spilling to disk.
+INFO	2022-11-14 14:37:57	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr1:24,613,729
+INFO	2022-11-14 14:37:57	MarkDuplicates	Tracking 14800 as yet unmatched pairs. 10636 records in RAM.
+INFO	2022-11-14 14:38:00	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: chr1:51,757,813
+INFO	2022-11-14 14:38:00	MarkDuplicates	Tracking 9418 as yet unmatched pairs. 431 records in RAM.
+INFO	2022-11-14 14:38:03	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    2s.  Last read position: chr1:105,991,031
+INFO	2022-11-14 14:38:03	MarkDuplicates	Tracking 15184 as yet unmatched pairs. 653 records in RAM.
+INFO	2022-11-14 14:38:05	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    2s.  Last read position: chr1:158,487,434
+INFO	2022-11-14 14:38:05	MarkDuplicates	Tracking 20380 as yet unmatched pairs. 241 records in RAM.
+INFO	2022-11-14 14:38:08	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    2s.  Last read position: chr2:16,600,193
+INFO	2022-11-14 14:38:08	MarkDuplicates	Tracking 27264 as yet unmatched pairs. 3048 records in RAM.
+INFO	2022-11-14 14:38:11	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:    2s.  Last read position: chr2:53,424,414
+INFO	2022-11-14 14:38:11	MarkDuplicates	Tracking 30244 as yet unmatched pairs. 2061 records in RAM.
+INFO	2022-11-14 14:38:14	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    2s.  Last read position: chr2:98,662,754
+INFO	2022-11-14 14:38:14	MarkDuplicates	Tracking 39980 as yet unmatched pairs. 4026 records in RAM.
+INFO	2022-11-14 14:38:16	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    2s.  Last read position: chr2:131,060,831
+INFO	2022-11-14 14:38:16	MarkDuplicates	Tracking 39640 as yet unmatched pairs. 515 records in RAM.
+INFO	2022-11-14 14:38:19	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    2s.  Last read position: chr3:11,886,637
+INFO	2022-11-14 14:38:19	MarkDuplicates	Tracking 45846 as yet unmatched pairs. 4480 records in RAM.
+INFO	2022-11-14 14:38:22	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    2s.  Last read position: chr3:57,998,236
+INFO	2022-11-14 14:38:22	MarkDuplicates	Tracking 50030 as yet unmatched pairs. 3703 records in RAM.
+INFO	2022-11-14 14:38:25	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:30s.  Time for last 1,000,000:    2s.  Last read position: chr3:104,511,169
+INFO	2022-11-14 14:38:25	MarkDuplicates	Tracking 54158 as yet unmatched pairs. 3150 records in RAM.
+INFO	2022-11-14 14:38:27	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:    2s.  Last read position: chr3:147,144,227
+INFO	2022-11-14 14:38:27	MarkDuplicates	Tracking 55858 as yet unmatched pairs. 265 records in RAM.
+INFO	2022-11-14 14:38:30	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:36s.  Time for last 1,000,000:    2s.  Last read position: chr4:35,569,297
+INFO	2022-11-14 14:38:30	MarkDuplicates	Tracking 59186 as yet unmatched pairs. 3067 records in RAM.
+INFO	2022-11-14 14:38:33	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    2s.  Last read position: chr4:80,003,721
+INFO	2022-11-14 14:38:33	MarkDuplicates	Tracking 73624 as yet unmatched pairs. 13866 records in RAM.
+INFO	2022-11-14 14:38:35	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    2s.  Last read position: chr4:122,998,132
+INFO	2022-11-14 14:38:35	MarkDuplicates	Tracking 64696 as yet unmatched pairs. 765 records in RAM.
+INFO	2022-11-14 14:38:38	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    2s.  Last read position: chr5:36,398,171
+INFO	2022-11-14 14:38:38	MarkDuplicates	Tracking 68438 as yet unmatched pairs. 3306 records in RAM.
+INFO	2022-11-14 14:38:41	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    2s.  Last read position: chr5:83,924,109
+INFO	2022-11-14 14:38:41	MarkDuplicates	Tracking 70616 as yet unmatched pairs. 1818 records in RAM.
+INFO	2022-11-14 14:38:44	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    2s.  Last read position: chr6:11,907,623
+INFO	2022-11-14 14:38:44	MarkDuplicates	Tracking 73188 as yet unmatched pairs. 5167 records in RAM.
+INFO	2022-11-14 14:38:46	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    2s.  Last read position: chr6:61,230,331
+INFO	2022-11-14 14:38:46	MarkDuplicates	Tracking 74644 as yet unmatched pairs. 3480 records in RAM.
+INFO	2022-11-14 14:38:49	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    2s.  Last read position: chr6:113,388,461
+INFO	2022-11-14 14:38:49	MarkDuplicates	Tracking 80608 as yet unmatched pairs. 1431 records in RAM.
+INFO	2022-11-14 14:38:52	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    2s.  Last read position: chr7:40,246,913
+INFO	2022-11-14 14:38:52	MarkDuplicates	Tracking 82586 as yet unmatched pairs. 4976 records in RAM.
+INFO	2022-11-14 14:38:55	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    2s.  Last read position: chr7:98,402,693
+INFO	2022-11-14 14:38:55	MarkDuplicates	Tracking 83264 as yet unmatched pairs. 2226 records in RAM.
+INFO	2022-11-14 14:38:58	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    2s.  Last read position: chr8:29,404,348
+INFO	2022-11-14 14:38:58	MarkDuplicates	Tracking 83960 as yet unmatched pairs. 6889 records in RAM.
+INFO	2022-11-14 14:39:00	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    2s.  Last read position: chr8:73,168,660
+INFO	2022-11-14 14:39:00	MarkDuplicates	Tracking 83718 as yet unmatched pairs. 2247 records in RAM.
+INFO	2022-11-14 14:39:03	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:01:09s.  Time for last 1,000,000:    2s.  Last read position: chr9:6,707,948
+INFO	2022-11-14 14:39:03	MarkDuplicates	Tracking 84004 as yet unmatched pairs. 6385 records in RAM.
+INFO	2022-11-14 14:39:06	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    2s.  Last read position: chr9:72,609,282
+INFO	2022-11-14 14:39:06	MarkDuplicates	Tracking 82955 as yet unmatched pairs. 2755 records in RAM.
+INFO	2022-11-14 14:39:09	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    2s.  Last read position: chr10:8,715,831
+INFO	2022-11-14 14:39:09	MarkDuplicates	Tracking 82684 as yet unmatched pairs. 10395 records in RAM.
+INFO	2022-11-14 14:39:12	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    2s.  Last read position: chr10:48,598,694
+INFO	2022-11-14 14:39:12	MarkDuplicates	Tracking 82270 as yet unmatched pairs. 8010 records in RAM.
+INFO	2022-11-14 14:39:15	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    2s.  Last read position: chr10:98,914,862
+INFO	2022-11-14 14:39:15	MarkDuplicates	Tracking 78458 as yet unmatched pairs. 2231 records in RAM.
+INFO	2022-11-14 14:39:17	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    2s.  Last read position: chr11:21,864,446
+INFO	2022-11-14 14:39:17	MarkDuplicates	Tracking 77250 as yet unmatched pairs. 4629 records in RAM.
+INFO	2022-11-14 14:39:20	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    2s.  Last read position: chr11:102,838,075
+INFO	2022-11-14 14:39:20	MarkDuplicates	Tracking 75882 as yet unmatched pairs. 907 records in RAM.
+INFO	2022-11-14 14:39:23	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    2s.  Last read position: chr12:45,222,324
+INFO	2022-11-14 14:39:23	MarkDuplicates	Tracking 73766 as yet unmatched pairs. 9048 records in RAM.
+INFO	2022-11-14 14:39:26	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    2s.  Last read position: chr12:103,668,462
+INFO	2022-11-14 14:39:26	MarkDuplicates	Tracking 67854 as yet unmatched pairs. 1003 records in RAM.
+INFO	2022-11-14 14:39:29	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    2s.  Last read position: chr13:37,825,365
+INFO	2022-11-14 14:39:29	MarkDuplicates	Tracking 65854 as yet unmatched pairs. 6041 records in RAM.
+INFO	2022-11-14 14:39:32	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:    2s.  Last read position: chr13:90,908,450
+INFO	2022-11-14 14:39:32	MarkDuplicates	Tracking 66034 as yet unmatched pairs. 2273 records in RAM.
+INFO	2022-11-14 14:39:35	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:01:40s.  Time for last 1,000,000:    2s.  Last read position: chr14:16,522,957
+INFO	2022-11-14 14:39:35	MarkDuplicates	Tracking 64272 as yet unmatched pairs. 10077 records in RAM.
+INFO	2022-11-14 14:39:37	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:01:43s.  Time for last 1,000,000:    2s.  Last read position: chr14:75,433,205
+INFO	2022-11-14 14:39:37	MarkDuplicates	Tracking 60828 as yet unmatched pairs. 5197 records in RAM.
+INFO	2022-11-14 14:39:40	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:01:46s.  Time for last 1,000,000:    2s.  Last read position: chr14:124,802,104
+INFO	2022-11-14 14:39:40	MarkDuplicates	Tracking 58938 as yet unmatched pairs. 1600 records in RAM.
+INFO	2022-11-14 14:39:43	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:01:49s.  Time for last 1,000,000:    2s.  Last read position: chr15:44,439,675
+INFO	2022-11-14 14:39:43	MarkDuplicates	Tracking 54532 as yet unmatched pairs. 4319 records in RAM.
+INFO	2022-11-14 14:39:46	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:    2s.  Last read position: chr16:11,542,688
+INFO	2022-11-14 14:39:46	MarkDuplicates	Tracking 50720 as yet unmatched pairs. 7805 records in RAM.
+INFO	2022-11-14 14:39:49	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:01:55s.  Time for last 1,000,000:    2s.  Last read position: chr16:59,954,006
+INFO	2022-11-14 14:39:49	MarkDuplicates	Tracking 47098 as yet unmatched pairs. 3303 records in RAM.
+INFO	2022-11-14 14:39:52	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:01:57s.  Time for last 1,000,000:    2s.  Last read position: chr17:24,478,720
+INFO	2022-11-14 14:39:52	MarkDuplicates	Tracking 42886 as yet unmatched pairs. 6587 records in RAM.
+INFO	2022-11-14 14:39:54	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    2s.  Last read position: chr17:79,519,331
+INFO	2022-11-14 14:39:54	MarkDuplicates	Tracking 38346 as yet unmatched pairs. 1297 records in RAM.
+INFO	2022-11-14 14:39:57	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:02:03s.  Time for last 1,000,000:    2s.  Last read position: chr18:31,634,808
+INFO	2022-11-14 14:39:57	MarkDuplicates	Tracking 28662 as yet unmatched pairs. 5228 records in RAM.
+INFO	2022-11-14 14:40:00	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    2s.  Last read position: chr18:89,068,121
+INFO	2022-11-14 14:40:00	MarkDuplicates	Tracking 24144 as yet unmatched pairs. 250 records in RAM.
+INFO	2022-11-14 14:40:03	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:02:09s.  Time for last 1,000,000:    2s.  Last read position: chr19:59,414,194
+INFO	2022-11-14 14:40:03	MarkDuplicates	Tracking 19732 as yet unmatched pairs. 241 records in RAM.
+INFO	2022-11-14 14:40:06	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    3s.  Last read position: chrX:89,842,420
+INFO	2022-11-14 14:40:06	MarkDuplicates	Tracking 11310 as yet unmatched pairs. 8324 records in RAM.
+INFO	2022-11-14 14:40:09	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:    2s.  Last read position: chrX:170,009,598
+INFO	2022-11-14 14:40:09	MarkDuplicates	Tracking 4154 as yet unmatched pairs. 902 records in RAM.
+INFO	2022-11-14 14:40:09	MarkDuplicates	Read 48133544 records. 0 pairs never matched.
+INFO	2022-11-14 14:40:11	MarkDuplicates	After buildSortedReadEndLists freeMemory: 4100672576; totalMemory: 10192158720; maxMemory: 32178700288
+INFO	2022-11-14 14:40:11	MarkDuplicates	Will retain up to 1005584384 duplicate indices before spilling to disk.
+INFO	2022-11-14 14:40:13	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2022-11-14 14:40:20	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2022-11-14 14:40:27	MarkDuplicates	Sorting list of duplicate records.
+INFO	2022-11-14 14:40:27	MarkDuplicates	After generateDuplicateIndexes freeMemory: 10183894816; totalMemory: 18241028096; maxMemory: 32178700288
+INFO	2022-11-14 14:40:27	MarkDuplicates	Marking 7893665 records as duplicates.
+INFO	2022-11-14 14:40:27	MarkDuplicates	Found 33986 optical duplicate clusters.
+INFO	2022-11-14 14:40:27	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2022-11-14 14:42:01	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:34s.  Time for last 10,000,000:   94s.  Last read position: chr3:57,998,236
+INFO	2022-11-14 14:43:40	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:12s.  Time for last 10,000,000:   98s.  Last read position: chr6:113,388,461
+INFO	2022-11-14 14:45:26	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:04:58s.  Time for last 10,000,000:  105s.  Last read position: chr11:21,864,446
+INFO	2022-11-14 14:47:05	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:06:37s.  Time for last 10,000,000:   99s.  Last read position: chr16:11,542,688
+INFO	2022-11-14 14:48:38	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:08:10s.  Time for last 10,000,000:   93s.  Last read position: */*
+INFO	2022-11-14 14:48:42	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2022-11-14 14:48:42	MarkDuplicates	Duplicate Index cleanup.
+INFO	2022-11-14 14:48:42	MarkDuplicates	Getting Memory Stats.
+INFO	2022-11-14 14:48:43	MarkDuplicates	Before output close freeMemory: 76706744; totalMemory: 83886080; maxMemory: 32178700288
+INFO	2022-11-14 14:48:43	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2022-11-14 14:48:43	MarkDuplicates	After output close freeMemory: 22851088; totalMemory: 29360128; maxMemory: 32178700288
+[Mon Nov 14 14:48:43 EST 2022] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 10.83 minutes.
+Runtime.totalMemory()=29360128
+INFO  @ Mon, 14 Nov 2022 14:49:12: 
+# Command line: callpeak --nomodel -B -f BAMPE -t FB2_ATAC.bam -n FB2_ATAC --nolambda --gsize mm
+# ARGUMENTS LIST:
+# name = FB2_ATAC
+# format = BAMPE
+# ChIP-seq file = ['FB2_ATAC.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 14 Nov 2022 14:49:12: #1 read fragment files... 
+INFO  @ Mon, 14 Nov 2022 14:49:12: #1 read treatment fragments... 
+INFO  @ Mon, 14 Nov 2022 14:49:16:  1000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:20:  2000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:24:  3000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:29:  4000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:33:  5000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:37:  6000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:41:  7000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:45:  8000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:50:  9000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:54:  10000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:49:58:  11000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:03:  12000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:07:  13000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:11:  14000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:15:  15000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:20:  16000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:24:  17000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:28:  18000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:32:  19000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:37:  20000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:41:  21000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:45:  22000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 14:50:52: 22930622 fragments have been read. 
+INFO  @ Mon, 14 Nov 2022 14:51:04: #1 mean fragment size is determined as 428.8 bp from treatment 
+INFO  @ Mon, 14 Nov 2022 14:51:04: #1 fragment size = 428.8 
+INFO  @ Mon, 14 Nov 2022 14:51:04: #1  total fragments in treatment: 22930622 
+INFO  @ Mon, 14 Nov 2022 14:51:04: #1 user defined the maximum fragments... 
+INFO  @ Mon, 14 Nov 2022 14:51:04: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #1  fragments after filtering in treatment: 19138666 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #1  Redundant rate of treatment: 0.17 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #1 finished! 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #2 Build Peak Model... 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #2 Skipped... 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #3 Call peaks... 
+INFO  @ Mon, 14 Nov 2022 14:51:35: # local lambda is disabled! 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #3 !!!! DYNAMIC LAMBDA IS DISABLED !!!! 
+INFO  @ Mon, 14 Nov 2022 14:51:35: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 14 Nov 2022 14:51:48: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 14 Nov 2022 14:51:48: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... FB2_ATAC_treat_pileup.bdg 
+INFO  @ Mon, 14 Nov 2022 14:51:48: #3   Write bedGraph files for control lambda (after scaling if necessary)... FB2_ATAC_control_lambda.bdg 
+INFO  @ Mon, 14 Nov 2022 14:51:48: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 14 Nov 2022 14:51:48: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 14 Nov 2022 14:52:07: #4 Write output xls file... FB2_ATAC_peaks.xls 
+INFO  @ Mon, 14 Nov 2022 14:52:07: #4 Write peak in narrowPeak format file... FB2_ATAC_peaks.narrowPeak 
+INFO  @ Mon, 14 Nov 2022 14:52:07: #4 Write summits bed file... FB2_ATAC_summits.bed 
+INFO  @ Mon, 14 Nov 2022 14:52:07: Done! 
+MB3_ATAC
+[bam_sort_core] merging from 14 files and 1 in-memory blocks...
+INFO	2022-11-14 14:56:03	MarkDuplicates	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    MarkDuplicates -I MB3_ATAC_sorted.bam -O MB3_ATAC.bam -M MB3_ATAC_markdup.stats
+**********
+
+
+14:56:03.650 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/data/apps/linux-centos8-cascadelake/gcc-9.3.0/picard-2.20.8-klfqbxa6ljsvq3fvld7qdbr42gk3shbt/bin/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Nov 14 14:56:03 EST 2022] MarkDuplicates INPUT=[MB3_ATAC_sorted.bam] OUTPUT=MB3_ATAC.bam METRICS_FILE=MB3_ATAC_markdup.stats    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 TAG_DUPLICATE_SET_MEMBERS=false REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag CLEAR_DT=true DUPLEX_UMI=false ADD_PG_TAG_TO_READS=true REMOVE_DUPLICATES=false ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 MAX_OPTICAL_DUPLICATE_SET_SIZE=300000 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Mon Nov 14 14:56:03 EST 2022] Executing as ext-smcclymont@c228 on Linux 4.18.0-147.el8.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.2+9; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.20.8-SNAPSHOT
+INFO	2022-11-14 14:56:03	MarkDuplicates	Start of doWork freeMemory: 107259096; totalMemory: 113246208; maxMemory: 32178700288
+INFO	2022-11-14 14:56:03	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2022-11-14 14:56:03	MarkDuplicates	Will retain up to 116589493 data points before spilling to disk.
+INFO	2022-11-14 14:56:07	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr1:51,696,959
+INFO	2022-11-14 14:56:07	MarkDuplicates	Tracking 3504 as yet unmatched pairs. 218 records in RAM.
+INFO	2022-11-14 14:56:09	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    2s.  Last read position: chr1:121,737,996
+INFO	2022-11-14 14:56:09	MarkDuplicates	Tracking 7084 as yet unmatched pairs. 201 records in RAM.
+INFO	2022-11-14 14:56:12	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    2s.  Last read position: chr1:192,523,189
+INFO	2022-11-14 14:56:12	MarkDuplicates	Tracking 10474 as yet unmatched pairs. 12 records in RAM.
+INFO	2022-11-14 14:56:15	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    2s.  Last read position: chr2:59,394,444
+INFO	2022-11-14 14:56:15	MarkDuplicates	Tracking 13434 as yet unmatched pairs. 902 records in RAM.
+INFO	2022-11-14 14:56:17	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:13s.  Time for last 1,000,000:    2s.  Last read position: chr2:98,666,747
+INFO	2022-11-14 14:56:17	MarkDuplicates	Tracking 164520 as yet unmatched pairs. 149227 records in RAM.
+INFO	2022-11-14 14:56:20	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    2s.  Last read position: chr2:107,386,395
+INFO	2022-11-14 14:56:20	MarkDuplicates	Tracking 16368 as yet unmatched pairs. 408 records in RAM.
+INFO	2022-11-14 14:56:23	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    2s.  Last read position: chr2:182,012,906
+INFO	2022-11-14 14:56:23	MarkDuplicates	Tracking 19464 as yet unmatched pairs. 481 records in RAM.
+INFO	2022-11-14 14:56:25	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:    2s.  Last read position: chr3:69,126,787
+INFO	2022-11-14 14:56:25	MarkDuplicates	Tracking 22412 as yet unmatched pairs. 1426 records in RAM.
+INFO	2022-11-14 14:56:28	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    2s.  Last read position: chr3:135,662,206
+INFO	2022-11-14 14:56:28	MarkDuplicates	Tracking 24062 as yet unmatched pairs. 211 records in RAM.
+INFO	2022-11-14 14:56:30	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    2s.  Last read position: chr4:44,784,030
+INFO	2022-11-14 14:56:30	MarkDuplicates	Tracking 26206 as yet unmatched pairs. 1271 records in RAM.
+INFO	2022-11-14 14:56:33	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    2s.  Last read position: chr4:108,083,480
+INFO	2022-11-14 14:56:33	MarkDuplicates	Tracking 27852 as yet unmatched pairs. 672 records in RAM.
+INFO	2022-11-14 14:56:35	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    2s.  Last read position: chr5:29,608,025
+INFO	2022-11-14 14:56:35	MarkDuplicates	Tracking 30266 as yet unmatched pairs. 1633 records in RAM.
+INFO	2022-11-14 14:56:38	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    2s.  Last read position: chr5:98,856,091
+INFO	2022-11-14 14:56:38	MarkDuplicates	Tracking 31826 as yet unmatched pairs. 701 records in RAM.
+INFO	2022-11-14 14:56:41	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    2s.  Last read position: chr6:28,134,985
+INFO	2022-11-14 14:56:41	MarkDuplicates	Tracking 33384 as yet unmatched pairs. 2146 records in RAM.
+INFO	2022-11-14 14:56:43	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    2s.  Last read position: chr6:98,612,102
+INFO	2022-11-14 14:56:43	MarkDuplicates	Tracking 35396 as yet unmatched pairs. 1080 records in RAM.
+INFO	2022-11-14 14:56:46	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    2s.  Last read position: chr7:24,010,431
+INFO	2022-11-14 14:56:46	MarkDuplicates	Tracking 36366 as yet unmatched pairs. 2480 records in RAM.
+INFO	2022-11-14 14:56:48	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    2s.  Last read position: chr7:98,868,479
+INFO	2022-11-14 14:56:48	MarkDuplicates	Tracking 37008 as yet unmatched pairs. 913 records in RAM.
+INFO	2022-11-14 14:56:51	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    2s.  Last read position: chr8:31,988,464
+INFO	2022-11-14 14:56:51	MarkDuplicates	Tracking 37380 as yet unmatched pairs. 2394 records in RAM.
+INFO	2022-11-14 14:56:54	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    2s.  Last read position: chr8:101,202,304
+INFO	2022-11-14 14:56:54	MarkDuplicates	Tracking 37624 as yet unmatched pairs. 445 records in RAM.
+INFO	2022-11-14 14:56:56	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    2s.  Last read position: chr9:3,025,558
+INFO	2022-11-14 14:56:56	MarkDuplicates	Tracking 39776 as yet unmatched pairs. 5112 records in RAM.
+INFO	2022-11-14 14:56:59	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    2s.  Last read position: chr9:65,344,821
+INFO	2022-11-14 14:56:59	MarkDuplicates	Tracking 37518 as yet unmatched pairs. 1514 records in RAM.
+INFO	2022-11-14 14:57:02	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    2s.  Last read position: chr10:18,065,923
+INFO	2022-11-14 14:57:02	MarkDuplicates	Tracking 37376 as yet unmatched pairs. 3758 records in RAM.
+INFO	2022-11-14 14:57:04	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    2s.  Last read position: chr10:84,979,771
+INFO	2022-11-14 14:57:04	MarkDuplicates	Tracking 37024 as yet unmatched pairs. 2105 records in RAM.
+INFO	2022-11-14 14:57:07	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    2s.  Last read position: chr11:24,296,144
+INFO	2022-11-14 14:57:07	MarkDuplicates	Tracking 35666 as yet unmatched pairs. 2564 records in RAM.
+INFO	2022-11-14 14:57:10	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    2s.  Last read position: chr11:112,810,892
+INFO	2022-11-14 14:57:10	MarkDuplicates	Tracking 34910 as yet unmatched pairs. 240 records in RAM.
+INFO	2022-11-14 14:57:12	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    2s.  Last read position: chr12:57,758,921
+INFO	2022-11-14 14:57:12	MarkDuplicates	Tracking 33708 as yet unmatched pairs. 2984 records in RAM.
+INFO	2022-11-14 14:57:15	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    2s.  Last read position: chr13:12,629,267
+INFO	2022-11-14 14:57:15	MarkDuplicates	Tracking 31580 as yet unmatched pairs. 3651 records in RAM.
+INFO	2022-11-14 14:57:18	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:    2s.  Last read position: chr13:85,126,729
+INFO	2022-11-14 14:57:18	MarkDuplicates	Tracking 32896 as yet unmatched pairs. 3950 records in RAM.
+INFO	2022-11-14 14:57:20	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:    2s.  Last read position: chr14:19,417,540
+INFO	2022-11-14 14:57:20	MarkDuplicates	Tracking 49516 as yet unmatched pairs. 24035 records in RAM.
+INFO	2022-11-14 14:57:23	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    2s.  Last read position: chr14:87,127,564
+INFO	2022-11-14 14:57:23	MarkDuplicates	Tracking 27948 as yet unmatched pairs. 1568 records in RAM.
+INFO	2022-11-14 14:57:26	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:01:22s.  Time for last 1,000,000:    2s.  Last read position: chr15:33,273,198
+INFO	2022-11-14 14:57:26	MarkDuplicates	Tracking 26046 as yet unmatched pairs. 2773 records in RAM.
+INFO	2022-11-14 14:57:29	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    2s.  Last read position: chr16:6,107,966
+INFO	2022-11-14 14:57:29	MarkDuplicates	Tracking 23652 as yet unmatched pairs. 3838 records in RAM.
+INFO	2022-11-14 14:57:31	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    2s.  Last read position: chr16:75,779,399
+INFO	2022-11-14 14:57:31	MarkDuplicates	Tracking 21304 as yet unmatched pairs. 890 records in RAM.
+INFO	2022-11-14 14:57:34	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:01:30s.  Time for last 1,000,000:    2s.  Last read position: chr17:51,882,345
+INFO	2022-11-14 14:57:34	MarkDuplicates	Tracking 18482 as yet unmatched pairs. 1974 records in RAM.
+INFO	2022-11-14 14:57:37	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    2s.  Last read position: chr18:21,999,681
+INFO	2022-11-14 14:57:37	MarkDuplicates	Tracking 14880 as yet unmatched pairs. 3901 records in RAM.
+INFO	2022-11-14 14:57:39	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    2s.  Last read position: chr19:5,801,945
+INFO	2022-11-14 14:57:39	MarkDuplicates	Tracking 11200 as yet unmatched pairs. 2391 records in RAM.
+INFO	2022-11-14 14:57:42	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:    2s.  Last read position: chrX:28,290,453
+INFO	2022-11-14 14:57:42	MarkDuplicates	Tracking 8180 as yet unmatched pairs. 6633 records in RAM.
+INFO	2022-11-14 14:57:45	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    2s.  Last read position: chrX:129,937,471
+INFO	2022-11-14 14:57:45	MarkDuplicates	Tracking 3326 as yet unmatched pairs. 1690 records in RAM.
+INFO	2022-11-14 14:57:46	MarkDuplicates	Read 38613532 records. 0 pairs never matched.
+INFO	2022-11-14 14:57:48	MarkDuplicates	After buildSortedReadEndLists freeMemory: 3428195168; totalMemory: 8522825728; maxMemory: 32178700288
+INFO	2022-11-14 14:57:48	MarkDuplicates	Will retain up to 1005584384 duplicate indices before spilling to disk.
+INFO	2022-11-14 14:57:49	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1066
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:17,275
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1117
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:3,808
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1091
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:14,949
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1096
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:7,311
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1033
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:4,996
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1014
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:14,906
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1310
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:10,751
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1244
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:10,694
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1232
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:7,774
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	Large duplicate set. size = 1204
+INFO	2022-11-14 14:57:52	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:14,852
+INFO	2022-11-14 14:57:54	OpticalDuplicateFinder	Large duplicate set. size = 1258
+INFO	2022-11-14 14:57:54	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:2,065
+INFO	2022-11-14 14:57:54	OpticalDuplicateFinder	Large duplicate set. size = 1127
+INFO	2022-11-14 14:57:54	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:13,017
+INFO	2022-11-14 14:57:55	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2022-11-14 14:58:01	MarkDuplicates	Sorting list of duplicate records.
+INFO	2022-11-14 14:58:01	MarkDuplicates	After generateDuplicateIndexes freeMemory: 8514503496; totalMemory: 16571695104; maxMemory: 32178700288
+INFO	2022-11-14 14:58:01	MarkDuplicates	Marking 13807747 records as duplicates.
+INFO	2022-11-14 14:58:01	MarkDuplicates	Found 19292 optical duplicate clusters.
+INFO	2022-11-14 14:58:01	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2022-11-14 14:59:34	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:32s.  Time for last 10,000,000:   92s.  Last read position: chr4:44,784,030
+INFO	2022-11-14 15:01:07	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:05s.  Time for last 10,000,000:   93s.  Last read position: chr9:3,025,558
+INFO	2022-11-14 15:02:42	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:04:40s.  Time for last 10,000,000:   94s.  Last read position: chr14:87,127,564
+INFO	2022-11-14 15:04:11	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:06:09s.  Time for last 10,000,000:   88s.  Last read position: */*
+INFO	2022-11-14 15:04:30	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2022-11-14 15:04:30	MarkDuplicates	Duplicate Index cleanup.
+INFO	2022-11-14 15:04:30	MarkDuplicates	Getting Memory Stats.
+INFO	2022-11-14 15:04:30	MarkDuplicates	Before output close freeMemory: 76580792; totalMemory: 83886080; maxMemory: 32178700288
+INFO	2022-11-14 15:04:30	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2022-11-14 15:04:30	MarkDuplicates	After output close freeMemory: 22725136; totalMemory: 29360128; maxMemory: 32178700288
+[Mon Nov 14 15:04:30 EST 2022] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 8.45 minutes.
+Runtime.totalMemory()=29360128
+INFO  @ Mon, 14 Nov 2022 15:04:50: 
+# Command line: callpeak --nomodel -B -f BAMPE -t MB3_ATAC.bam -n MB3_ATAC --nolambda --gsize mm
+# ARGUMENTS LIST:
+# name = MB3_ATAC
+# format = BAMPE
+# ChIP-seq file = ['MB3_ATAC.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 14 Nov 2022 15:04:50: #1 read fragment files... 
+INFO  @ Mon, 14 Nov 2022 15:04:50: #1 read treatment fragments... 
+INFO  @ Mon, 14 Nov 2022 15:04:54:  1000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:04:58:  2000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:02:  3000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:07:  4000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:11:  5000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:15:  6000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:19:  7000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:23:  8000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:27:  9000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:31:  10000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:35:  11000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:39:  12000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:43:  13000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:47:  14000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:51:  15000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:55:  16000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:05:59:  17000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:06:03:  18000000 fragments parsed 
+INFO  @ Mon, 14 Nov 2022 15:06:13: 18908743 fragments have been read. 
+INFO  @ Mon, 14 Nov 2022 15:06:22: #1 mean fragment size is determined as 302.2 bp from treatment 
+INFO  @ Mon, 14 Nov 2022 15:06:22: #1 fragment size = 302.2 
+INFO  @ Mon, 14 Nov 2022 15:06:22: #1  total fragments in treatment: 18908743 
+INFO  @ Mon, 14 Nov 2022 15:06:22: #1 user defined the maximum fragments... 
+INFO  @ Mon, 14 Nov 2022 15:06:22: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #1  fragments after filtering in treatment: 12135105 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #1  Redundant rate of treatment: 0.36 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #1 finished! 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #2 Build Peak Model... 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #2 Skipped... 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #3 Call peaks... 
+INFO  @ Mon, 14 Nov 2022 15:06:47: # local lambda is disabled! 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #3 !!!! DYNAMIC LAMBDA IS DISABLED !!!! 
+INFO  @ Mon, 14 Nov 2022 15:06:47: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 14 Nov 2022 15:06:56: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 14 Nov 2022 15:06:56: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... MB3_ATAC_treat_pileup.bdg 
+INFO  @ Mon, 14 Nov 2022 15:06:56: #3   Write bedGraph files for control lambda (after scaling if necessary)... MB3_ATAC_control_lambda.bdg 
+INFO  @ Mon, 14 Nov 2022 15:06:56: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 14 Nov 2022 15:06:56: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 14 Nov 2022 15:07:07: #4 Write output xls file... MB3_ATAC_peaks.xls 
+INFO  @ Mon, 14 Nov 2022 15:07:07: #4 Write peak in narrowPeak format file... MB3_ATAC_peaks.narrowPeak 
+INFO  @ Mon, 14 Nov 2022 15:07:07: #4 Write summits bed file... MB3_ATAC_summits.bed 
+INFO  @ Mon, 14 Nov 2022 15:07:07: Done! 

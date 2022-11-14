@@ -1,0 +1,21 @@
+[2022-11-14 16:55:42,014] multiqc                                            [DEBUG  ]  This is MultiQC v1.13
+[2022-11-14 16:55:42,015] multiqc                                            [DEBUG  ]  Command used: /home/ext-smcclymont/.local/bin/multiqc . --ignore ../FastQC/
+[2022-11-14 16:55:42,484] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.13
+[2022-11-14 16:55:42,484] multiqc                                            [DEBUG  ]  Working dir : /data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment
+[2022-11-14 16:55:42,484] multiqc                                            [DEBUG  ]  Template    : default
+[2022-11-14 16:55:42,485] multiqc                                            [DEBUG  ]  Running Python 3.6.8 (default, Nov 21 2019, 19:31:34)  [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+[2022-11-14 16:55:42,485] multiqc                                            [DEBUG  ]  Ignoring files, directories and paths that match: ../FastQC/
+[2022-11-14 16:55:42,485] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2022-11-14 16:55:42,485] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpek4cq85n
+[2022-11-14 16:55:42,705] multiqc                                            [INFO   ]  Search path : /data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment
+[2022-11-14 16:55:43,994] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 57] // [skipped_no_match: 5] // [skipped_directory_fn_ignore_dirs: 1]
+[2022-11-14 16:55:44,222] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2022-11-14 16:55:44,242] multiqc.modules.picard.picard                      [INFO   ]  Found 6 MarkDuplicates reports
+[2022-11-14 16:55:44,294] multiqc.modules.bowtie2.bowtie2                    [INFO   ]  Found 6 reports
+[2022-11-14 16:55:44,300] multiqc                                            [INFO   ]  Compressing plot data
+[2022-11-14 16:55:44,305] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2022-11-14 16:55:44,305] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2022-11-14 16:55:44,305] multiqc                                            [INFO   ]  Report      : multiqc_report_1.html
+[2022-11-14 16:55:44,305] multiqc                                            [INFO   ]  Data        : multiqc_data_1
+[2022-11-14 16:55:44,305] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpek4cq85n/multiqc_data' to '/data/amccall2/work/SAM/updated_analysis/MB_FB_analysis/alignment/multiqc_data_1'
+[2022-11-14 16:55:44,442] multiqc                                            [INFO   ]  MultiQC complete

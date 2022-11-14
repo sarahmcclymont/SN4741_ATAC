@@ -1,0 +1,13 @@
+Sample	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	Picard_mqc-generalstats-picard-PERCENT_DUPLICATION
+FB1_ATAC.align	97.19	
+FB1_ATAC_sorted		0.05139
+FB2.align	94.42	
+FB2_ATAC_sorted		0.165289
+FB3_ATAC.align	95.58	
+FB3_ATAC_sorted		0.081081
+MB1_ATAC.align	95.02	
+MB1_ATAC_sorted		0.242994
+MB2_ATAC.align	95.46	
+MB2_ATAC_sorted		0.091586
+MB3.align	89.93	
+MB3_ATAC_sorted		0.35907

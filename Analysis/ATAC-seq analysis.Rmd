@@ -172,5 +172,29 @@ exit 0
 
 Approx 70 peaks removed from each sample for overlapping blacklisted regions. Move blacklisted peaks to new folder (blacklisted) in parent dir for easy access. 
 
+# Check libraries for quality: Observe in IGV
+
+```{r, eval = F}
+
+# Convert bedgraphs to TDFs for lower memory usage by IGV
+
+# toTDF.sh
+
+#!/bin/bash
+#SBATCH --job-name=toTDF
+#SBATCH --time=10:00:00
+
+module load Java
+
+for file in *.bdg;
+	do
+	 ~/Software/IGV_2.15.2/igvtools toTDF $file ${file%.bdg} mm10
+done
+
+exit 0
+
+```
+
+Transfer TDF and peak files to look at in IGV. Pileups and their called peaks look reasonable to me. Low background. Visually, not particularly similar to the MB and FB samples. 
 
 

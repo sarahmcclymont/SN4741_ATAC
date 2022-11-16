@@ -257,4 +257,67 @@ dev.off()
 
 Move FRIP data to new folder (FRIP) in parent directory. Again 39-4 is the odd library out. Poor FRiP compared to the other libraries. A problem child is emerging. 
 
+# Check libraries for quality: Fragment length distributions
+
+Calculate the average fragment length from the mapping distance flag in the bam files to see if you have the characteristic nucleosome laddering expected in ATAC-seq libraries.
+
+```{r, eval = F}
+
+# fragment_length.sh
+
+#!/bin/bash
+#SBATCH --job-name=fragment_length
+#SBATCH --time=2:00:00
+
+module load samtools
+
+# Use samtools and a horrible awk script to extract the mapping distance flag from the bams 
+# Run from BAM folder
+
+for file in *.bam;
+	do
+	samtools view $file | awk '$9>0' | cut -f 9 | sort | uniq -c | sort -b -k2,2n | sed -e 's/^[ \t]*//' > ${file%.bam}.fragment_length_count.txt
+done
+
+exit 0
+
+
+# Prep the files for plotting in R - add column for sample name and grouping (37 or 39)
+for file in *count.txt; do 
+  sample=${file%.fragment_length_count.txt} # Keeps sample name
+  grouping=${file:0:2} # Keeps first two characters, which will be "37" and "39" 
+  awk -v OFS='\t' -v a=$sample -v b=$grouping {'print $0,a,b'} $file > ${sample}.fragment.R # Adds the columns
+  done
+  
+# Combine like an rbind in R so have just one file to read into R 
+# Combine 37 and 39 individually and also together
+# cat doesn't take wildcards, so explicitly call files
+  cat 37-1_SN4741_S1.fragment.R 37-2_SN4741_S3.fragment.R 37-3_SN4741_S2.fragment.R 37-4_SN4741_S8.fragment.R > combined.fragment.37.R
+  cat 39-1_SN4741_S4.fragment.R 39-2_SN4741_S7.fragment.R 39-3_SN4741_S5.fragment.R 39-4_SN4741_S6.fragment.R> combined.fragment.39.R
+  cat combined.fragment.37.R combined.fragment.39.R > combined.fragment.all.R
+
+
+
+
+
+# Plot in R 
+R
+library(ggplot2)
+
+# Read in
+fragment_37 <- read.table("combined.fragment.37.R")
+fragment_39 <- read.table("combined.fragment.39.R")
+fragment_all <- read.table("combined.fragment.all.R")
+fragment_all$V4 <- as.factor(fragment_all$V4) # Stops R from recognizing the temperatures as a continuous variable for plotting
+
+# Plot
+pdf("Fragment_length_37_39.pdf")
+ggplot(fragment_37, aes(x = V2, y = V1, colour = V3)) + geom_line(linewidth = 1.05) + xlim(0,1000) + theme_classic()
+ggplot(fragment_39, aes(x = V2, y = V1, colour = V3)) + geom_line(linewidth = 1.05) + xlim(0,1000) + theme_classic()
+ggplot(fragment_all, aes(x = V2, y = V1, colour = V3, linetype = V4)) + geom_line(linewidth = 1.05) + xlim(0,1000) + theme_classic()
+dev.off()
+
+```
+
+Move fragment length data and plots to new folder (fragment_lengths) in parent directory. See characteristic nucleosome laddering + the ~10bp sawtooth pattern of the DNA pitch. 
 

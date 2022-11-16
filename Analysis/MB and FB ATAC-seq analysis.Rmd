@@ -226,4 +226,4 @@ exit 0
 
 ```
 
-Approx 70 peaks removed from each sample for overlapping blacklisted regions. Move blacklisted peaks to new folder (blacklisted) in home dir for easy access. 
+Approx 70 peaks removed from each sample for overlapping blacklisted regions. Move blacklisted peaks to new folder (blacklisted) in parent dir for easy access. 

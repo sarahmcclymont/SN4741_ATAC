@@ -1,0 +1,9 @@
+file	featureType	percent	featureReadCount	totalReadCount
+37-1_SN4741_S1.bam	37-1_SN4741_S1_peaks_blacklisted.bed	71.58	393345631	549485003
+37-2_SN4741_S3.bam	37-2_SN4741_S3_peaks_blacklisted.bed	66.97	107951545	161186123
+37-3_SN4741_S2.bam	37-3_SN4741_S2_peaks_blacklisted.bed	61.26	73641128	120202643
+37-4_SN4741_S8.bam	37-4_SN4741_S8_peaks_blacklisted.bed	67.55	313325333	463858999
+39-1_SN4741_S4.bam	39-1_SN4741_S4_peaks_blacklisted.bed	68.75	102793211	149509236
+39-2_SN4741_S7.bam	39-2_SN4741_S7_peaks_blacklisted.bed	59.47	117687098	197892507
+39-3_SN4741_S5.bam	39-3_SN4741_S5_peaks_blacklisted.bed	65.85	99185555	150621227
+39-4_SN4741_S6.bam	39-4_SN4741_S6_peaks_blacklisted.bed	35.84	47540250	132661174

@@ -1,0 +1,2 @@
+file	featureType	percent	featureReadCount	totalReadCount
+MB2_ATAC.bam	MB2_ATAC_peaks_blacklisted.bed	36.61	20120342	54956762

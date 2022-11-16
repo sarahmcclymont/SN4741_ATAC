@@ -1,0 +1,2 @@
+file	featureType	percent	featureReadCount	totalReadCount
+FB1_ATAC.bam	FB1_ATAC_peaks_blacklisted.bed	24.41	7994892	32751741

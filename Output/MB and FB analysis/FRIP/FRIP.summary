@@ -1,0 +1,7 @@
+file	featureType	percent	featureReadCount	totalReadCount
+FB1_ATAC.bam	FB1_ATAC_peaks_blacklisted.bed	24.41	7994892	32751741
+FB2_ATAC.bam	FB2_ATAC_peaks_blacklisted.bed	23.57	11253961	47756784
+FB3_ATAC.bam	FB3_ATAC_peaks_blacklisted.bed	24.18	9937386	41093311
+MB1_ATAC.bam	MB1_ATAC_peaks_blacklisted.bed	28.42	14834541	52192809
+MB2_ATAC.bam	MB2_ATAC_peaks_blacklisted.bed	36.61	20120342	54956762
+MB3_ATAC.bam	MB3_ATAC_peaks_blacklisted.bed	 7.60	2922286	38454177

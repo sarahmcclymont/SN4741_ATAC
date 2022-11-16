@@ -1,0 +1,660 @@
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:12] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:12] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:44623): dconf-CRITICAL **: 13:12:05.067: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.068: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.068: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.068: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.068: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.103: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.104: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.104: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.104: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44623): dconf-CRITICAL **: 13:12:05.104: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr1
+INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr10
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr11
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr12
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr13
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr14
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr15
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr16
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr17
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr18
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr19
+30.0% 
+INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr2
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr3
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr4
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr5
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr6
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr7
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr8
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr9
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chrX
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chrY
+60.0% 
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:12] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:12] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:44650): dconf-CRITICAL **: 13:12:09.626: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.632: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.632: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.632: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.632: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.669: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.669: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.669: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.670: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44650): dconf-CRITICAL **: 13:12:09.670: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr1
+....INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr10
+....INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr11
+.10.0% 
+INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr12
+...INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr13
+...INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr14
+...INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr15
+20.0% 
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr16
+...INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr17
+..INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr18
+..INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr19
+.INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr2
+30.0% 
+....INFO [Nov 16,2022 13:12] [Preprocessor] Processing chromosome chr3
+....INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr4
+.40.0% 
+..INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr5
+...INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr6
+....INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr7
+50.0% 
+..INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr8
+..INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr9
+...INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chrX
+..60.0% 
+INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chrY
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:13] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:13] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:44763): dconf-CRITICAL **: 13:13:30.552: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.552: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.552: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.552: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.553: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.587: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.588: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.588: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.588: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44763): dconf-CRITICAL **: 13:13:30.589: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr1
+INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr10
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr11
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr12
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr13
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr14
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr15
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr16
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr17
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr18
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr19
+30.0% 
+INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr2
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr3
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr4
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr5
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr6
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr7
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr8
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr9
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chrX
+.INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chrY
+60.0% 
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:13] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:13] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:44790): dconf-CRITICAL **: 13:13:34.534: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.535: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.535: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.535: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.535: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.556: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.556: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.556: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.557: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44790): dconf-CRITICAL **: 13:13:34.557: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr1
+.....INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr10
+...INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr11
+.10.0% 
+INFO [Nov 16,2022 13:13] [Preprocessor] Processing chromosome chr12
+...INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr13
+...INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr14
+...INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr15
+20.0% 
+.INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr16
+...INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr17
+..INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr18
+..INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr19
+.30.0% 
+INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr2
+....INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr3
+....INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr4
+.40.0% 
+..INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr5
+...INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr6
+....INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr7
+50.0% 
+..INFO [Nov 16,2022 13:14] [Preprocessor] Processing chromosome chr8
+..INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr9
+...INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chrX
+..60.0% 
+INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chrY
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:15] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:15] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:44916): dconf-CRITICAL **: 13:15:09.821: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.822: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.822: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.822: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.822: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.856: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.857: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.857: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.857: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44916): dconf-CRITICAL **: 13:15:09.858: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr1
+INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr10
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr11
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr12
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr13
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr14
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr15
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr16
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr17
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr18
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr19
+30.0% 
+INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr2
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr3
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr4
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr5
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr6
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr7
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr8
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr9
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chrX
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chrY
+60.0% 
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:15] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:15] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:44943): dconf-CRITICAL **: 13:15:14.003: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.004: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.004: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.004: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.004: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.022: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.022: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.022: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.023: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:44943): dconf-CRITICAL **: 13:15:14.023: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr1
+....INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr10
+....INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr11
+.10.0% 
+INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr12
+...INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr13
+...INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr14
+...INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr15
+20.0% 
+.INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr16
+...INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr17
+..INFO [Nov 16,2022 13:15] [Preprocessor] Processing chromosome chr18
+..INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr19
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr2
+30.0% 
+....INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr3
+....INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr4
+.40.0% 
+..INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr5
+...INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr6
+....INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr7
+50.0% 
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr8
+...INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr9
+...INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chrX
+..60.0% 
+INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chrY
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:16] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:16] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:45101): dconf-CRITICAL **: 13:16:46.801: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.801: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.801: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.801: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.801: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.845: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.846: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.846: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.847: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45101): dconf-CRITICAL **: 13:16:46.847: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr1
+INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr10
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr11
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr12
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr13
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr14
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr15
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr16
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr17
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr18
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr19
+30.0% 
+INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr2
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr3
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr4
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr5
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr6
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr7
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr8
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr9
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chrX
+.INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chrY
+60.0% 
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:16] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:16] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:45133): dconf-CRITICAL **: 13:16:51.615: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.616: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.616: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.616: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.616: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.655: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.655: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.656: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.656: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45133): dconf-CRITICAL **: 13:16:51.656: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:16] [Preprocessor] Processing chromosome chr1
+....INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr10
+....INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr11
+.10.0% 
+INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr12
+...INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr13
+...INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr14
+...INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr15
+20.0% 
+.INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr16
+..INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr17
+...INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr18
+..INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr19
+.INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr2
+30.0% 
+....INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr3
+....INFO [Nov 16,2022 13:17] [Preprocessor] Processing chromosome chr4
+.40.0% 
+..INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr5
+...INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr6
+...INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr7
+.50.0% 
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr8
+...INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr9
+...INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chrX
+..60.0% 
+INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chrY
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:18] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:18] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:45285): dconf-CRITICAL **: 13:18:29.780: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.780: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.780: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.780: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.780: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.834: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.835: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.835: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.835: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45285): dconf-CRITICAL **: 13:18:29.836: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr1
+INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr10
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr11
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr12
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr13
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr14
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr15
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr16
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr17
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr18
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr19
+30.0% 
+INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr2
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr3
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr4
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr5
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr6
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr7
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr8
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr9
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chrX
+.INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chrY
+60.0% 
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:18] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:18] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:45315): dconf-CRITICAL **: 13:18:34.561: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.562: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.562: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.562: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.562: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.613: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.613: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.613: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.614: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45315): dconf-CRITICAL **: 13:18:34.614: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr1
+....INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr10
+....INFO [Nov 16,2022 13:18] [Preprocessor] Processing chromosome chr11
+.10.0% 
+INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr12
+...INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr13
+...INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr14
+...INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr15
+20.0% 
+.INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr16
+..INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr17
+...INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr18
+..INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr19
+.INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr2
+30.0% 
+....INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr3
+....INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr4
+.40.0% 
+..INFO [Nov 16,2022 13:19] [Preprocessor] Processing chromosome chr5
+...INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr6
+....INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr7
+50.0% 
+..INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr8
+...INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr9
+..INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chrX
+..60.0% 
+INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chrY
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:20] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:20] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:45479): dconf-CRITICAL **: 13:20:31.620: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.620: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.620: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.620: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.620: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.670: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.670: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.671: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.671: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45479): dconf-CRITICAL **: 13:20:31.671: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr1
+INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr10
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr11
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr12
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr13
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr14
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr15
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr16
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr17
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr18
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr19
+30.0% 
+INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr2
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr3
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr4
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr5
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr6
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr7
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr8
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr9
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chrX
+.INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chrY
+60.0% 
+100.0% 
+Done
+Using system JDK.
+WARNING: package com.sun.java.swing.plaf.windows not in java.desktop
+WARNING: package sun.awt.windows not in java.desktop
+openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment 18.9 (build 11.0.2+9)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+INFO [Nov 16,2022 13:20] [Globals] Development mode is enabled
+INFO [Nov 16,2022 13:20] [GenomeManager] Loading genome: /home/ext-smcclymont/Software/IGV_2.15.2/lib/genomes/mm10.chrom.sizes
+
+(process:45511): dconf-CRITICAL **: 13:20:35.690: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.690: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.690: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.691: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.691: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.742: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.742: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.743: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.743: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+
+(process:45511): dconf-CRITICAL **: 13:20:35.743: unable to create directory '/run/user/2690/dconf': Permission denied.  dconf will not work properly.
+INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr1
+....INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr10
+...INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr11
+..10.0% 
+INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr12
+...INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr13
+..INFO [Nov 16,2022 13:20] [Preprocessor] Processing chromosome chr14
+...INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr15
+.20.0% 
+.INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr16
+..INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr17
+..INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr18
+...INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr19
+.INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr2
+30.0% 
+...INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr3
+....INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr4
+..40.0% 
+.INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr5
+...INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr6
+....INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr7
+.50.0% 
+.INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr8
+...INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chr9
+...INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chrX
+..60.0% 
+INFO [Nov 16,2022 13:21] [Preprocessor] Processing chromosome chrY
+100.0% 
+Done

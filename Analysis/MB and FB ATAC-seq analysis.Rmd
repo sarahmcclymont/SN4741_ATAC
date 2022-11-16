@@ -348,10 +348,10 @@ for file in *count.txt; do
   cat FB1.fragment.R FB2.fragment.R FB3.fragment.R MB1.fragment.R MB2.fragment.R MB3.fragment.R > combined.fragment.R
   
 # Plot in R 
-
 R
 library(ggplot2)
 
+# Read in
 combined <- read.table("combined.fragment.R")
 
 pdf("Fragment_size_MB.pdf")

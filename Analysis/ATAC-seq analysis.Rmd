@@ -195,6 +195,5 @@ exit 0
 
 ```
 
-Transfer TDF and peak files to look at in IGV. Pileups and their called peaks look reasonable to me. Low background. Visually, not particularly similar to the MB and FB samples. 
-
+Move TDF files to new folder (toTDF) in parent directory. Transfer TDF and peak files to look at in IGV on laptop. Compare with SN4741 data. Pileups and their called peaks look reasonable to me. Low background. Visually, not particularly similar to the MB and FB samples. 
 

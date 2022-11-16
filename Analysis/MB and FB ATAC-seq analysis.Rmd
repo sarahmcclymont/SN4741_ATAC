@@ -251,4 +251,65 @@ exit 0
 
 ```
 
-Transfer TDF and peak files to look at in IGV. Compare with SN4741 data. 
+Move TDF files to new folder (toTDF) in parent directory. Transfer TDF and peak files to look at in IGV on laptop. Compare with SN4741 data. 
+
+# Check libraries for quality: FRiP
+
+The fraction of reads in peaks is a good metric of the background level of the libraries, which would indicate if the libraries are overdigested. Use DeepTools to calculate FRiP. DeepTools will produce one plot per library, but we will combine the library FRiPs and display on one plot.
+
+```{r, eval = F}
+
+# FRIP.sh
+
+#!/bin/bash
+#SBATCH --job-name=FRIP
+#SBATCH --time=10:00:00
+#SBATCH -N 1
+#SBATCH -n 12
+
+# Use deeptools v3.5.1 to plot enrichment of reads (bams) over the blacklisted peaks - once per lib
+# Run from bams folder
+
+module load libjpeg
+module load bzip2
+
+for file in *.bam; do
+  plotEnrichment -b $file --BED ../blacklisted/${file%.bam}_peaks_blacklisted.bed -p 12 --outRawCounts ${file%.bam}.counts -v
+done
+
+exit 0
+
+# Take the counts files and plot the FRiP on one graph.
+
+# Combine the FRIP counts into one file
+less *.counts > temp
+
+# It looks ugly because it kept the header from each file. Remove with awk (by keeping only even numbered rows)
+awk 'NR %2==0' temp > FRIP.summary
+
+# Add back in header to help with R so it's nicer looking
+sed -i "1i $(head -n 1 temp)" FRIP.summary
+rm temp
+
+# Read into R and plot
+module load r
+R #4.0.2
+
+library(ggplot2)
+
+# Read in
+FRIP <- read.table("FRIP.summary", header = T)
+
+# Bar plot
+pdf(file = "MBFB_FRIP.pdf")
+p <- ggplot(data=FRIP, aes(x=file, y=percent)) +
+  geom_bar(stat="identity") + 
+  coord_flip() + 
+  theme_classic()
+p
+dev.off()
+
+```
+
+Move FRIP data to new folder (FRIP) in parent directory. 
+

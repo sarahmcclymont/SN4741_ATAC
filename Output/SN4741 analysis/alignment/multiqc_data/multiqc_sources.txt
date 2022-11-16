@@ -1,0 +1,25 @@
+Module	Section	Sample Name	Source
+MACS2	all_sections	37-4_SN4741_S8	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-4_SN4741_S8_peaks.xls
+MACS2	all_sections	39-4_SN4741_S6	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-4_SN4741_S6_peaks.xls
+MACS2	all_sections	37-1_SN4741_S1	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-1_SN4741_S1_peaks.xls
+MACS2	all_sections	39-1_SN4741_S4	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-1_SN4741_S4_peaks.xls
+MACS2	all_sections	37-2_SN4741_S3	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-2_SN4741_S3_peaks.xls
+MACS2	all_sections	39-3_SN4741_S5	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-3_SN4741_S5_peaks.xls
+MACS2	all_sections	37-3_SN4741_S2	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-3_SN4741_S2_peaks.xls
+MACS2	all_sections	39-2_SN4741_S7	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-2_SN4741_S7_peaks.xls
+Picard	DuplicationMetrics	39-3_SN4741_S5_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-3_SN4741_S5_markdup.stats
+Picard	DuplicationMetrics	37-3_SN4741_S2_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-3_SN4741_S2_markdup.stats
+Picard	DuplicationMetrics	39-1_SN4741_S4_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-1_SN4741_S4_markdup.stats
+Picard	DuplicationMetrics	37-2_SN4741_S3_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-2_SN4741_S3_markdup.stats
+Picard	DuplicationMetrics	37-1_SN4741_S1_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-1_SN4741_S1_markdup.stats
+Picard	DuplicationMetrics	37-4_SN4741_S8_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-4_SN4741_S8_markdup.stats
+Picard	DuplicationMetrics	39-2_SN4741_S7_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-2_SN4741_S7_markdup.stats
+Picard	DuplicationMetrics	39-4_SN4741_S6_sorted	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-4_SN4741_S6_markdup.stats
+Bowtie 2 / HiSAT2	all_sections	37-3_SN4741_S2.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-3_SN4741_S2.align.stats
+Bowtie 2 / HiSAT2	all_sections	37-1_SN4741_S1.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-1_SN4741_S1.align.stats
+Bowtie 2 / HiSAT2	all_sections	37-2_SN4741_S3.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-2_SN4741_S3.align.stats
+Bowtie 2 / HiSAT2	all_sections	39-1_SN4741_S4.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-1_SN4741_S4.align.stats
+Bowtie 2 / HiSAT2	all_sections	37-4_SN4741_S8.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/37-4_SN4741_S8.align.stats
+Bowtie 2 / HiSAT2	all_sections	39-4_SN4741_S6.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-4_SN4741_S6.align.stats
+Bowtie 2 / HiSAT2	all_sections	39-2_SN4741_S7.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-2_SN4741_S7.align.stats
+Bowtie 2 / HiSAT2	all_sections	39-3_SN4741_S5.align	/data/amccall2/work/SAM/updated_analysis/SN4741_analysis/39-3_SN4741_S5.align.stats

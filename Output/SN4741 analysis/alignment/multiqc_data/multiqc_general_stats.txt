@@ -1,0 +1,25 @@
+Sample	MACS2_mqc-generalstats-macs2-d	MACS2_mqc-generalstats-macs2-treatment_redundant_rate	MACS2_mqc-generalstats-macs2-peak_count	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	Picard_mqc-generalstats-picard-PERCENT_DUPLICATION
+37-1_SN4741_S1	319.0	0.37	84354		
+37-1_SN4741_S1.align				98.27	
+37-1_SN4741_S1_sorted					0.376218
+37-2_SN4741_S3	287.0	0.19	76984		
+37-2_SN4741_S3.align				97.93	
+37-2_SN4741_S3_sorted					0.190388
+37-3_SN4741_S2	267.0	0.15	74026		
+37-3_SN4741_S2.align				98.11	
+37-3_SN4741_S2_sorted					0.158234
+37-4_SN4741_S8	278.0	0.31	92013		
+37-4_SN4741_S8.align				98.43	
+37-4_SN4741_S8_sorted					0.31087
+39-1_SN4741_S4	307.0	0.18	65718		
+39-1_SN4741_S4.align				97.82	
+39-1_SN4741_S4_sorted					0.186844
+39-2_SN4741_S7	300.0	0.26	65232		
+39-2_SN4741_S7.align				97.87	
+39-2_SN4741_S7_sorted					0.267962
+39-3_SN4741_S5	278.0	0.2	68410		
+39-3_SN4741_S5.align				98.33	
+39-3_SN4741_S5_sorted					0.203948
+39-4_SN4741_S6	279.0	0.19	54845		
+39-4_SN4741_S6.align				97.88	
+39-4_SN4741_S6_sorted					0.195671

@@ -9,15 +9,6 @@ output: pdf_document
 
 Generated ATAC-seq in the SN4741 cell line at both the permissive and restrictive temperatures (n=4/temperature). Want to see how the chromatin differs between the two states. Also want to consider how well they recapitulate the ATAC-seq data from primary E15.5 mouse dopaminergic neurons from both the forebrain and midbrain, which are presumably the cell type this cell line should be modelling.
 
-# File location
-
-```{r, eval = F}
-
-pwd
-# /data/amccall2/work/SAM/SN4741_analysis/
-
-```
-
 # Pre-alignment QC
 
 Use FastQC to check library quality. Summarize FastQC reports with MultiQC and check the generated HTML for sequencing quality issues.

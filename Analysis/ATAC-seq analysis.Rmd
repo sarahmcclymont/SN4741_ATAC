@@ -281,7 +281,6 @@ done
 
 exit 0
 
-
 # Prep the files for plotting in R - add column for sample name and grouping (37 or 39)
 for file in *count.txt; do 
   sample=${file%.fragment_length_count.txt} # Keeps sample name
@@ -295,10 +294,6 @@ for file in *count.txt; do
   cat 37-1_SN4741_S1.fragment.R 37-2_SN4741_S3.fragment.R 37-3_SN4741_S2.fragment.R 37-4_SN4741_S8.fragment.R > combined.fragment.37.R
   cat 39-1_SN4741_S4.fragment.R 39-2_SN4741_S7.fragment.R 39-3_SN4741_S5.fragment.R 39-4_SN4741_S6.fragment.R> combined.fragment.39.R
   cat combined.fragment.37.R combined.fragment.39.R > combined.fragment.all.R
-
-
-
-
 
 # Plot in R 
 R
@@ -321,3 +316,63 @@ dev.off()
 
 Move fragment length data and plots to new folder (fragment_lengths) in parent directory. See characteristic nucleosome laddering + the ~10bp sawtooth pattern of the DNA pitch. 
 
+# Check libraries for biological relevance: Enrichment of reads at promoters
+
+Promoters are generally open. We should expect to see enrichment of reads over top of promoters. Use DeepTools to check the pileup of reads over top of promoters on a genome wide basis.
+
+## Download mm10 promoters 
+
+Defining a promter as a transcriptional start site plus or minus 1000 basepairs. Use UCSC table browser to get the TSSs and then create a bed file of the surrounding 1000 bp.
+
+```{r, eval = F}
+
+# UCSC table browser: mm10, genes and gene predictions, NCBI RefSeq, refGene table, whole genome, selected fields (chrom, strand, txStart, txEnd, name2)
+# Save as: mm10_RefSeq_txstart_txend
+
+# Use R to rearrange columns, when on the negative strand to use the txend as the TSS, and remove duplicate TSSs
+mm10_TSS <- read.table("mm10_RefSeq_txstart_txend")
+colnames(mm10_TSS) <- c("chr", "strand", "start", "end", "geneID")
+mm10_TSS$TSS <- ifelse(mm10_TSS$strand == "+", mm10_TSS$start, mm10_TSS$end) # If positive strand, TSS is the start site, otherwise its the end column
+mm10_TSS$TSSplus <- mm10_TSS$TSS + 1000
+mm10_TSS$TSSminus <- mm10_TSS$TSS - 1000
+mm10_TSS$promBED <- paste0(mm10_TSS$chr, ":", mm10_TSS$TSSminus, "-", mm10_TSS$TSSplus) # Create a column of the chr:start-end so can deduplicate identical start sites
+mm10_TSS <- mm10_TSS[!duplicated(mm10_TSS$promBED),] # deduplicate
+
+mm10_proms <- mm10_TSS[,c(1,8,7,5,6,2) ] # rearrange to bed format, spoof score with TSS
+write.table(x = mm10_proms, "mm10_promoters_1000bp.bed", quote = F, row.names = F, col.names = F, sep = "\t")
+
+```
+
+## Enrichment of reads at promoters 
+
+```{r, eval = F}
+
+# promoter_enrichment.sh
+
+#!/bin/bash
+#SBATCH --job-name=enrich_proms
+#SBATCH --time=15:00:00
+#SBATCH -N 1
+#SBATCH -n 12
+
+# Use deeptools v3.5.1 to plot enrichment of reads (bams) over the promoters
+# Run from bams folder
+
+module load libjpeg
+module load bzip2
+
+promoters=/home/ext-smcclymont/SN4741_paper/mm10_promoters_1000bp.bed
+
+for file in *.bam; do
+  sample=${file:0:4} # Just keeps the sample name with none of the extra ("SN4741_S#) that has been carrying through; keep it clean
+	bamCoverage -p 12 -b $file -o ${sample}.bw
+	computeMatrix reference-point -p 12 --referencePoint center -b 1000 -a 1000 -bs 50 -S ${sample}.bw -R $promoters -out ${sample}.matrix
+	plotHeatmap --matrixFile ${sample}.matrix --outFileName ${sample}.heatmap.pdf --heatmapHeight 5 --heatmapWidth 5 
+done
+
+exit 0
+
+```
+
+All libraries look good - all have nice enrichment of reads over top of promoters. Have this weird blip downstream of TSS but it's present in all samples, so not too worried. Move files to new directory (promoter_enrichment) in parent directory.  
+ 

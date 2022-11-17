@@ -1,0 +1,808 @@
+bamFilesList: ['37-1_SN4741_S1.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['37-2_SN4741_S3.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['37-3_SN4741_S2.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['37-4_SN4741_S8.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['39-1_SN4741_S4.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['39-2_SN4741_S7.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['39-3_SN4741_S5.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.
+bamFilesList: ['39-4_SN4741_S6.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 12
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Skipping Pisd-ps3, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041034, due to being absent in the computeMatrix output.
+Skipping LOC102638047, due to being absent in the computeMatrix output.
+Skipping Gm2619_r1, due to being absent in the computeMatrix output.
+Skipping LOC100041877, due to being absent in the computeMatrix output.
+Skipping Csprs, due to being absent in the computeMatrix output.
+Skipping LOC664787, due to being absent in the computeMatrix output.
+Skipping LOC102633783_r2, due to being absent in the computeMatrix output.
+Skipping LOC100041877_r1, due to being absent in the computeMatrix output.
+Skipping Dhrsx, due to being absent in the computeMatrix output.
+Skipping Gm13304_r2, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r5, due to being absent in the computeMatrix output.
+Skipping Gm52989_r2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r3, due to being absent in the computeMatrix output.
+Skipping Gm7819_r2, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r2, due to being absent in the computeMatrix output.
+Skipping Gm13304_r3, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r6, due to being absent in the computeMatrix output.
+Skipping Gm20878_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a4_r1, due to being absent in the computeMatrix output.
+Skipping Fam205a2_r7, due to being absent in the computeMatrix output.
+Skipping LOC100862220_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps1_r2, due to being absent in the computeMatrix output.
+Skipping Vmn2r122, due to being absent in the computeMatrix output.
+Skipping 4933409K07Rik_r3, due to being absent in the computeMatrix output.
+Skipping Gm13305_r2, due to being absent in the computeMatrix output.
+Skipping LOC100861978_r2, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r2, due to being absent in the computeMatrix output.
+Skipping Gm10591_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r3, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r4, due to being absent in the computeMatrix output.
+Skipping Il11ra2, due to being absent in the computeMatrix output.
+Skipping Gm21104_r4, due to being absent in the computeMatrix output.
+Skipping Gm7819_r3, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r6, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r2, due to being absent in the computeMatrix output.
+Skipping Gm52989_r3, due to being absent in the computeMatrix output.
+Skipping Gm21104_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19-ps2_r7, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r5, due to being absent in the computeMatrix output.
+Skipping Ccl19_r1, due to being absent in the computeMatrix output.
+Skipping Ccl27b_r6, due to being absent in the computeMatrix output.
+Skipping Gm1987_r1, due to being absent in the computeMatrix output.
+Skipping Il11ra2_r1, due to being absent in the computeMatrix output.
+Skipping Gm13305_r3, due to being absent in the computeMatrix output.
+Skipping Gm2192_r1, due to being absent in the computeMatrix output.
+Skipping LOC100861969_r3, due to being absent in the computeMatrix output.
+Skipping Ccl21a_r1, due to being absent in the computeMatrix output.
+Skipping E330014E10Rik_r1, due to being absent in the computeMatrix output.
+Skipping Gm3286_r3, due to being absent in the computeMatrix output.
+Skipping Pramel39_r2, due to being absent in the computeMatrix output.
+Skipping Pramel50_r2, due to being absent in the computeMatrix output.
+Skipping Pramel42_r1, due to being absent in the computeMatrix output.
+Skipping Pramel42_r2, due to being absent in the computeMatrix output.
+Skipping Pramel44_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r2, due to being absent in the computeMatrix output.
+Skipping Gm16367_r2, due to being absent in the computeMatrix output.
+Skipping Pramel39_r3, due to being absent in the computeMatrix output.
+Skipping Gm16513_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r3, due to being absent in the computeMatrix output.
+Skipping Gm16367_r4, due to being absent in the computeMatrix output.
+Skipping Gm6367_r1, due to being absent in the computeMatrix output.
+Skipping Gm16513_r4, due to being absent in the computeMatrix output.
+Skipping Gm16367_r5, due to being absent in the computeMatrix output.
+Skipping Gm16367_r6, due to being absent in the computeMatrix output.
+Skipping Vmn1r62_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r186_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r187_r1, due to being absent in the computeMatrix output.
+Skipping Vmn1r63_r1, due to being absent in the computeMatrix output.
+Skipping Tmlhe, due to being absent in the computeMatrix output.
+Skipping Vamp7, due to being absent in the computeMatrix output.
+Skipping Spry3, due to being absent in the computeMatrix output.
+Skipping Zf12, due to being absent in the computeMatrix output.
+Skipping LOC100861691_r5, due to being absent in the computeMatrix output.

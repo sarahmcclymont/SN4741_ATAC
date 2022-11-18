@@ -1,0 +1,2572 @@
+INFO  @ Fri, 18 Nov 2022 15:13:27: number of bed files: 3 
+INFO  @ Fri, 18 Nov 2022 15:13:27: extract phastcons scores using /project/Cistrome/CistromeAP/galaxy_database/files/001/773/dataset_1773725.dat 
+INFO  @ Fri, 18 Nov 2022 15:13:27: read bed file... 
+INFO  @ Fri, 18 Nov 2022 15:13:27: processing chromosome: chrY 
+no data in region chrY:139336-142336 in chrY.bw
+
+no data in region chrY:141689-144689 in chrY.bw
+
+no data in region chrY:259864-262864 in chrY.bw
+
+no data in region chrY:807618-810618 in chrY.bw
+
+no data in region chrY:4072100-4075100 in chrY.bw
+
+no data in region chrY:4149636-4152636 in chrY.bw
+
+no data in region chrY:4153147-4156147 in chrY.bw
+
+no data in region chrY:5756126-5759126 in chrY.bw
+
+no data in region chrY:5875587-5878587 in chrY.bw
+
+no data in region chrY:6283935-6286935 in chrY.bw
+
+no data in region chrY:6527494-6530494 in chrY.bw
+
+no data in region chrY:6529313-6532313 in chrY.bw
+
+no data in region chrY:6532824-6535824 in chrY.bw
+
+no data in region chrY:6545042-6548042 in chrY.bw
+
+no data in region chrY:6588440-6591440 in chrY.bw
+
+no data in region chrY:6591395-6594395 in chrY.bw
+
+no data in region chrY:6670902-6673902 in chrY.bw
+
+no data in region chrY:6686320-6689320 in chrY.bw
+
+no data in region chrY:6693050-6696050 in chrY.bw
+
+no data in region chrY:6694895-6697895 in chrY.bw
+
+no data in region chrY:6723627-6726627 in chrY.bw
+
+no data in region chrY:6724950-6727950 in chrY.bw
+
+no data in region chrY:6731422-6734422 in chrY.bw
+
+no data in region chrY:6732558-6735558 in chrY.bw
+
+no data in region chrY:6734427-6737427 in chrY.bw
+
+no data in region chrY:6740966-6743966 in chrY.bw
+
+no data in region chrY:6742978-6745978 in chrY.bw
+
+no data in region chrY:6772315-6775315 in chrY.bw
+
+no data in region chrY:6781882-6784882 in chrY.bw
+
+no data in region chrY:6783759-6786759 in chrY.bw
+
+no data in region chrY:6785423-6788423 in chrY.bw
+
+no data in region chrY:6787310-6790310 in chrY.bw
+
+no data in region chrY:6793379-6796379 in chrY.bw
+
+no data in region chrY:6797380-6800380 in chrY.bw
+
+no data in region chrY:6799704-6802704 in chrY.bw
+
+no data in region chrY:6802828-6805828 in chrY.bw
+
+no data in region chrY:6806648-6809648 in chrY.bw
+
+no data in region chrY:6812135-6815135 in chrY.bw
+
+no data in region chrY:6813853-6816853 in chrY.bw
+
+no data in region chrY:6987655-6990655 in chrY.bw
+
+no data in region chrY:7006018-7009018 in chrY.bw
+
+no data in region chrY:7007821-7010821 in chrY.bw
+
+no data in region chrY:7009739-7012739 in chrY.bw
+
+no data in region chrY:7042438-7045438 in chrY.bw
+
+no data in region chrY:8438849-8441849 in chrY.bw
+
+no data in region chrY:10353547-10356547 in chrY.bw
+
+no data in region chrY:10420348-10423348 in chrY.bw
+
+no data in region chrY:42511081-42514081 in chrY.bw
+
+no data in region chrY:89442551-89445551 in chrY.bw
+
+no data in region chrY:90727412-90730412 in chrY.bw
+
+no data in region chrY:90730197-90733197 in chrY.bw
+
+no data in region chrY:90733412-90736412 in chrY.bw
+
+INFO  @ Fri, 18 Nov 2022 15:13:28: processing chromosome: chr14 
+no data in region chr14:4036351-4039351 in chr14.bw
+
+no data in region chr14:4038362-4041362 in chr14.bw
+
+no data in region chr14:4287363-4290363 in chr14.bw
+
+no data in region chr14:4805376-4808376 in chr14.bw
+
+no data in region chr14:4831061-4834061 in chr14.bw
+
+no data in region chr14:4895583-4898583 in chr14.bw
+
+no data in region chr14:4926044-4929044 in chr14.bw
+
+no data in region chr14:6150544-6153544 in chr14.bw
+
+no data in region chr14:6204243-6207243 in chr14.bw
+
+no data in region chr14:6219262-6222262 in chr14.bw
+
+no data in region chr14:6246193-6249193 in chr14.bw
+
+no data in region chr14:6259390-6262390 in chr14.bw
+
+no data in region chr14:6276264-6279264 in chr14.bw
+
+no data in region chr14:6480910-6483910 in chr14.bw
+
+no data in region chr14:6483408-6486408 in chr14.bw
+
+no data in region chr14:6497901-6500901 in chr14.bw
+
+no data in region chr14:6811785-6814785 in chr14.bw
+
+no data in region chr14:6906418-6909418 in chr14.bw
+
+no data in region chr14:6910601-6913601 in chr14.bw
+
+no data in region chr14:6916882-6919882 in chr14.bw
+
+no data in region chr14:6931855-6934855 in chr14.bw
+
+no data in region chr14:6936661-6939661 in chr14.bw
+
+no data in region chr14:7328063-7331063 in chr14.bw
+
+no data in region chr14:7333838-7336838 in chr14.bw
+
+no data in region chr14:7335928-7338928 in chr14.bw
+
+no data in region chr14:7341593-7344593 in chr14.bw
+
+no data in region chr14:7349698-7352698 in chr14.bw
+
+no data in region chr14:7394645-7397645 in chr14.bw
+
+no data in region chr14:7399097-7402097 in chr14.bw
+
+no data in region chr14:7414099-7417099 in chr14.bw
+
+no data in region chr14:13639476-13642476 in chr14.bw
+
+no data in region chr14:19585894-19588894 in chr14.bw
+
+no data in region chr14:41328323-41331323 in chr14.bw
+
+no data in region chr14:41470281-41473281 in chr14.bw
+
+no data in region chr14:41484938-41487938 in chr14.bw
+
+no data in region chr14:41487613-41490613 in chr14.bw
+
+no data in region chr14:41501818-41504818 in chr14.bw
+
+no data in region chr14:41523614-41526614 in chr14.bw
+
+no data in region chr14:41566250-41569250 in chr14.bw
+
+no data in region chr14:41586735-41589735 in chr14.bw
+
+no data in region chr14:41627642-41630642 in chr14.bw
+
+no data in region chr14:41631337-41634337 in chr14.bw
+
+no data in region chr14:41655910-41658910 in chr14.bw
+
+no data in region chr14:41960418-41963418 in chr14.bw
+
+no data in region chr14:41973317-41976317 in chr14.bw
+
+no data in region chr14:42163458-42166458 in chr14.bw
+
+no data in region chr14:42172301-42175301 in chr14.bw
+
+no data in region chr14:42186725-42189725 in chr14.bw
+
+no data in region chr14:42188216-42191216 in chr14.bw
+
+no data in region chr14:42215404-42218404 in chr14.bw
+
+no data in region chr14:42503679-42506679 in chr14.bw
+
+no data in region chr14:42720573-42723573 in chr14.bw
+
+no data in region chr14:42810059-42813059 in chr14.bw
+
+no data in region chr14:43072935-43075935 in chr14.bw
+
+no data in region chr14:43080746-43083746 in chr14.bw
+
+no data in region chr14:43269078-43272078 in chr14.bw
+
+no data in region chr14:43295132-43298132 in chr14.bw
+
+no data in region chr14:43329216-43332216 in chr14.bw
+
+no data in region chr14:43334543-43337543 in chr14.bw
+
+no data in region chr14:43574888-43577888 in chr14.bw
+
+no data in region chr14:43645977-43648977 in chr14.bw
+
+no data in region chr14:43679736-43682736 in chr14.bw
+
+no data in region chr14:43810643-43813643 in chr14.bw
+
+no data in region chr14:50060669-50063669 in chr14.bw
+
+no data in region chr14:51244867-51247867 in chr14.bw
+
+no data in region chr14:51480391-51483391 in chr14.bw
+
+no data in region chr14:124800398-124803398 in chr14.bw
+
+INFO  @ Fri, 18 Nov 2022 15:13:40: processing chromosome: chrX 
+no data in region chrX:54178436-54181436 in chrX.bw
+
+no data in region chrX:61813594-61816594 in chrX.bw
+
+no data in region chrX:66493278-66496278 in chrX.bw
+
+no data in region chrX:74878515-74881515 in chrX.bw
+
+no data in region chrX:94864776-94867776 in chrX.bw
+
+no data in region chrX:94889450-94892450 in chrX.bw
+
+no data in region chrX:94913384-94916384 in chrX.bw
+
+no data in region chrX:103024751-103027751 in chrX.bw
+
+no data in region chrX:123102335-123105335 in chrX.bw
+
+no data in region chrX:123723496-123726496 in chrX.bw
+
+no data in region chrX:124847425-124850425 in chrX.bw
+
+no data in region chrX:154712664-154715664 in chrX.bw
+
+INFO  @ Fri, 18 Nov 2022 15:13:46: processing chromosome: chr15 
+no data in region chr15:5024643-5027643 in chr15.bw
+
+no data in region chr15:14844765-14847765 in chr15.bw
+
+no data in region chr15:15088671-15091671 in chr15.bw
+
+no data in region chr15:19862233-19865233 in chr15.bw
+
+no data in region chr15:33835213-33838213 in chr15.bw
+
+no data in region chr15:34015255-34018255 in chr15.bw
+
+no data in region chr15:35181071-35184071 in chr15.bw
+
+INFO  @ Fri, 18 Nov 2022 15:13:54: processing chromosome: chr17 
+no data in region chr17:21368761-21371761 in chr17.bw
+
+no data in region chr17:35414150-35417150 in chr17.bw
+
+no data in region chr17:35459312-35462312 in chr17.bw
+
+no data in region chr17:39901760-39904760 in chr17.bw
+
+no data in region chr17:40070660-40073660 in chr17.bw
+
+no data in region chr17:40109939-40112939 in chr17.bw
+
+no data in region chr17:40156616-40159616 in chr17.bw
+
+no data in region chr17:48280368-48283368 in chr17.bw
+
+no data in region chr17:55930531-55933531 in chr17.bw
+
+no data in region chr17:91565336-91568336 in chr17.bw
+
+no data in region chr17:94666522-94669522 in chr17.bw
+
+no data in region chr17:94832882-94835882 in chr17.bw
+
+INFO  @ Fri, 18 Nov 2022 15:14:02: processing chromosome: chr8 
+no data in region chr8:4799282-4802282 in chr8.bw
+
+no data in region chr8:19720732-19723732 in chr8.bw
+
+no data in region chr8:19723807-19726807 in chr8.bw
+
+no data in region chr8:19762211-19765211 in chr8.bw
+
+no data in region chr8:19765344-19768344 in chr8.bw
+
+no data in region chr8:19771067-19774067 in chr8.bw
+
+no data in region chr8:19908564-19911564 in chr8.bw
+
+no data in region chr8:19913563-19916563 in chr8.bw
+
+no data in region chr8:19960587-19963587 in chr8.bw
+
+no data in region chr8:20048232-20051232 in chr8.bw
+
+no data in region chr8:20051797-20054797 in chr8.bw
+
+no data in region chr8:20053772-20056772 in chr8.bw
+
+no data in region chr8:20086556-20089556 in chr8.bw
+
+no data in region chr8:20092898-20095898 in chr8.bw
+
+no data in region chr8:20098854-20101854 in chr8.bw
+
+no data in region chr8:20101183-20104183 in chr8.bw
+
+no data in region chr8:20103906-20106906 in chr8.bw
+
+no data in region chr8:20106334-20109334 in chr8.bw
+
+no data in region chr8:20110711-20113711 in chr8.bw
+
+no data in region chr8:20112305-20115305 in chr8.bw
+
+no data in region chr8:20115081-20118081 in chr8.bw
+
+no data in region chr8:20302262-20305262 in chr8.bw
+
+no data in region chr8:20311887-20314887 in chr8.bw
+
+no data in region chr8:20314692-20317692 in chr8.bw
+
+no data in region chr8:20320433-20323433 in chr8.bw
+
+no data in region chr8:20344211-20347211 in chr8.bw
+
+no data in region chr8:20349286-20352286 in chr8.bw
+
+no data in region chr8:20363256-20366256 in chr8.bw
+
+no data in region chr8:20366733-20369733 in chr8.bw
+
+no data in region chr8:20431774-20434774 in chr8.bw
+
+no data in region chr8:20435210-20438210 in chr8.bw
+
+no data in region chr8:20437069-20440069 in chr8.bw
+
+no data in region chr8:20439909-20442909 in chr8.bw
+
+no data in region chr8:20493369-20496369 in chr8.bw
+
+no data in region chr8:20496595-20499595 in chr8.bw
+
+no data in region chr8:20498475-20501475 in chr8.bw
+
+no data in region chr8:20501135-20504135 in chr8.bw
+
+no data in region chr8:20502795-20505795 in chr8.bw
+
+no data in region chr8:20517162-20520162 in chr8.bw
+
+no data in region chr8:20530321-20533321 in chr8.bw
+
+no data in region chr8:20536351-20539351 in chr8.bw
+
+no data in region chr8:20539415-20542415 in chr8.bw
+
+no data in region chr8:20545942-20548942 in chr8.bw
+
+no data in region chr8:20584147-20587147 in chr8.bw
+
+no data in region chr8:20606182-20609182 in chr8.bw
+
+no data in region chr8:20621567-20624567 in chr8.bw
+
+no data in region chr8:20623757-20626757 in chr8.bw
+
+no data in region chr8:20626316-20629316 in chr8.bw
+
+no data in region chr8:20629398-20632398 in chr8.bw
+
+no data in region chr8:20656850-20659850 in chr8.bw
+
+no data in region chr8:20686140-20689140 in chr8.bw
+
+no data in region chr8:20709841-20712841 in chr8.bw
+
+no data in region chr8:20819027-20822027 in chr8.bw
+
+no data in region chr8:20822371-20825371 in chr8.bw
+
+no data in region chr8:20826077-20829077 in chr8.bw
+
+no data in region chr8:55119974-55122974 in chr8.bw
+
+no data in region chr8:55348131-55351131 in chr8.bw
+
+no data in region chr8:55362325-55365325 in chr8.bw
+
+no data in region chr8:55372281-55375281 in chr8.bw
+
+no data in region chr8:55497493-55500493 in chr8.bw
+
+no data in region chr8:55513394-55516394 in chr8.bw
+
+no data in region chr8:55515769-55518769 in chr8.bw
+
+no data in region chr8:55518003-55521003 in chr8.bw
+
+no data in region chr8:59952255-59955255 in chr8.bw
+
+no data in region chr8:60597528-60600528 in chr8.bw
+
+no data in region chr8:72031273-72034273 in chr8.bw
+
+no data in region chr8:119893004-119896004 in chr8.bw
+
+INFO  @ Fri, 18 Nov 2022 15:14:15: processing chromosome: chr16 
+no data in region chr16:3114141-3117141 in chr16.bw
+
+no data in region chr16:3338001-3341001 in chr16.bw
+
+no data in region chr16:16813788-16816788 in chr16.bw
+
+no data in region chr16:45476012-45479012 in chr16.bw
+
+INFO  @ Fri, 18 Nov 2022 15:14:27: processing chromosome: chr9 
+no data in region chr9:3256992-3259992 in chr9.bw
+
+no data in region chr9:5411331-5414331 in chr9.bw
+
+no data in region chr9:22224161-22227161 in chr9.bw
+
+no data in region chr9:37749255-37752255 in chr9.bw
+
+no data in region chr9:37781691-37784691 in chr9.bw
+
+no data in region chr9:38952910-38955910 in chr9.bw
+
+no data in region chr9:124266448-124269448 in chr9.bw
+
+no data in region chr9:124280575-124283575 in chr9.bw
+
+no data in region chr9:124310861-124313861 in chr9.bw
+
+INFO  @ Fri, 18 Nov 2022 15:14:42: processing chromosome: chr12 
+no data in region chr12:19242933-19245933 in chr12.bw
+
+no data in region chr12:57210342-57213342 in chr12.bw
+
+no data in region chr12:68558692-68561692 in chr12.bw
+
+INFO  @ Fri, 18 Nov 2022 15:14:52: processing chromosome: chr13 
+no data in region chr13:4210911-4213911 in chr13.bw
+
+no data in region chr13:4375017-4378017 in chr13.bw
+
+no data in region chr13:12823247-12826247 in chr13.bw
+
+no data in region chr13:12924346-12927346 in chr13.bw
+
+no data in region chr13:12964672-12967672 in chr13.bw
+
+no data in region chr13:13859294-13862294 in chr13.bw
+
+no data in region chr13:15145205-15148205 in chr13.bw
+
+no data in region chr13:65629986-65632986 in chr13.bw
+
+no data in region chr13:67277178-67280178 in chr13.bw
+
+no data in region chr13:67890443-67893443 in chr13.bw
+
+no data in region chr13:74492564-74495564 in chr13.bw
+
+no data in region chr13:74521039-74524039 in chr13.bw
+
+no data in region chr13:74528363-74531363 in chr13.bw
+
+no data in region chr13:74562508-74565508 in chr13.bw
+
+no data in region chr13:74615941-74618941 in chr13.bw
+
+no data in region chr13:75486574-75489574 in chr13.bw
+
+no data in region chr13:77628944-77631944 in chr13.bw
+
+no data in region chr13:113720978-113723978 in chr13.bw
+
+no data in region chr13:119660565-119663565 in chr13.bw
+
+INFO  @ Fri, 18 Nov 2022 15:15:05: processing chromosome: chr11 
+no data in region chr11:3100887-3103887 in chr11.bw
+
+no data in region chr11:3113323-3116323 in chr11.bw
+
+no data in region chr11:6755810-6758810 in chr11.bw
+
+no data in region chr11:34543161-34546161 in chr11.bw
+
+INFO  @ Fri, 18 Nov 2022 15:15:18: processing chromosome: chr10 
+no data in region chr10:7581071-7584071 in chr10.bw
+
+no data in region chr10:8548355-8551355 in chr10.bw
+
+no data in region chr10:22162271-22165271 in chr10.bw
+
+no data in region chr10:22201511-22204511 in chr10.bw
+
+no data in region chr10:22222029-22225029 in chr10.bw
+
+no data in region chr10:22383093-22386093 in chr10.bw
+
+no data in region chr10:22401384-22404384 in chr10.bw
+
+no data in region chr10:31368960-31371960 in chr10.bw
+
+no data in region chr10:33720403-33723403 in chr10.bw
+
+no data in region chr10:79320656-79323656 in chr10.bw
+
+no data in region chr10:81862611-81865611 in chr10.bw
+
+no data in region chr10:100337376-100340376 in chr10.bw
+
+no data in region chr10:100372798-100375798 in chr10.bw
+
+no data in region chr10:100377924-100380924 in chr10.bw
+
+no data in region chr10:100383051-100386051 in chr10.bw
+
+no data in region chr10:118249685-118252685 in chr10.bw
+
+INFO  @ Fri, 18 Nov 2022 15:15:33: processing chromosome: chr6 
+no data in region chr6:14678107-14681107 in chr6.bw
+
+no data in region chr6:35344489-35347489 in chr6.bw
+
+no data in region chr6:60200450-60203450 in chr6.bw
+
+no data in region chr6:67856661-67859661 in chr6.bw
+
+no data in region chr6:68032330-68035330 in chr6.bw
+
+no data in region chr6:70223936-70226936 in chr6.bw
+
+no data in region chr6:114490893-114493893 in chr6.bw
+
+no data in region chr6:114497526-114500526 in chr6.bw
+
+no data in region chr6:114503302-114506302 in chr6.bw
+
+no data in region chr6:114505356-114508356 in chr6.bw
+
+no data in region chr6:114507755-114510755 in chr6.bw
+
+no data in region chr6:114510340-114513340 in chr6.bw
+
+no data in region chr6:114512084-114515084 in chr6.bw
+
+no data in region chr6:114512976-114515976 in chr6.bw
+
+no data in region chr6:114516640-114519640 in chr6.bw
+
+no data in region chr6:114519836-114522836 in chr6.bw
+
+no data in region chr6:114522354-114525354 in chr6.bw
+
+no data in region chr6:114528600-114531600 in chr6.bw
+
+no data in region chr6:114532213-114535213 in chr6.bw
+
+no data in region chr6:114534327-114537327 in chr6.bw
+
+no data in region chr6:114536657-114539657 in chr6.bw
+
+no data in region chr6:114539105-114542105 in chr6.bw
+
+no data in region chr6:114541934-114544934 in chr6.bw
+
+no data in region chr6:114544420-114547420 in chr6.bw
+
+no data in region chr6:114546733-114549733 in chr6.bw
+
+no data in region chr6:114551092-114554092 in chr6.bw
+
+no data in region chr6:114553454-114556454 in chr6.bw
+
+no data in region chr6:114556276-114559276 in chr6.bw
+
+no data in region chr6:114558975-114561975 in chr6.bw
+
+no data in region chr6:114561073-114564073 in chr6.bw
+
+no data in region chr6:114562712-114565712 in chr6.bw
+
+no data in region chr6:114565816-114568816 in chr6.bw
+
+no data in region chr6:114568371-114571371 in chr6.bw
+
+no data in region chr6:114569427-114572427 in chr6.bw
+
+no data in region chr6:114571274-114574274 in chr6.bw
+
+no data in region chr6:114573743-114576743 in chr6.bw
+
+no data in region chr6:114578252-114581252 in chr6.bw
+
+no data in region chr6:114580924-114583924 in chr6.bw
+
+no data in region chr6:114582835-114585835 in chr6.bw
+
+no data in region chr6:114585703-114588703 in chr6.bw
+
+no data in region chr6:114588097-114591097 in chr6.bw
+
+no data in region chr6:114590705-114593705 in chr6.bw
+
+no data in region chr6:114593200-114596200 in chr6.bw
+
+no data in region chr6:114595488-114598488 in chr6.bw
+
+no data in region chr6:114597624-114600624 in chr6.bw
+
+no data in region chr6:114602977-114605977 in chr6.bw
+
+no data in region chr6:114607822-114610822 in chr6.bw
+
+no data in region chr6:114610405-114613405 in chr6.bw
+
+no data in region chr6:114612629-114615629 in chr6.bw
+
+no data in region chr6:114620035-114623035 in chr6.bw
+
+no data in region chr6:114622789-114625789 in chr6.bw
+
+no data in region chr6:114624951-114627951 in chr6.bw
+
+no data in region chr6:114627541-114630541 in chr6.bw
+
+no data in region chr6:114635354-114638354 in chr6.bw
+
+no data in region chr6:123655915-123658915 in chr6.bw
+
+no data in region chr6:129851774-129854774 in chr6.bw
+
+no data in region chr6:133204793-133207793 in chr6.bw
+
+INFO  @ Fri, 18 Nov 2022 15:15:51: processing chromosome: chr19 
+no data in region chr19:34635881-34638881 in chr19.bw
+
+no data in region chr19:40201953-40204953 in chr19.bw
+
+INFO  @ Fri, 18 Nov 2022 15:15:59: processing chromosome: chr7 
+no data in region chr7:13122555-13125555 in chr7.bw
+
+no data in region chr7:17072601-17075601 in chr7.bw
+
+no data in region chr7:18744939-18747939 in chr7.bw
+
+no data in region chr7:48130483-48133483 in chr7.bw
+
+no data in region chr7:61029000-61032000 in chr7.bw
+
+no data in region chr7:86342159-86345159 in chr7.bw
+
+no data in region chr7:89291040-89294040 in chr7.bw
+
+no data in region chr7:142283244-142286244 in chr7.bw
+
+INFO  @ Fri, 18 Nov 2022 15:16:13: processing chromosome: chr18 
+no data in region chr18:3007868-3010868 in chr18.bw
+
+no data in region chr18:3064986-3067986 in chr18.bw
+
+no data in region chr18:6418434-6421434 in chr18.bw
+
+no data in region chr18:8140495-8143495 in chr18.bw
+
+no data in region chr18:8796149-8799149 in chr18.bw
+
+no data in region chr18:9553545-9556545 in chr18.bw
+
+no data in region chr18:9596785-9599785 in chr18.bw
+
+no data in region chr18:10050782-10053782 in chr18.bw
+
+no data in region chr18:30266946-30269946 in chr18.bw
+
+INFO  @ Fri, 18 Nov 2022 15:16:25: processing chromosome: chr5 
+no data in region chr5:14953459-14956459 in chr5.bw
+
+no data in region chr5:14955778-14958778 in chr5.bw
+
+no data in region chr5:14979446-14982446 in chr5.bw
+
+no data in region chr5:14981120-14984120 in chr5.bw
+
+no data in region chr5:15032519-15035519 in chr5.bw
+
+no data in region chr5:15035101-15038101 in chr5.bw
+
+no data in region chr5:15058547-15061547 in chr5.bw
+
+no data in region chr5:15060362-15063362 in chr5.bw
+
+no data in region chr5:15492788-15495788 in chr5.bw
+
+no data in region chr5:15494001-15497001 in chr5.bw
+
+no data in region chr5:15497351-15500351 in chr5.bw
+
+no data in region chr5:15510840-15513840 in chr5.bw
+
+no data in region chr5:15535834-15538834 in chr5.bw
+
+no data in region chr5:15539868-15542868 in chr5.bw
+
+no data in region chr5:15543108-15546108 in chr5.bw
+
+no data in region chr5:15595099-15598099 in chr5.bw
+
+no data in region chr5:15597148-15600148 in chr5.bw
+
+no data in region chr5:15636027-15639027 in chr5.bw
+
+no data in region chr5:15685421-15688421 in chr5.bw
+
+no data in region chr5:15691658-15694658 in chr5.bw
+
+no data in region chr5:15694316-15697316 in chr5.bw
+
+no data in region chr5:15705577-15708577 in chr5.bw
+
+no data in region chr5:33947071-33950071 in chr5.bw
+
+no data in region chr5:46817997-46820997 in chr5.bw
+
+no data in region chr5:87275619-87278619 in chr5.bw
+
+no data in region chr5:88164284-88167284 in chr5.bw
+
+no data in region chr5:109643560-109646560 in chr5.bw
+
+no data in region chr5:115251886-115254886 in chr5.bw
+
+INFO  @ Fri, 18 Nov 2022 15:16:43: processing chromosome: chr4 
+no data in region chr4:3088899-3091899 in chr4.bw
+
+no data in region chr4:5177844-5180844 in chr4.bw
+
+no data in region chr4:6300995-6303995 in chr4.bw
+
+no data in region chr4:16223348-16226348 in chr4.bw
+
+no data in region chr4:33117880-33120880 in chr4.bw
+
+no data in region chr4:49477392-49480392 in chr4.bw
+
+no data in region chr4:49479106-49482106 in chr4.bw
+
+no data in region chr4:60074717-60077717 in chr4.bw
+
+no data in region chr4:60144260-60147260 in chr4.bw
+
+no data in region chr4:60186549-60189549 in chr4.bw
+
+no data in region chr4:60459421-60462421 in chr4.bw
+
+no data in region chr4:60467152-60470152 in chr4.bw
+
+no data in region chr4:60468874-60471874 in chr4.bw
+
+no data in region chr4:60471105-60474105 in chr4.bw
+
+no data in region chr4:60481351-60484351 in chr4.bw
+
+no data in region chr4:60484257-60487257 in chr4.bw
+
+no data in region chr4:61559035-61562035 in chr4.bw
+
+no data in region chr4:61560987-61563987 in chr4.bw
+
+no data in region chr4:61562810-61565810 in chr4.bw
+
+no data in region chr4:61839452-61842452 in chr4.bw
+
+no data in region chr4:63589964-63592964 in chr4.bw
+
+no data in region chr4:74562424-74565424 in chr4.bw
+
+no data in region chr4:78511710-78514710 in chr4.bw
+
+no data in region chr4:89710298-89713298 in chr4.bw
+
+no data in region chr4:145593139-145596139 in chr4.bw
+
+no data in region chr4:146972064-146975064 in chr4.bw
+
+no data in region chr4:147408648-147411648 in chr4.bw
+
+no data in region chr4:147565058-147568058 in chr4.bw
+
+no data in region chr4:147790910-147793910 in chr4.bw
+
+no data in region chr4:147792312-147795312 in chr4.bw
+
+no data in region chr4:147793626-147796626 in chr4.bw
+
+INFO  @ Fri, 18 Nov 2022 15:17:05: processing chromosome: chr1 
+no data in region chr1:5109522-5112522 in chr1.bw
+
+no data in region chr1:5429097-5432097 in chr1.bw
+
+no data in region chr1:7307802-7310802 in chr1.bw
+
+no data in region chr1:8937884-8940884 in chr1.bw
+
+no data in region chr1:85146216-85149216 in chr1.bw
+
+no data in region chr1:93879053-93882053 in chr1.bw
+
+no data in region chr1:104291815-104294815 in chr1.bw
+
+no data in region chr1:105880086-105883086 in chr1.bw
+
+no data in region chr1:111753497-111756497 in chr1.bw
+
+no data in region chr1:112377956-112380956 in chr1.bw
+
+no data in region chr1:112450585-112453585 in chr1.bw
+
+no data in region chr1:112454935-112457935 in chr1.bw
+
+no data in region chr1:140051477-140054477 in chr1.bw
+
+INFO  @ Fri, 18 Nov 2022 15:17:34: processing chromosome: chr3 
+no data in region chr3:5882878-5885878 in chr3.bw
+
+no data in region chr3:6338724-6341724 in chr3.bw
+
+no data in region chr3:9972691-9975691 in chr3.bw
+
+no data in region chr3:12490002-12493002 in chr3.bw
+
+no data in region chr3:16023739-16026739 in chr3.bw
+
+no data in region chr3:16627032-16630032 in chr3.bw
+
+no data in region chr3:64038527-64041527 in chr3.bw
+
+no data in region chr3:91262276-91265276 in chr3.bw
+
+no data in region chr3:98799359-98802359 in chr3.bw
+
+INFO  @ Fri, 18 Nov 2022 15:17:57: processing chromosome: chr2 
+no data in region chr2:84504869-84507869 in chr2.bw
+
+no data in region chr2:127181554-127184554 in chr2.bw
+
+no data in region chr2:155019036-155022036 in chr2.bw
+
+no data in region chr2:155023754-155026754 in chr2.bw
+
+no data in region chr2:175140268-175143268 in chr2.bw
+
+no data in region chr2:175639215-175642215 in chr2.bw
+
+no data in region chr2:175736697-175739697 in chr2.bw
+
+no data in region chr2:182011463-182014463 in chr2.bw
+
+INFO  @ Fri, 18 Nov 2022 15:18:27: extract phastcons scores using /project/Cistrome/CistromeAP/galaxy_database/files/001/773/dataset_1773726.dat 
+INFO  @ Fri, 18 Nov 2022 15:18:27: read bed file... 
+INFO  @ Fri, 18 Nov 2022 15:18:27: processing chromosome: chrY 
+no data in region chrY:807595-810595 in chrY.bw
+
+no data in region chrY:4153162-4156162 in chrY.bw
+
+no data in region chrY:6785685-6788685 in chrY.bw
+
+no data in region chrY:6806747-6809747 in chrY.bw
+
+no data in region chrY:42511143-42514143 in chrY.bw
+
+no data in region chrY:90727381-90730381 in chrY.bw
+
+no data in region chrY:90730286-90733286 in chrY.bw
+
+no data in region chrY:90733257-90736257 in chrY.bw
+
+INFO  @ Fri, 18 Nov 2022 15:18:27: processing chromosome: chr14 
+no data in region chr14:4034201-4037201 in chr14.bw
+
+no data in region chr14:4036548-4039548 in chr14.bw
+
+no data in region chr14:4312780-4315780 in chr14.bw
+
+no data in region chr14:4805388-4808388 in chr14.bw
+
+no data in region chr14:4807938-4810938 in chr14.bw
+
+no data in region chr14:4814904-4817904 in chr14.bw
+
+no data in region chr14:4925730-4928730 in chr14.bw
+
+no data in region chr14:6151625-6154625 in chr14.bw
+
+no data in region chr14:6158087-6161087 in chr14.bw
+
+no data in region chr14:6164329-6167329 in chr14.bw
+
+no data in region chr14:6219512-6222512 in chr14.bw
+
+no data in region chr14:6259575-6262575 in chr14.bw
+
+no data in region chr14:6334357-6337357 in chr14.bw
+
+no data in region chr14:6463964-6466964 in chr14.bw
+
+no data in region chr14:6465287-6468287 in chr14.bw
+
+no data in region chr14:6480523-6483523 in chr14.bw
+
+no data in region chr14:6484621-6487621 in chr14.bw
+
+no data in region chr14:6812057-6815057 in chr14.bw
+
+no data in region chr14:6906998-6909998 in chr14.bw
+
+no data in region chr14:6911208-6914208 in chr14.bw
+
+no data in region chr14:6913291-6916291 in chr14.bw
+
+no data in region chr14:6916614-6919614 in chr14.bw
+
+no data in region chr14:6932046-6935046 in chr14.bw
+
+no data in region chr14:6934354-6937354 in chr14.bw
+
+no data in region chr14:6945183-6948183 in chr14.bw
+
+no data in region chr14:6992234-6995234 in chr14.bw
+
+no data in region chr14:6999052-7002052 in chr14.bw
+
+no data in region chr14:7288590-7291590 in chr14.bw
+
+no data in region chr14:7290858-7293858 in chr14.bw
+
+no data in region chr14:7328598-7331598 in chr14.bw
+
+no data in region chr14:7330819-7333819 in chr14.bw
+
+no data in region chr14:7333793-7336793 in chr14.bw
+
+no data in region chr14:7341798-7344798 in chr14.bw
+
+no data in region chr14:7349859-7352859 in chr14.bw
+
+no data in region chr14:7399457-7402457 in chr14.bw
+
+no data in region chr14:7413978-7416978 in chr14.bw
+
+no data in region chr14:19487026-19490026 in chr14.bw
+
+no data in region chr14:41245080-41248080 in chr14.bw
+
+no data in region chr14:41299814-41302814 in chr14.bw
+
+no data in region chr14:41325873-41328873 in chr14.bw
+
+no data in region chr14:41328381-41331381 in chr14.bw
+
+no data in region chr14:41330521-41333521 in chr14.bw
+
+no data in region chr14:41468743-41471743 in chr14.bw
+
+no data in region chr14:41470792-41473792 in chr14.bw
+
+no data in region chr14:41481552-41484552 in chr14.bw
+
+no data in region chr14:41487509-41490509 in chr14.bw
+
+no data in region chr14:41488951-41491951 in chr14.bw
+
+no data in region chr14:41490342-41493342 in chr14.bw
+
+no data in region chr14:41566110-41569110 in chr14.bw
+
+no data in region chr14:41585625-41588625 in chr14.bw
+
+no data in region chr14:41630981-41633981 in chr14.bw
+
+no data in region chr14:41632965-41635965 in chr14.bw
+
+no data in region chr14:41766583-41769583 in chr14.bw
+
+no data in region chr14:41907917-41910917 in chr14.bw
+
+no data in region chr14:41981483-41984483 in chr14.bw
+
+no data in region chr14:42170355-42173355 in chr14.bw
+
+no data in region chr14:42175117-42178117 in chr14.bw
+
+no data in region chr14:42217460-42220460 in chr14.bw
+
+no data in region chr14:42383609-42386609 in chr14.bw
+
+no data in region chr14:43067780-43070780 in chr14.bw
+
+no data in region chr14:43080721-43083721 in chr14.bw
+
+no data in region chr14:43206381-43209381 in chr14.bw
+
+no data in region chr14:43207664-43210664 in chr14.bw
+
+no data in region chr14:43236960-43239960 in chr14.bw
+
+no data in region chr14:43268161-43271161 in chr14.bw
+
+no data in region chr14:43276550-43279550 in chr14.bw
+
+no data in region chr14:43284092-43287092 in chr14.bw
+
+no data in region chr14:43285403-43288403 in chr14.bw
+
+no data in region chr14:43288655-43291655 in chr14.bw
+
+no data in region chr14:43600817-43603817 in chr14.bw
+
+no data in region chr14:43709254-43712254 in chr14.bw
+
+no data in region chr14:43810789-43813789 in chr14.bw
+
+no data in region chr14:50060735-50063735 in chr14.bw
+
+no data in region chr14:51480216-51483216 in chr14.bw
+
+no data in region chr14:108233191-108236191 in chr14.bw
+
+no data in region chr14:124800398-124803398 in chr14.bw
+
+INFO  @ Fri, 18 Nov 2022 15:18:49: processing chromosome: chrX 
+no data in region chrX:9015020-9018020 in chrX.bw
+
+no data in region chrX:17546069-17549069 in chrX.bw
+
+no data in region chrX:54178338-54181338 in chrX.bw
+
+no data in region chrX:61813641-61816641 in chrX.bw
+
+no data in region chrX:66492820-66495820 in chrX.bw
+
+no data in region chrX:74878294-74881294 in chrX.bw
+
+no data in region chrX:83873820-83876820 in chrX.bw
+
+no data in region chrX:94864616-94867616 in chrX.bw
+
+no data in region chrX:94885983-94888983 in chrX.bw
+
+no data in region chrX:94904464-94907464 in chrX.bw
+
+no data in region chrX:94910908-94913908 in chrX.bw
+
+no data in region chrX:94913420-94916420 in chrX.bw
+
+no data in region chrX:97493220-97496220 in chrX.bw
+
+no data in region chrX:103024512-103027512 in chrX.bw
+
+no data in region chrX:117087151-117090151 in chrX.bw
+
+no data in region chrX:123102478-123105478 in chrX.bw
+
+INFO  @ Fri, 18 Nov 2022 15:18:58: processing chromosome: chr15 
+no data in region chr15:8278477-8281477 in chr15.bw
+
+no data in region chr15:15077225-15080225 in chr15.bw
+
+no data in region chr15:15088470-15091470 in chr15.bw
+
+no data in region chr15:24311651-24314651 in chr15.bw
+
+no data in region chr15:34015307-34018307 in chr15.bw
+
+no data in region chr15:34782541-34785541 in chr15.bw
+
+no data in region chr15:35181090-35184090 in chr15.bw
+
+INFO  @ Fri, 18 Nov 2022 15:19:14: processing chromosome: chr17 
+no data in region chr17:39901563-39904563 in chr17.bw
+
+no data in region chr17:40108463-40111463 in chr17.bw
+
+no data in region chr17:41186014-41189014 in chr17.bw
+
+no data in region chr17:54759449-54762449 in chr17.bw
+
+no data in region chr17:55930508-55933508 in chr17.bw
+
+no data in region chr17:88705065-88708065 in chr17.bw
+
+no data in region chr17:91565157-91568157 in chr17.bw
+
+no data in region chr17:91860600-91863600 in chr17.bw
+
+no data in region chr17:94666874-94669874 in chr17.bw
+
+no data in region chr17:94833171-94836171 in chr17.bw
+
+INFO  @ Fri, 18 Nov 2022 15:19:28: processing chromosome: chr8 
+no data in region chr8:19721526-19724526 in chr8.bw
+
+no data in region chr8:19765122-19768122 in chr8.bw
+
+no data in region chr8:19908860-19911860 in chr8.bw
+
+no data in region chr8:19914824-19917824 in chr8.bw
+
+no data in region chr8:19960493-19963493 in chr8.bw
+
+no data in region chr8:20049713-20052713 in chr8.bw
+
+no data in region chr8:20053530-20056530 in chr8.bw
+
+no data in region chr8:20092907-20095907 in chr8.bw
+
+no data in region chr8:20098635-20101635 in chr8.bw
+
+no data in region chr8:20100564-20103564 in chr8.bw
+
+no data in region chr8:20106002-20109002 in chr8.bw
+
+no data in region chr8:20111822-20114822 in chr8.bw
+
+no data in region chr8:20116252-20119252 in chr8.bw
+
+no data in region chr8:20153000-20156000 in chr8.bw
+
+no data in region chr8:20299556-20302556 in chr8.bw
+
+no data in region chr8:20302127-20305127 in chr8.bw
+
+no data in region chr8:20314582-20317582 in chr8.bw
+
+no data in region chr8:20320047-20323047 in chr8.bw
+
+no data in region chr8:20321379-20324379 in chr8.bw
+
+no data in region chr8:20323344-20326344 in chr8.bw
+
+no data in region chr8:20341456-20344456 in chr8.bw
+
+no data in region chr8:20349019-20352019 in chr8.bw
+
+no data in region chr8:20366359-20369359 in chr8.bw
+
+no data in region chr8:20426168-20429168 in chr8.bw
+
+no data in region chr8:20429133-20432133 in chr8.bw
+
+no data in region chr8:20432734-20435734 in chr8.bw
+
+no data in region chr8:20435397-20438397 in chr8.bw
+
+no data in region chr8:20437069-20440069 in chr8.bw
+
+no data in region chr8:20440347-20443347 in chr8.bw
+
+no data in region chr8:20494049-20497049 in chr8.bw
+
+no data in region chr8:20496256-20499256 in chr8.bw
+
+no data in region chr8:20498520-20501520 in chr8.bw
+
+no data in region chr8:20499721-20502721 in chr8.bw
+
+no data in region chr8:20502192-20505192 in chr8.bw
+
+no data in region chr8:20519164-20522164 in chr8.bw
+
+no data in region chr8:20520680-20523680 in chr8.bw
+
+no data in region chr8:20530919-20533919 in chr8.bw
+
+no data in region chr8:20536636-20539636 in chr8.bw
+
+no data in region chr8:20538511-20541511 in chr8.bw
+
+no data in region chr8:20539825-20542825 in chr8.bw
+
+no data in region chr8:20541701-20544701 in chr8.bw
+
+no data in region chr8:20543617-20546617 in chr8.bw
+
+no data in region chr8:20622863-20625863 in chr8.bw
+
+no data in region chr8:20625999-20628999 in chr8.bw
+
+no data in region chr8:20627508-20630508 in chr8.bw
+
+no data in region chr8:20628818-20631818 in chr8.bw
+
+no data in region chr8:20630093-20633093 in chr8.bw
+
+no data in region chr8:20692913-20695913 in chr8.bw
+
+no data in region chr8:20811600-20814600 in chr8.bw
+
+no data in region chr8:20819016-20822016 in chr8.bw
+
+no data in region chr8:20822214-20825214 in chr8.bw
+
+no data in region chr8:20826585-20829585 in chr8.bw
+
+no data in region chr8:21000161-21003161 in chr8.bw
+
+no data in region chr8:40782906-40785906 in chr8.bw
+
+no data in region chr8:55347682-55350682 in chr8.bw
+
+no data in region chr8:55358488-55361488 in chr8.bw
+
+no data in region chr8:55362141-55365141 in chr8.bw
+
+no data in region chr8:55371822-55374822 in chr8.bw
+
+no data in region chr8:55475361-55478361 in chr8.bw
+
+no data in region chr8:55497737-55500737 in chr8.bw
+
+no data in region chr8:55510359-55513359 in chr8.bw
+
+no data in region chr8:55512576-55515576 in chr8.bw
+
+no data in region chr8:55516785-55519785 in chr8.bw
+
+no data in region chr8:59952164-59955164 in chr8.bw
+
+no data in region chr8:60597305-60600305 in chr8.bw
+
+no data in region chr8:60604014-60607014 in chr8.bw
+
+no data in region chr8:72031274-72034274 in chr8.bw
+
+INFO  @ Fri, 18 Nov 2022 15:19:48: processing chromosome: chr16 
+no data in region chr16:3114095-3117095 in chr16.bw
+
+no data in region chr16:16815461-16818461 in chr16.bw
+
+no data in region chr16:44884815-44887815 in chr16.bw
+
+no data in region chr16:56985193-56988193 in chr16.bw
+
+INFO  @ Fri, 18 Nov 2022 15:20:03: processing chromosome: chr9 
+no data in region chr9:3257036-3260036 in chr9.bw
+
+no data in region chr9:5411256-5414256 in chr9.bw
+
+no data in region chr9:5821103-5824103 in chr9.bw
+
+no data in region chr9:7799343-7802343 in chr9.bw
+
+no data in region chr9:8768501-8771501 in chr9.bw
+
+no data in region chr9:10290563-10293563 in chr9.bw
+
+no data in region chr9:18778032-18781032 in chr9.bw
+
+no data in region chr9:22224145-22227145 in chr9.bw
+
+no data in region chr9:37750477-37753477 in chr9.bw
+
+no data in region chr9:37781723-37784723 in chr9.bw
+
+no data in region chr9:38952594-38955594 in chr9.bw
+
+no data in region chr9:88867774-88870774 in chr9.bw
+
+no data in region chr9:124266488-124269488 in chr9.bw
+
+no data in region chr9:124280631-124283631 in chr9.bw
+
+no data in region chr9:124310818-124313818 in chr9.bw
+
+INFO  @ Fri, 18 Nov 2022 15:20:20: processing chromosome: chr12 
+no data in region chr12:57210353-57213353 in chr12.bw
+
+INFO  @ Fri, 18 Nov 2022 15:20:38: processing chromosome: chr13 
+no data in region chr13:4211005-4214005 in chr13.bw
+
+no data in region chr13:4375026-4378026 in chr13.bw
+
+no data in region chr13:8471811-8474811 in chr13.bw
+
+no data in region chr13:12771698-12774698 in chr13.bw
+
+no data in region chr13:12822847-12825847 in chr13.bw
+
+no data in region chr13:13859391-13862391 in chr13.bw
+
+no data in region chr13:15144995-15147995 in chr13.bw
+
+no data in region chr13:18932429-18935429 in chr13.bw
+
+no data in region chr13:21100191-21103191 in chr13.bw
+
+no data in region chr13:27397884-27400884 in chr13.bw
+
+no data in region chr13:33761435-33764435 in chr13.bw
+
+no data in region chr13:65659799-65662799 in chr13.bw
+
+no data in region chr13:67277107-67280107 in chr13.bw
+
+no data in region chr13:74492524-74495524 in chr13.bw
+
+no data in region chr13:74521076-74524076 in chr13.bw
+
+no data in region chr13:74528420-74531420 in chr13.bw
+
+no data in region chr13:74562319-74565319 in chr13.bw
+
+no data in region chr13:74615929-74618929 in chr13.bw
+
+no data in region chr13:75475208-75478208 in chr13.bw
+
+no data in region chr13:75482493-75485493 in chr13.bw
+
+no data in region chr13:75486730-75489730 in chr13.bw
+
+no data in region chr13:86950136-86953136 in chr13.bw
+
+no data in region chr13:113720801-113723801 in chr13.bw
+
+no data in region chr13:119660693-119663693 in chr13.bw
+
+INFO  @ Fri, 18 Nov 2022 15:20:58: processing chromosome: chr11 
+no data in region chr11:3100884-3103884 in chr11.bw
+
+no data in region chr11:12697814-12700814 in chr11.bw
+
+no data in region chr11:34543135-34546135 in chr11.bw
+
+INFO  @ Fri, 18 Nov 2022 15:21:14: processing chromosome: chr10 
+no data in region chr10:3245545-3248545 in chr10.bw
+
+no data in region chr10:3248268-3251268 in chr10.bw
+
+no data in region chr10:3251327-3254327 in chr10.bw
+
+no data in region chr10:3262907-3265907 in chr10.bw
+
+no data in region chr10:8548126-8551126 in chr10.bw
+
+no data in region chr10:22139558-22142558 in chr10.bw
+
+no data in region chr10:22162145-22165145 in chr10.bw
+
+no data in region chr10:22183576-22186576 in chr10.bw
+
+no data in region chr10:22200856-22203856 in chr10.bw
+
+no data in region chr10:22382842-22385842 in chr10.bw
+
+no data in region chr10:22394807-22397807 in chr10.bw
+
+no data in region chr10:22401608-22404608 in chr10.bw
+
+no data in region chr10:31075399-31078399 in chr10.bw
+
+no data in region chr10:31368811-31371811 in chr10.bw
+
+no data in region chr10:33720634-33723634 in chr10.bw
+
+no data in region chr10:55717670-55720670 in chr10.bw
+
+no data in region chr10:79320833-79323833 in chr10.bw
+
+no data in region chr10:81862602-81865602 in chr10.bw
+
+no data in region chr10:96159442-96162442 in chr10.bw
+
+no data in region chr10:100383073-100386073 in chr10.bw
+
+no data in region chr10:104179579-104182579 in chr10.bw
+
+no data in region chr10:118249455-118252455 in chr10.bw
+
+no data in region chr10:129813920-129816920 in chr10.bw
+
+INFO  @ Fri, 18 Nov 2022 15:21:38: processing chromosome: chr6 
+no data in region chr6:14678252-14681252 in chr6.bw
+
+no data in region chr6:41879242-41882242 in chr6.bw
+
+no data in region chr6:43005768-43008768 in chr6.bw
+
+no data in region chr6:57491406-57494406 in chr6.bw
+
+no data in region chr6:58188865-58191865 in chr6.bw
+
+no data in region chr6:58276753-58279753 in chr6.bw
+
+no data in region chr6:60405952-60408952 in chr6.bw
+
+no data in region chr6:67856832-67859832 in chr6.bw
+
+no data in region chr6:68032321-68035321 in chr6.bw
+
+no data in region chr6:68666972-68669972 in chr6.bw
+
+no data in region chr6:114494716-114497716 in chr6.bw
+
+no data in region chr6:114498253-114501253 in chr6.bw
+
+no data in region chr6:114500823-114503823 in chr6.bw
+
+no data in region chr6:114503312-114506312 in chr6.bw
+
+no data in region chr6:114505475-114508475 in chr6.bw
+
+no data in region chr6:114507729-114510729 in chr6.bw
+
+no data in region chr6:114510224-114513224 in chr6.bw
+
+no data in region chr6:114512605-114515605 in chr6.bw
+
+no data in region chr6:114515270-114518270 in chr6.bw
+
+no data in region chr6:114517640-114520640 in chr6.bw
+
+no data in region chr6:114519934-114522934 in chr6.bw
+
+no data in region chr6:114522352-114525352 in chr6.bw
+
+no data in region chr6:114524906-114527906 in chr6.bw
+
+no data in region chr6:114527416-114530416 in chr6.bw
+
+no data in region chr6:114529625-114532625 in chr6.bw
+
+no data in region chr6:114531988-114534988 in chr6.bw
+
+no data in region chr6:114534046-114537046 in chr6.bw
+
+no data in region chr6:114536709-114539709 in chr6.bw
+
+no data in region chr6:114539093-114542093 in chr6.bw
+
+no data in region chr6:114541771-114544771 in chr6.bw
+
+no data in region chr6:114544328-114547328 in chr6.bw
+
+no data in region chr6:114546579-114549579 in chr6.bw
+
+no data in region chr6:114551149-114554149 in chr6.bw
+
+no data in region chr6:114553417-114556417 in chr6.bw
+
+no data in region chr6:114558685-114561685 in chr6.bw
+
+no data in region chr6:114561263-114564263 in chr6.bw
+
+no data in region chr6:114563558-114566558 in chr6.bw
+
+no data in region chr6:114566217-114569217 in chr6.bw
+
+no data in region chr6:114570991-114573991 in chr6.bw
+
+no data in region chr6:114573340-114576340 in chr6.bw
+
+no data in region chr6:114575685-114578685 in chr6.bw
+
+no data in region chr6:114582810-114585810 in chr6.bw
+
+no data in region chr6:114588320-114591320 in chr6.bw
+
+no data in region chr6:114590817-114593817 in chr6.bw
+
+no data in region chr6:114593106-114596106 in chr6.bw
+
+no data in region chr6:114597550-114600550 in chr6.bw
+
+no data in region chr6:114602964-114605964 in chr6.bw
+
+no data in region chr6:114607701-114610701 in chr6.bw
+
+no data in region chr6:114610162-114613162 in chr6.bw
+
+no data in region chr6:114612523-114615523 in chr6.bw
+
+no data in region chr6:114620057-114623057 in chr6.bw
+
+no data in region chr6:114622920-114625920 in chr6.bw
+
+no data in region chr6:114625385-114628385 in chr6.bw
+
+no data in region chr6:114627639-114630639 in chr6.bw
+
+no data in region chr6:114635334-114638334 in chr6.bw
+
+no data in region chr6:123655970-123658970 in chr6.bw
+
+no data in region chr6:123696030-123699030 in chr6.bw
+
+no data in region chr6:128899587-128902587 in chr6.bw
+
+no data in region chr6:128940768-128943768 in chr6.bw
+
+no data in region chr6:128994926-128997926 in chr6.bw
+
+no data in region chr6:129065601-129068601 in chr6.bw
+
+no data in region chr6:133204846-133207846 in chr6.bw
+
+no data in region chr6:148125453-148128453 in chr6.bw
+
+INFO  @ Fri, 18 Nov 2022 15:22:03: processing chromosome: chr19 
+no data in region chr19:34635753-34638753 in chr19.bw
+
+no data in region chr19:40201675-40204675 in chr19.bw
+
+INFO  @ Fri, 18 Nov 2022 15:22:13: processing chromosome: chr7 
+no data in region chr7:13122634-13125634 in chr7.bw
+
+no data in region chr7:18745094-18748094 in chr7.bw
+
+no data in region chr7:48130510-48133510 in chr7.bw
+
+no data in region chr7:50954728-50957728 in chr7.bw
+
+no data in region chr7:50961988-50964988 in chr7.bw
+
+no data in region chr7:50970376-50973376 in chr7.bw
+
+no data in region chr7:85816900-85819900 in chr7.bw
+
+no data in region chr7:86342122-86345122 in chr7.bw
+
+no data in region chr7:89291868-89294868 in chr7.bw
+
+no data in region chr7:105246725-105249725 in chr7.bw
+
+no data in region chr7:142283162-142286162 in chr7.bw
+
+INFO  @ Fri, 18 Nov 2022 15:22:30: processing chromosome: chr18 
+no data in region chr18:3008092-3011092 in chr18.bw
+
+no data in region chr18:3064966-3067966 in chr18.bw
+
+no data in region chr18:6418242-6421242 in chr18.bw
+
+no data in region chr18:8795822-8798822 in chr18.bw
+
+no data in region chr18:9553784-9556784 in chr18.bw
+
+no data in region chr18:9596411-9599411 in chr18.bw
+
+no data in region chr18:10050731-10053731 in chr18.bw
+
+no data in region chr18:20623700-20626700 in chr18.bw
+
+no data in region chr18:30266813-30269813 in chr18.bw
+
+no data in region chr18:88216896-88219896 in chr18.bw
+
+INFO  @ Fri, 18 Nov 2022 15:22:45: processing chromosome: chr5 
+no data in region chr5:10246442-10249442 in chr5.bw
+
+no data in region chr5:14973857-14976857 in chr5.bw
+
+no data in region chr5:14979559-14982559 in chr5.bw
+
+no data in region chr5:15034825-15037825 in chr5.bw
+
+no data in region chr5:15497666-15500666 in chr5.bw
+
+no data in region chr5:15510636-15513636 in chr5.bw
+
+no data in region chr5:15536126-15539126 in chr5.bw
+
+no data in region chr5:15597192-15600192 in chr5.bw
+
+no data in region chr5:15673354-15676354 in chr5.bw
+
+no data in region chr5:15682530-15685530 in chr5.bw
+
+no data in region chr5:15691820-15694820 in chr5.bw
+
+no data in region chr5:15694258-15697258 in chr5.bw
+
+no data in region chr5:17350273-17353273 in chr5.bw
+
+no data in region chr5:18562261-18565261 in chr5.bw
+
+no data in region chr5:18628890-18631890 in chr5.bw
+
+no data in region chr5:26010232-26013232 in chr5.bw
+
+no data in region chr5:33947084-33950084 in chr5.bw
+
+no data in region chr5:88162527-88165527 in chr5.bw
+
+no data in region chr5:109905524-109908524 in chr5.bw
+
+no data in region chr5:146498326-146501326 in chr5.bw
+
+INFO  @ Fri, 18 Nov 2022 15:23:06: processing chromosome: chr4 
+no data in region chr4:3089019-3092019 in chr4.bw
+
+no data in region chr4:4460846-4463846 in chr4.bw
+
+no data in region chr4:5177857-5180857 in chr4.bw
+
+no data in region chr4:6300898-6303898 in chr4.bw
+
+no data in region chr4:7511663-7514663 in chr4.bw
+
+no data in region chr4:16223307-16226307 in chr4.bw
+
+no data in region chr4:49477967-49480967 in chr4.bw
+
+no data in region chr4:60023316-60026316 in chr4.bw
+
+no data in region chr4:60102617-60105617 in chr4.bw
+
+no data in region chr4:60104228-60107228 in chr4.bw
+
+no data in region chr4:60106640-60109640 in chr4.bw
+
+no data in region chr4:60143167-60146167 in chr4.bw
+
+no data in region chr4:60144422-60147422 in chr4.bw
+
+no data in region chr4:60459069-60462069 in chr4.bw
+
+no data in region chr4:60467758-60470758 in chr4.bw
+
+no data in region chr4:60469445-60472445 in chr4.bw
+
+no data in region chr4:60470959-60473959 in chr4.bw
+
+no data in region chr4:60475642-60478642 in chr4.bw
+
+no data in region chr4:60484504-60487504 in chr4.bw
+
+no data in region chr4:60691349-60694349 in chr4.bw
+
+no data in region chr4:60750428-60753428 in chr4.bw
+
+no data in region chr4:60825328-60828328 in chr4.bw
+
+no data in region chr4:61467102-61470102 in chr4.bw
+
+no data in region chr4:61558680-61561680 in chr4.bw
+
+no data in region chr4:61785112-61788112 in chr4.bw
+
+no data in region chr4:61825449-61828449 in chr4.bw
+
+no data in region chr4:61838489-61841489 in chr4.bw
+
+no data in region chr4:61897342-61900342 in chr4.bw
+
+no data in region chr4:78512079-78515079 in chr4.bw
+
+no data in region chr4:96328540-96331540 in chr4.bw
+
+no data in region chr4:147409166-147412166 in chr4.bw
+
+no data in region chr4:147792659-147795659 in chr4.bw
+
+INFO  @ Fri, 18 Nov 2022 15:23:33: processing chromosome: chr1 
+no data in region chr1:5776813-5779813 in chr1.bw
+
+no data in region chr1:6124726-6127726 in chr1.bw
+
+no data in region chr1:7776108-7779108 in chr1.bw
+
+no data in region chr1:8255195-8258195 in chr1.bw
+
+no data in region chr1:8937818-8940818 in chr1.bw
+
+no data in region chr1:10922553-10925553 in chr1.bw
+
+no data in region chr1:45141267-45144267 in chr1.bw
+
+no data in region chr1:53747492-53750492 in chr1.bw
+
+no data in region chr1:79958250-79961250 in chr1.bw
+
+no data in region chr1:93880011-93883011 in chr1.bw
+
+no data in region chr1:93946766-93949766 in chr1.bw
+
+no data in region chr1:94998594-95001594 in chr1.bw
+
+no data in region chr1:101288880-101291880 in chr1.bw
+
+no data in region chr1:105879893-105882893 in chr1.bw
+
+no data in region chr1:107345147-107348147 in chr1.bw
+
+no data in region chr1:111753441-111756441 in chr1.bw
+
+no data in region chr1:112377737-112380737 in chr1.bw
+
+no data in region chr1:112450611-112453611 in chr1.bw
+
+no data in region chr1:112454582-112457582 in chr1.bw
+
+no data in region chr1:121203199-121206199 in chr1.bw
+
+no data in region chr1:140051374-140054374 in chr1.bw
+
+no data in region chr1:140068528-140071528 in chr1.bw
+
+no data in region chr1:173666635-173669635 in chr1.bw
+
+no data in region chr1:195231366-195234366 in chr1.bw
+
+INFO  @ Fri, 18 Nov 2022 15:24:05: processing chromosome: chr3 
+no data in region chr3:3337534-3340534 in chr3.bw
+
+no data in region chr3:6338810-6341810 in chr3.bw
+
+no data in region chr3:9972577-9975577 in chr3.bw
+
+no data in region chr3:14356283-14359283 in chr3.bw
+
+no data in region chr3:14669238-14672238 in chr3.bw
+
+no data in region chr3:15412150-15415150 in chr3.bw
+
+no data in region chr3:15903755-15906755 in chr3.bw
+
+no data in region chr3:16023726-16026726 in chr3.bw
+
+no data in region chr3:16197137-16200137 in chr3.bw
+
+no data in region chr3:22729490-22732490 in chr3.bw
+
+no data in region chr3:23567953-23570953 in chr3.bw
+
+no data in region chr3:28858285-28861285 in chr3.bw
+
+no data in region chr3:31707009-31710009 in chr3.bw
+
+no data in region chr3:36127497-36130497 in chr3.bw
+
+no data in region chr3:58270325-58273325 in chr3.bw
+
+no data in region chr3:64038510-64041510 in chr3.bw
+
+no data in region chr3:64167726-64170726 in chr3.bw
+
+no data in region chr3:75654042-75657042 in chr3.bw
+
+no data in region chr3:98799284-98802284 in chr3.bw
+
+no data in region chr3:106184800-106187800 in chr3.bw
+
+no data in region chr3:142644521-142647521 in chr3.bw
+
+no data in region chr3:158736515-158739515 in chr3.bw
+
+INFO  @ Fri, 18 Nov 2022 15:24:35: processing chromosome: chr2 
+no data in region chr2:17062360-17065360 in chr2.bw
+
+no data in region chr2:47530332-47533332 in chr2.bw
+
+no data in region chr2:55779656-55782656 in chr2.bw
+
+no data in region chr2:84504811-84507811 in chr2.bw
+
+no data in region chr2:127181482-127184482 in chr2.bw
+
+no data in region chr2:155018488-155021488 in chr2.bw
+
+no data in region chr2:155021424-155024424 in chr2.bw
+
+no data in region chr2:175140252-175143252 in chr2.bw
+
+no data in region chr2:175604465-175607465 in chr2.bw
+
+no data in region chr2:175639118-175642118 in chr2.bw
+
+no data in region chr2:175736517-175739517 in chr2.bw
+
+no data in region chr2:182011463-182014463 in chr2.bw
+
+INFO  @ Fri, 18 Nov 2022 15:25:09: extract phastcons scores using /project/Cistrome/CistromeAP/galaxy_database/files/001/773/dataset_1773727.dat 
+INFO  @ Fri, 18 Nov 2022 15:25:09: read bed file... 
+INFO  @ Fri, 18 Nov 2022 15:25:09: processing chromosome: chrY 
+no data in region chrY:90727534-90730534 in chrY.bw
+
+no data in region chrY:90733613-90736613 in chrY.bw
+
+no data in region chrY:90802753-90805753 in chrY.bw
+
+INFO  @ Fri, 18 Nov 2022 15:25:09: processing chromosome: chr14 
+no data in region chr14:3597151-3600151 in chr14.bw
+
+no data in region chr14:4033863-4036863 in chr14.bw
+
+no data in region chr14:4036689-4039689 in chr14.bw
+
+no data in region chr14:4205099-4208099 in chr14.bw
+
+no data in region chr14:4805478-4808478 in chr14.bw
+
+no data in region chr14:4925898-4928898 in chr14.bw
+
+no data in region chr14:6109485-6112485 in chr14.bw
+
+no data in region chr14:6151006-6154006 in chr14.bw
+
+no data in region chr14:6153534-6156534 in chr14.bw
+
+no data in region chr14:6162358-6165358 in chr14.bw
+
+no data in region chr14:6259180-6262180 in chr14.bw
+
+no data in region chr14:6492331-6495331 in chr14.bw
+
+no data in region chr14:6496063-6499063 in chr14.bw
+
+no data in region chr14:6797963-6800963 in chr14.bw
+
+no data in region chr14:6800517-6803517 in chr14.bw
+
+no data in region chr14:6910932-6913932 in chr14.bw
+
+no data in region chr14:6914900-6917900 in chr14.bw
+
+no data in region chr14:6931715-6934715 in chr14.bw
+
+no data in region chr14:6936718-6939718 in chr14.bw
+
+no data in region chr14:6938417-6941417 in chr14.bw
+
+no data in region chr14:7328982-7331982 in chr14.bw
+
+no data in region chr14:7330123-7333123 in chr14.bw
+
+no data in region chr14:7334184-7337184 in chr14.bw
+
+no data in region chr14:7341704-7344704 in chr14.bw
+
+no data in region chr14:7349926-7352926 in chr14.bw
+
+no data in region chr14:7394892-7397892 in chr14.bw
+
+no data in region chr14:7414209-7417209 in chr14.bw
+
+no data in region chr14:41289104-41292104 in chr14.bw
+
+no data in region chr14:41298356-41301356 in chr14.bw
+
+no data in region chr14:41328567-41331567 in chr14.bw
+
+no data in region chr14:41481878-41484878 in chr14.bw
+
+no data in region chr14:41487596-41490596 in chr14.bw
+
+no data in region chr14:41488978-41491978 in chr14.bw
+
+no data in region chr14:41495063-41498063 in chr14.bw
+
+no data in region chr14:41498103-41501103 in chr14.bw
+
+no data in region chr14:41655833-41658833 in chr14.bw
+
+no data in region chr14:41918302-41921302 in chr14.bw
+
+no data in region chr14:42162331-42165331 in chr14.bw
+
+no data in region chr14:42804792-42807792 in chr14.bw
+
+no data in region chr14:43080790-43083790 in chr14.bw
+
+no data in region chr14:43236948-43239948 in chr14.bw
+
+no data in region chr14:43269039-43272039 in chr14.bw
+
+no data in region chr14:43288647-43291647 in chr14.bw
+
+no data in region chr14:43810715-43813715 in chr14.bw
+
+no data in region chr14:50060767-50063767 in chr14.bw
+
+no data in region chr14:51480213-51483213 in chr14.bw
+
+no data in region chr14:112366353-112369353 in chr14.bw
+
+no data in region chr14:124800398-124803398 in chr14.bw
+
+INFO  @ Fri, 18 Nov 2022 15:25:27: processing chromosome: chrX 
+no data in region chrX:17546128-17549128 in chrX.bw
+
+no data in region chrX:37960195-37963195 in chrX.bw
+
+no data in region chrX:54178386-54181386 in chrX.bw
+
+no data in region chrX:61813655-61816655 in chrX.bw
+
+no data in region chrX:66493230-66496230 in chrX.bw
+
+no data in region chrX:74878538-74881538 in chrX.bw
+
+no data in region chrX:83873817-83876817 in chrX.bw
+
+no data in region chrX:94864387-94867387 in chrX.bw
+
+no data in region chrX:94890077-94893077 in chrX.bw
+
+no data in region chrX:94911452-94914452 in chrX.bw
+
+no data in region chrX:94913754-94916754 in chrX.bw
+
+no data in region chrX:97603112-97606112 in chrX.bw
+
+no data in region chrX:103024742-103027742 in chrX.bw
+
+no data in region chrX:123102526-123105526 in chrX.bw
+
+no data in region chrX:154712618-154715618 in chrX.bw
+
+no data in region chrX:170019007-170022007 in chrX.bw
+
+INFO  @ Fri, 18 Nov 2022 15:25:37: processing chromosome: chr15 
+no data in region chr15:9218882-9221882 in chr15.bw
+
+no data in region chr15:9557502-9560502 in chr15.bw
+
+no data in region chr15:15088290-15091290 in chr15.bw
+
+no data in region chr15:34015256-34018256 in chr15.bw
+
+no data in region chr15:35181079-35184079 in chr15.bw
+
+no data in region chr15:37843881-37846881 in chr15.bw
+
+INFO  @ Fri, 18 Nov 2022 15:25:54: processing chromosome: chr17 
+no data in region chr17:21368893-21371893 in chr17.bw
+
+no data in region chr17:35414032-35417032 in chr17.bw
+
+no data in region chr17:35459161-35462161 in chr17.bw
+
+no data in region chr17:39901488-39904488 in chr17.bw
+
+no data in region chr17:40156515-40159515 in chr17.bw
+
+no data in region chr17:48280266-48283266 in chr17.bw
+
+no data in region chr17:55930674-55933674 in chr17.bw
+
+no data in region chr17:80095380-80098380 in chr17.bw
+
+no data in region chr17:94666520-94669520 in chr17.bw
+
+no data in region chr17:94833085-94836085 in chr17.bw
+
+INFO  @ Fri, 18 Nov 2022 15:26:08: processing chromosome: chr8 
+no data in region chr8:4799362-4802362 in chr8.bw
+
+no data in region chr8:19722692-19725692 in chr8.bw
+
+no data in region chr8:19771785-19774785 in chr8.bw
+
+no data in region chr8:19774235-19777235 in chr8.bw
+
+no data in region chr8:19909290-19912290 in chr8.bw
+
+no data in region chr8:19914650-19917650 in chr8.bw
+
+no data in region chr8:19917583-19920583 in chr8.bw
+
+no data in region chr8:19960781-19963781 in chr8.bw
+
+no data in region chr8:19974779-19977779 in chr8.bw
+
+no data in region chr8:20048141-20051141 in chr8.bw
+
+no data in region chr8:20051427-20054427 in chr8.bw
+
+no data in region chr8:20087818-20090818 in chr8.bw
+
+no data in region chr8:20101175-20104175 in chr8.bw
+
+no data in region chr8:20103287-20106287 in chr8.bw
+
+no data in region chr8:20106005-20109005 in chr8.bw
+
+no data in region chr8:20108877-20111877 in chr8.bw
+
+no data in region chr8:20111593-20114593 in chr8.bw
+
+no data in region chr8:20116102-20119102 in chr8.bw
+
+no data in region chr8:20153526-20156526 in chr8.bw
+
+no data in region chr8:20299509-20302509 in chr8.bw
+
+no data in region chr8:20301128-20304128 in chr8.bw
+
+no data in region chr8:20302894-20305894 in chr8.bw
+
+no data in region chr8:20311769-20314769 in chr8.bw
+
+no data in region chr8:20314956-20317956 in chr8.bw
+
+no data in region chr8:20321191-20324191 in chr8.bw
+
+no data in region chr8:20341545-20344545 in chr8.bw
+
+no data in region chr8:20344475-20347475 in chr8.bw
+
+no data in region chr8:20347547-20350547 in chr8.bw
+
+no data in region chr8:20351652-20354652 in chr8.bw
+
+no data in region chr8:20366551-20369551 in chr8.bw
+
+no data in region chr8:20427114-20430114 in chr8.bw
+
+no data in region chr8:20429057-20432057 in chr8.bw
+
+no data in region chr8:20432350-20435350 in chr8.bw
+
+no data in region chr8:20434666-20437666 in chr8.bw
+
+no data in region chr8:20435880-20438880 in chr8.bw
+
+no data in region chr8:20439880-20442880 in chr8.bw
+
+no data in region chr8:20493680-20496680 in chr8.bw
+
+no data in region chr8:20496758-20499758 in chr8.bw
+
+no data in region chr8:20498504-20501504 in chr8.bw
+
+no data in region chr8:20502449-20505449 in chr8.bw
+
+no data in region chr8:20516973-20519973 in chr8.bw
+
+no data in region chr8:20530554-20533554 in chr8.bw
+
+no data in region chr8:20532479-20535479 in chr8.bw
+
+no data in region chr8:20534829-20537829 in chr8.bw
+
+no data in region chr8:20543420-20546420 in chr8.bw
+
+no data in region chr8:20584085-20587085 in chr8.bw
+
+no data in region chr8:20621399-20624399 in chr8.bw
+
+no data in region chr8:20624297-20627297 in chr8.bw
+
+no data in region chr8:20628708-20631708 in chr8.bw
+
+no data in region chr8:20631540-20634540 in chr8.bw
+
+no data in region chr8:20650227-20653227 in chr8.bw
+
+no data in region chr8:20651343-20654343 in chr8.bw
+
+no data in region chr8:20667672-20670672 in chr8.bw
+
+no data in region chr8:20686802-20689802 in chr8.bw
+
+no data in region chr8:55119123-55122123 in chr8.bw
+
+no data in region chr8:55348216-55351216 in chr8.bw
+
+no data in region chr8:55362687-55365687 in chr8.bw
+
+no data in region chr8:55366263-55369263 in chr8.bw
+
+no data in region chr8:55371906-55374906 in chr8.bw
+
+no data in region chr8:55497740-55500740 in chr8.bw
+
+no data in region chr8:55512485-55515485 in chr8.bw
+
+no data in region chr8:55516867-55519867 in chr8.bw
+
+no data in region chr8:59952339-59955339 in chr8.bw
+
+no data in region chr8:60597346-60600346 in chr8.bw
+
+no data in region chr8:69550564-69553564 in chr8.bw
+
+no data in region chr8:72031293-72034293 in chr8.bw
+
+no data in region chr8:72043526-72046526 in chr8.bw
+
+INFO  @ Fri, 18 Nov 2022 15:26:30: processing chromosome: chr16 
+no data in region chr16:3113739-3116739 in chr16.bw
+
+INFO  @ Fri, 18 Nov 2022 15:26:44: processing chromosome: chr9 
+no data in region chr9:3257434-3260434 in chr9.bw
+
+no data in region chr9:7797548-7800548 in chr9.bw
+
+no data in region chr9:8207385-8210385 in chr9.bw
+
+no data in region chr9:10290248-10293248 in chr9.bw
+
+no data in region chr9:22224116-22227116 in chr9.bw
+
+no data in region chr9:37749636-37752636 in chr9.bw
+
+no data in region chr9:37781729-37784729 in chr9.bw
+
+no data in region chr9:38952720-38955720 in chr9.bw
+
+no data in region chr9:124266469-124269469 in chr9.bw
+
+no data in region chr9:124280460-124283460 in chr9.bw
+
+no data in region chr9:124310868-124313868 in chr9.bw
+
+INFO  @ Fri, 18 Nov 2022 15:27:01: processing chromosome: chr12 
+no data in region chr12:19242824-19245824 in chr12.bw
+
+no data in region chr12:35807835-35810835 in chr12.bw
+
+no data in region chr12:35809023-35812023 in chr12.bw
+
+no data in region chr12:57210290-57213290 in chr12.bw
+
+no data in region chr12:115821192-115824192 in chr12.bw
+
+no data in region chr12:115823789-115826789 in chr12.bw
+
+INFO  @ Fri, 18 Nov 2022 15:27:19: processing chromosome: chr13 
+no data in region chr13:4374969-4377969 in chr13.bw
+
+no data in region chr13:12829660-12832660 in chr13.bw
+
+no data in region chr13:12854685-12857685 in chr13.bw
+
+no data in region chr13:12856034-12859034 in chr13.bw
+
+no data in region chr13:12860432-12863432 in chr13.bw
+
+no data in region chr13:12923363-12926363 in chr13.bw
+
+no data in region chr13:12929655-12932655 in chr13.bw
+
+no data in region chr13:33761475-33764475 in chr13.bw
+
+no data in region chr13:66630235-66633235 in chr13.bw
+
+no data in region chr13:67277032-67280032 in chr13.bw
+
+no data in region chr13:74492652-74495652 in chr13.bw
+
+no data in region chr13:74521152-74524152 in chr13.bw
+
+no data in region chr13:74528175-74531175 in chr13.bw
+
+no data in region chr13:74562510-74565510 in chr13.bw
+
+no data in region chr13:74616026-74619026 in chr13.bw
+
+no data in region chr13:85843328-85846328 in chr13.bw
+
+no data in region chr13:100404019-100407019 in chr13.bw
+
+no data in region chr13:113719634-113722634 in chr13.bw
+
+no data in region chr13:113720808-113723808 in chr13.bw
+
+no data in region chr13:119660441-119663441 in chr13.bw
+
+INFO  @ Fri, 18 Nov 2022 15:27:40: processing chromosome: chr11 
+no data in region chr11:3100887-3103887 in chr11.bw
+
+no data in region chr11:22660147-22663147 in chr11.bw
+
+no data in region chr11:34543141-34546141 in chr11.bw
+
+INFO  @ Fri, 18 Nov 2022 15:27:57: processing chromosome: chr10 
+no data in region chr10:3250062-3253062 in chr10.bw
+
+no data in region chr10:8548215-8551215 in chr10.bw
+
+no data in region chr10:22139409-22142409 in chr10.bw
+
+no data in region chr10:22162308-22165308 in chr10.bw
+
+no data in region chr10:27821444-27824444 in chr10.bw
+
+no data in region chr10:31075308-31078308 in chr10.bw
+
+no data in region chr10:31368939-31371939 in chr10.bw
+
+no data in region chr10:79115185-79118185 in chr10.bw
+
+no data in region chr10:79320723-79323723 in chr10.bw
+
+no data in region chr10:81845134-81848134 in chr10.bw
+
+no data in region chr10:81862504-81865504 in chr10.bw
+
+no data in region chr10:100363165-100366165 in chr10.bw
+
+no data in region chr10:100372578-100375578 in chr10.bw
+
+no data in region chr10:100383109-100386109 in chr10.bw
+
+no data in region chr10:118249570-118252570 in chr10.bw
+
+INFO  @ Fri, 18 Nov 2022 15:28:20: processing chromosome: chr6 
+no data in region chr6:14678102-14681102 in chr6.bw
+
+no data in region chr6:18844119-18847119 in chr6.bw
+
+no data in region chr6:60406255-60409255 in chr6.bw
+
+no data in region chr6:67856619-67859619 in chr6.bw
+
+no data in region chr6:68032485-68035485 in chr6.bw
+
+no data in region chr6:70223779-70226779 in chr6.bw
+
+no data in region chr6:114494714-114497714 in chr6.bw
+
+no data in region chr6:114500461-114503461 in chr6.bw
+
+no data in region chr6:114505338-114508338 in chr6.bw
+
+no data in region chr6:114507571-114510571 in chr6.bw
+
+no data in region chr6:114510090-114513090 in chr6.bw
+
+no data in region chr6:114512682-114515682 in chr6.bw
+
+no data in region chr6:114515106-114518106 in chr6.bw
+
+no data in region chr6:114518838-114521838 in chr6.bw
+
+no data in region chr6:114522521-114525521 in chr6.bw
+
+no data in region chr6:114524386-114527386 in chr6.bw
+
+no data in region chr6:114529585-114532585 in chr6.bw
+
+no data in region chr6:114534206-114537206 in chr6.bw
+
+no data in region chr6:114536733-114539733 in chr6.bw
+
+no data in region chr6:114538854-114541854 in chr6.bw
+
+no data in region chr6:114541932-114544932 in chr6.bw
+
+no data in region chr6:114544241-114547241 in chr6.bw
+
+no data in region chr6:114547389-114550389 in chr6.bw
+
+no data in region chr6:114549805-114552805 in chr6.bw
+
+no data in region chr6:114551187-114554187 in chr6.bw
+
+no data in region chr6:114553268-114556268 in chr6.bw
+
+no data in region chr6:114556247-114559247 in chr6.bw
+
+no data in region chr6:114558961-114561961 in chr6.bw
+
+no data in region chr6:114561279-114564279 in chr6.bw
+
+no data in region chr6:114563766-114566766 in chr6.bw
+
+no data in region chr6:114565919-114568919 in chr6.bw
+
+no data in region chr6:114568300-114571300 in chr6.bw
+
+no data in region chr6:114569358-114572358 in chr6.bw
+
+no data in region chr6:114571262-114574262 in chr6.bw
+
+no data in region chr6:114573651-114576651 in chr6.bw
+
+no data in region chr6:114578171-114581171 in chr6.bw
+
+no data in region chr6:114580665-114583665 in chr6.bw
+
+no data in region chr6:114582810-114585810 in chr6.bw
+
+no data in region chr6:114585464-114588464 in chr6.bw
+
+no data in region chr6:114588341-114591341 in chr6.bw
+
+no data in region chr6:114590845-114593845 in chr6.bw
+
+no data in region chr6:114593077-114596077 in chr6.bw
+
+no data in region chr6:114595774-114598774 in chr6.bw
+
+no data in region chr6:114597563-114600563 in chr6.bw
+
+no data in region chr6:114600252-114603252 in chr6.bw
+
+no data in region chr6:114602879-114605879 in chr6.bw
+
+no data in region chr6:114607732-114610732 in chr6.bw
+
+no data in region chr6:114610107-114613107 in chr6.bw
+
+no data in region chr6:114612874-114615874 in chr6.bw
+
+no data in region chr6:114617678-114620678 in chr6.bw
+
+no data in region chr6:114620036-114623036 in chr6.bw
+
+no data in region chr6:114622758-114625758 in chr6.bw
+
+no data in region chr6:114625294-114628294 in chr6.bw
+
+no data in region chr6:114627535-114630535 in chr6.bw
+
+no data in region chr6:114632301-114635301 in chr6.bw
+
+no data in region chr6:114635302-114638302 in chr6.bw
+
+no data in region chr6:128994936-128997936 in chr6.bw
+
+no data in region chr6:130206524-130209524 in chr6.bw
+
+no data in region chr6:148125323-148128323 in chr6.bw
+
+INFO  @ Fri, 18 Nov 2022 15:28:44: processing chromosome: chr19 
+no data in region chr19:34635567-34638567 in chr19.bw
+
+no data in region chr19:40201689-40204689 in chr19.bw
+
+INFO  @ Fri, 18 Nov 2022 15:28:55: processing chromosome: chr7 
+no data in region chr7:13122484-13125484 in chr7.bw
+
+no data in region chr7:17072572-17075572 in chr7.bw
+
+no data in region chr7:18744992-18747992 in chr7.bw
+
+no data in region chr7:48130595-48133595 in chr7.bw
+
+no data in region chr7:61029056-61032056 in chr7.bw
+
+no data in region chr7:86341923-86344923 in chr7.bw
+
+no data in region chr7:142283237-142286237 in chr7.bw
+
+INFO  @ Fri, 18 Nov 2022 15:29:14: processing chromosome: chr18 
+no data in region chr18:3008011-3011011 in chr18.bw
+
+no data in region chr18:6418499-6421499 in chr18.bw
+
+no data in region chr18:6664949-6667949 in chr18.bw
+
+no data in region chr18:8795873-8798873 in chr18.bw
+
+no data in region chr18:9553532-9556532 in chr18.bw
+
+no data in region chr18:10050946-10053946 in chr18.bw
+
+no data in region chr18:20618301-20621301 in chr18.bw
+
+no data in region chr18:20619765-20622765 in chr18.bw
+
+no data in region chr18:30266987-30269987 in chr18.bw
+
+INFO  @ Fri, 18 Nov 2022 15:29:28: processing chromosome: chr5 
+no data in region chr5:14890841-14893841 in chr5.bw
+
+no data in region chr5:14953285-14956285 in chr5.bw
+
+no data in region chr5:14973778-14976778 in chr5.bw
+
+no data in region chr5:14977197-14980197 in chr5.bw
+
+no data in region chr5:14980242-14983242 in chr5.bw
+
+no data in region chr5:15031602-15034602 in chr5.bw
+
+no data in region chr5:15035021-15038021 in chr5.bw
+
+no data in region chr5:15057010-15060010 in chr5.bw
+
+no data in region chr5:15058674-15061674 in chr5.bw
+
+no data in region chr5:15060432-15063432 in chr5.bw
+
+no data in region chr5:15503080-15506080 in chr5.bw
+
+no data in region chr5:15507178-15510178 in chr5.bw
+
+no data in region chr5:15535937-15538937 in chr5.bw
+
+no data in region chr5:15538063-15541063 in chr5.bw
+
+no data in region chr5:15539981-15542981 in chr5.bw
+
+no data in region chr5:15541241-15544241 in chr5.bw
+
+no data in region chr5:15636429-15639429 in chr5.bw
+
+no data in region chr5:15683009-15686009 in chr5.bw
+
+no data in region chr5:15685508-15688508 in chr5.bw
+
+no data in region chr5:15692238-15695238 in chr5.bw
+
+no data in region chr5:15694828-15697828 in chr5.bw
+
+no data in region chr5:33947040-33950040 in chr5.bw
+
+no data in region chr5:88162512-88165512 in chr5.bw
+
+no data in region chr5:89203863-89206863 in chr5.bw
+
+no data in region chr5:109905172-109908172 in chr5.bw
+
+no data in region chr5:146510549-146513549 in chr5.bw
+
+INFO  @ Fri, 18 Nov 2022 15:29:50: processing chromosome: chr4 
+no data in region chr4:3089011-3092011 in chr4.bw
+
+no data in region chr4:5177960-5180960 in chr4.bw
+
+no data in region chr4:6551960-6554960 in chr4.bw
+
+no data in region chr4:16223465-16226465 in chr4.bw
+
+no data in region chr4:49477508-49480508 in chr4.bw
+
+no data in region chr4:49478744-49481744 in chr4.bw
+
+no data in region chr4:60104501-60107501 in chr4.bw
+
+no data in region chr4:60469531-60472531 in chr4.bw
+
+no data in region chr4:60481639-60484639 in chr4.bw
+
+no data in region chr4:61560566-61563566 in chr4.bw
+
+no data in region chr4:74562262-74565262 in chr4.bw
+
+no data in region chr4:78512002-78515002 in chr4.bw
+
+no data in region chr4:96328379-96331379 in chr4.bw
+
+no data in region chr4:145427231-145430231 in chr4.bw
+
+no data in region chr4:145434508-145437508 in chr4.bw
+
+no data in region chr4:146171141-146174141 in chr4.bw
+
+no data in region chr4:146972042-146975042 in chr4.bw
+
+no data in region chr4:147063055-147066055 in chr4.bw
+
+no data in region chr4:147064574-147067574 in chr4.bw
+
+no data in region chr4:147397118-147400118 in chr4.bw
+
+no data in region chr4:147408936-147411936 in chr4.bw
+
+no data in region chr4:147497545-147500545 in chr4.bw
+
+no data in region chr4:147792496-147795496 in chr4.bw
+
+INFO  @ Fri, 18 Nov 2022 15:30:17: processing chromosome: chr1 
+no data in region chr1:8937627-8940627 in chr1.bw
+
+no data in region chr1:85146480-85149480 in chr1.bw
+
+no data in region chr1:93879140-93882140 in chr1.bw
+
+no data in region chr1:93946117-93949117 in chr1.bw
+
+no data in region chr1:107345381-107348381 in chr1.bw
+
+no data in region chr1:111753225-111756225 in chr1.bw
+
+no data in region chr1:112378012-112381012 in chr1.bw
+
+no data in region chr1:112450476-112453476 in chr1.bw
+
+no data in region chr1:112454755-112457755 in chr1.bw
+
+no data in region chr1:112702673-112705673 in chr1.bw
+
+no data in region chr1:171063421-171066421 in chr1.bw
+
+INFO  @ Fri, 18 Nov 2022 15:30:48: processing chromosome: chr3 
+no data in region chr3:5882717-5885717 in chr3.bw
+
+no data in region chr3:9972684-9975684 in chr3.bw
+
+no data in region chr3:12490029-12493029 in chr3.bw
+
+no data in region chr3:15412313-15415313 in chr3.bw
+
+no data in region chr3:16023712-16026712 in chr3.bw
+
+no data in region chr3:16197336-16200336 in chr3.bw
+
+no data in region chr3:64038360-64041360 in chr3.bw
+
+no data in region chr3:66178234-66181234 in chr3.bw
+
+no data in region chr3:98799359-98802359 in chr3.bw
+
+no data in region chr3:106182920-106185920 in chr3.bw
+
+no data in region chr3:106183834-106186834 in chr3.bw
+
+no data in region chr3:140770223-140773223 in chr3.bw
+
+no data in region chr3:142644450-142647450 in chr3.bw
+
+no data in region chr3:158736587-158739587 in chr3.bw
+
+INFO  @ Fri, 18 Nov 2022 15:31:17: processing chromosome: chr2 
+no data in region chr2:84504972-84507972 in chr2.bw
+
+no data in region chr2:127181406-127184406 in chr2.bw
+
+no data in region chr2:155018066-155021066 in chr2.bw
+
+no data in region chr2:175140271-175143271 in chr2.bw
+
+no data in region chr2:175638786-175641786 in chr2.bw
+
+no data in region chr2:175736689-175739689 in chr2.bw
+
+no data in region chr2:182011472-182014472 in chr2.bw
+

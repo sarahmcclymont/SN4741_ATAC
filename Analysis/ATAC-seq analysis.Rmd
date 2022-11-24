@@ -576,8 +576,6 @@ dba.plotPCA(comparison_normalized, score = DBA_SCORE_NORMALIZED, DBA_CONDITION, 
 venn <- dba.peakset(comparison, consensus=DBA_CONDITION, minOverlap=1) 
 dba.plotVenn(venn, venn$masks$Consensus)
 
-dev.off()
-
 ```
 
 ## Upset plots 

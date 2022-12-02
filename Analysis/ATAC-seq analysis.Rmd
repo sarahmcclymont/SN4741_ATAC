@@ -560,8 +560,8 @@ dba.plotHeatmap(comparison_counts, score = DBA_SCORE_READS)
 dba.plotPCA(comparison_counts, score = DBA_SCORE_READS, DBA_CONDITION, label = DBA_ID)
 
 # Normalize the read counts
-# Background, RLE normalization
-comparison_normalized <- dba.normalize(comparison_counts, background = T, normalize = "RLE",  method=DBA_DESEQ2)
+# Full library size, RLE normalization
+comparison_normalized <- dba.normalize(comparison_counts, library = "full", normalize = "RLE",  method=DBA_DESEQ2) # See temperature comparison for rationale behind norm strategy
 
 # Plot heatmap and PCA considering normalized read counts
 dba.plotHeatmap(comparison_normalized, score = DBA_SCORE_NORMALIZED)
@@ -584,7 +584,7 @@ Convey the same data as the Venn diagrams, but a Venn with 4 samples can't scale
 
 We saw from the Venn diagram that the overlap that is specific to MB/FB and 39, which is supposed to be modeling that state, is extremely low, so an upset plot might accentuate that that difference exists and is meaningful over the venn. 
 
-```{r}
+```{r, eval = F}
  
 library(UpSetR) #v1.4.0
 
@@ -621,6 +621,4 @@ dev.off()
 ## Conclusions
 
 SN4741 cells from both 37 and 39 poorly recapitulate the chromatin landscape of mouse embryonic dopaminergic neurons. 
-
-
 

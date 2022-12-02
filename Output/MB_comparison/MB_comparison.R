@@ -30,7 +30,7 @@ dba.plotPCA(comparison_counts, score = DBA_SCORE_READS, DBA_CONDITION, label = D
 
 # Normalize the read counts
 # Background, RLE normalization
-comparison_normalized <- dba.normalize(comparison_counts, background = T, normalize = "RLE",  method=DBA_DESEQ2)
+comparison_normalized <- dba.normalize(comparison_counts, library = "full", normalize = "RLE",  method=DBA_DESEQ2)
 
 # Plot heatmap and PCA considering normalized read counts
 dba.plotHeatmap(comparison_normalized, score = DBA_SCORE_NORMALIZED)

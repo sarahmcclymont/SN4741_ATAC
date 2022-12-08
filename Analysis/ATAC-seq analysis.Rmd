@@ -730,7 +730,7 @@ SN4741_temperature.report <- dba.report(SN4741_analyzed, th = 1, fold = 0, metho
 SN4741_temperature.df <- as.data.frame(SN4741_temperature.report)
 
 # Write out as a file
-write.table(SN4741_temperature.df, "37v39_DAR_table.txt", quote = F)
+write.table(SN4741_temperature.df, "37v39_DAR_table.txt", quote = F, row.names = F)
 
 ## Replicating the volcano plot
 with(SN4741_temperature.df, plot(Fold,-log10(FDR),

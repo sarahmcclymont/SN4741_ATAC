@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=DiffBind
+#SBATCH --job-name=temperature_comp
 #SBATCH --time=24:00:00
 #SBATCH -N 1
 #SBATCH -n 48

@@ -40,8 +40,6 @@ SN4741_normalized <- dba.normalize(SN4741_counts, library = "full", normalize = 
 dba.plotHeatmap(SN4741_normalized, score = DBA_SCORE_NORMALIZED)
 dba.plotPCA(SN4741_normalized, score = DBA_SCORE_NORMALIZED, DBA_CONDITION, label = DBA_ID)
 
-
-
 ## Venn diagrams 
 
 # How well do the replicates overlap? 
@@ -52,8 +50,6 @@ dba.plotVenn(SN4741_peaks, SN4741_peaks$masks$t39)
 venn <- dba.peakset(SN4741_peaks, consensus=DBA_CONDITION, minOverlap=2) 
 dba.plotVenn(venn, venn$masks$Consensus)
 
-
-
 ## Differential accessbility + volcano plots 
 
 # Set contrasts
@@ -61,6 +57,7 @@ SN4741_normalized <- dba.contrast(SN4741_normalized, contrast=c("Condition","t39
 
 # Analyse
 SN4741_analyzed <- dba.analyze(SN4741_normalized, method = DBA_DESEQ2)
+dba.analyze(SN4741_analyzed, bRetrieveAnalysis=TRUE)
 
 # Check MA plot for weird distriubtions for normalization issues
 # MA plots 
@@ -77,10 +74,10 @@ dba.plotVolcano(SN4741_analyzed, method=DBA_DESEQ2)
 # Remaking the volcano plot so can customize the plot
 
 ## Write out results of analysis in way that's readable for native R plotting (or ggplot if you're feeling fancy)
-SN4741_temperature.report <- dba.report(SN4741_analyzed, th = 1, fold = 0, method = DBA_DESEQ2) # write out all peaks
+SN4741_temperature.report <- dba.report(SN4741_analyzed, th = 1, fold = 0, method = DBA_DESEQ2, bCounts = T) # write out all peaks
 SN4741_temperature.df <- as.data.frame(SN4741_temperature.report)
 
-# Write out as a file for later 
+# Write out as a file
 write.table(SN4741_temperature.df, "37v39_DAR_table.txt", quote = F)
 
 ## Replicating the volcano plot
@@ -92,7 +89,7 @@ abline(v=c(-1,1), lty = "dotted")
 abline(h=-log10(0.05), lty = "dotted")
 
 ## Adding transparency to the volcano plot
-## It is hard to see that there is more accessible regions in 37 than 39, change transparency 
+## It is hard to see the density of the points, so change transparency 
 cols = c(rgb(255, 0, 0, max = 255, alpha = 25), rgb(0, 0, 0, max = 255, alpha = 25))
 with(SN4741_temperature.df, plot(Fold,-log10(FDR),
 pch=20, main="Differential peak accessibility between 39 and 37",
@@ -101,14 +98,24 @@ cex = 0.75))
 abline(v=c(-1,1), lty = "dotted")
 abline(h=-log10(0.05), lty = "dotted")
 
-# Heatmap
-## Extract the sig peaks
-sig_peaks.report <- dba.report(SN4741_analyzed, th = 0.05, fold = 1, method = DBA_DESEQ2, bCounts = T)
+# How many differential peaks are there? Also view in IGV to confirm belief in peaks called DE 
 
-## Plot just those
-dba.plotHeatmap(SN4741_analyzed, method=DBA_DESEQ2, correlations=FALSE, report = sig_peaks.report, contrast=1)
-dba.plotHeatmap(SN4741_analyzed, method=DBA_DESEQ2, correlations=FALSE, report = sig_peaks.report, scale = "row", colScheme = "YlOrRd", contrast=1)
-dev.off()
+## Add column to identify the peaks by the location, so can copy paste into IGV
+SN4741_temperature.df$name <- paste0(SN4741_temperature.df$seqnames, ":", SN4741_temperature.df$start, "-", SN4741_temperature.df$end)
+
+# Find peaks sig up and down in 39
+up39 <- subset(SN4741_temperature.df, Fold > 1 & FDR <  0.05)
+down39 <- subset(SN4741_temperature.df, Fold < -1 & FDR <  0.05)
+
+dim(up39)
+dim(down39)
+
+# For viewing in IGV, sort by FC within the sig peaks to find the highest impacted regions 
+sorted_up39 <- up39[order(-up39$Fold),]
+sorted_down39 <- down39[order(-down39$Fold),]
+
+# Write out and submit to GREAT to get GO terms of nearby genes
+write.table(sorted_up39, "DAR_up39.txt", quote = F, row.names = F)
+write.table(sorted_down39, "DAR_down39.txt", quote = F, row.names = F)
 
 save.image("37v39.RData")
-

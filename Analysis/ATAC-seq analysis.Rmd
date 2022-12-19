@@ -576,6 +576,23 @@ dba.plotPCA(comparison_normalized, score = DBA_SCORE_NORMALIZED, DBA_CONDITION, 
 venn <- dba.peakset(comparison, consensus=DBA_CONDITION, minOverlap=1) 
 dba.plotVenn(venn, venn$masks$Consensus)
 
+# Retreiving the peaksets for each sample type for IGV visualization 
+MB_consensus <- dba.peakset(venn,venn$masks$MB, bRetrieve=T)
+FB_consensus <- dba.peakset(venn,venn$masks$FB, bRetrieve=T)
+t37_consensus <- dba.peakset(venn,venn$masks$t37, bRetrieve=T)
+t39_consensus <- dba.peakset(venn,venn$masks$t39, bRetrieve=T)
+
+write.table(MB_consensus, "MB_consensus.peaks", quote = F, row.names=F, sep="\t")
+write.table(FB_consensus, "FB_consensus.peaks", quote = F, row.names=F, sep="\t")
+write.table(t37_consensus, "t37_consensus.peaks", quote = F, row.names=F, sep="\t")
+write.table(t39_consensus, "t39_consensus.peaks", quote = F, row.names=F, sep="\t")
+
+for file in *.peaks; do
+  awk 'NR > 1 { print }' < $file > temp
+  awk -v OFS='\t' {'print $1,$2,$3'} temp > ${file%.peaks}.bed
+  done
+rm temp
+
 ```
 
 ## Upset plots 

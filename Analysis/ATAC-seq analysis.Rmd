@@ -193,6 +193,22 @@ done
 
 exit 0
 
+# Update: To normalize by read count for IGV display, can't use toTDF command, have to use `count` from the bam files. Repeat and use this for display actually. 
+
+# counts.sh
+
+#!/bin/bash
+#SBATCH --job-name=count
+#SBATCH --time=8:00:00
+
+module load Java
+
+for file in *.bam; do
+  ~/Software/IGV_2.15.2/igvtools count $file ${file%bam}.count.tdf mm10
+done
+
+exit 0
+
 ```
 
 Move TDF files to new folder (toTDF) in parent directory. Transfer TDF and peak files to look at in IGV on laptop. Compare with SN4741 data. Pileups and their called peaks look reasonable to me. Low background. Visually, not particularly similar to the MB and FB samples. 

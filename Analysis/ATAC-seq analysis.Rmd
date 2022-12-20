@@ -204,7 +204,7 @@ exit 0
 module load Java
 
 for file in *.bam; do
-  ~/Software/IGV_2.15.2/igvtools count $file ${file%bam}.count.tdf mm10
+  ~/Software/IGV_2.15.2/igvtools count $file ${file%.bam}.count.tdf mm10
 done
 
 exit 0
